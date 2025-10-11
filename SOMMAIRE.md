@@ -20,15 +20,15 @@
 
 ## 2. [Introduction au Langage Pascal](02-introduction-langage-pascal/README.md)
 
-- 2.1 Histoire du Pascal et son créateur Niklaus Wirth
-- 2.2 Structure d'un programme Pascal
-- 2.3 Variables et constantes
-- 2.4 Types de données primitifs (Integer, Real, Boolean, Char)
-- 2.5 Opérateurs arithmétiques et logiques
-- 2.6 Entrées/Sorties console (Read, Write, ReadLn, WriteLn)
-- 2.7 Formatage de sortie
-- 2.8 Commentaires et documentation du code
-- 2.9 Conventions de nommage
+- 2.1 [Histoire du Pascal et son créateur Niklaus Wirth](02-introduction-langage-pascal/01-histoire-pascal-niklaus-wirth.md)
+- 2.2 [Structure d'un programme Pascal](02-introduction-langage-pascal/02-structure-programme-pascal.md)
+- 2.3 [Variables et constantes](02-introduction-langage-pascal/03-variables-constantes.md)
+- 2.4 [Types de données primitifs (Integer, Real, Boolean, Char)](02-introduction-langage-pascal/04-types-donnees-primitifs.md)
+- 2.5 [Opérateurs arithmétiques et logiques](02-introduction-langage-pascal/05-operateurs-arithmetiques-logiques.md)
+- 2.6 [Entrées/Sorties console (Read, Write, ReadLn, WriteLn)](02-introduction-langage-pascal/06-entrees-sorties-console.md)
+- 2.7 [Formatage de sortie](02-introduction-langage-pascal/07-formatage-sortie.md)
+- 2.8 [Commentaires et documentation du code](02-introduction-langage-pascal/08-commentaires-documentation-code.md)
+- 2.9 [Conventions de nommage](02-introduction-langage-pascal/09-conventions-nommage.md)
 
 ## 3. [Structures de Contrôle](03-structures-controle/README.md)
 
