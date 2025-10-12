@@ -44,17 +44,17 @@
 
 ## 4. [Procédures et Fonctions](04-procedures-fonctions/README.md)
 
-- 4.1 Différence entre procédure et fonction
-- 4.2 Déclaration et appel
-- 4.3 Paramètres par valeur
-- 4.4 Paramètres par référence (var)
-- 4.5 Paramètres constants (const)
-- 4.6 Paramètres par défaut
-- 4.7 Surcharge de procédures/fonctions
-- 4.8 Variables locales vs globales
-- 4.9 Récursivité
-- 4.10 Fonctions prédéfinies utiles
-- 4.11 Organisation modulaire du code
+- 4.1 [Différence entre procédure et fonction](04-procedures-fonctions/01-difference-procedure-fonction.md)
+- 4.2 [Déclaration et appel](04-procedures-fonctions/02-declaration-appel.md)
+- 4.3 [Paramètres par valeur](04-procedures-fonctions/03-parametres-par-valeur.md)
+- 4.4 [Paramètres par référence (var)](04-procedures-fonctions/04-parametres-par-reference-var.md)
+- 4.5 [Paramètres constants (const)](04-procedures-fonctions/05-parametres-constants-const.md)
+- 4.6 [Paramètres par défaut](04-procedures-fonctions/06-parametres-par-defaut.md)
+- 4.7 [Surcharge de procédures/fonctions](04-procedures-fonctions/07-surcharge-procedures-fonctions.md)
+- 4.8 [Variables locales vs globales](04-procedures-fonctions/08-variables-locales-vs-globales.md)
+- 4.9 [Récursivité](04-procedures-fonctions/09-recursivite.md)
+- 4.10 [Fonctions prédéfinies utiles](04-procedures-fonctions/10-fonctions-predefinies-utiles.md)
+- 4.11 [Organisation modulaire du code](04-procedures-fonctions/11-organisation-modulaire-code.md)
 
 ## 5. [Types de Données Structurés](05-types-donnees-structures/README.md)
 
