@@ -32,15 +32,15 @@
 
 ## 3. [Structures de Contrôle](03-structures-controle/README.md)
 
-- 3.1 Instructions conditionnelles (if-then-else)
-- 3.2 Instructions de choix multiple (case-of)
-- 3.3 Boucles compteur (for-do)
-- 3.4 Boucles conditionnelles (while-do, repeat-until)
-- 3.5 Instructions break et continue
-- 3.6 Imbrication de structures
-- 3.7 Gestion des erreurs simples
-- 3.8 Validation des entrées utilisateur
-- 3.9 Débogage pas à pas
+- 3.1 [Instructions conditionnelles (if-then-else)](03-structures-controle/01-instructions-conditionnelles-if-then-else.md)
+- 3.2 [Instructions de choix multiple (case-of)](03-structures-controle/02-instructions-choix-multiple-case-of.md)
+- 3.3 [Boucles compteur (for-do)](03-structures-controle/03-boucles-compteur-for-do.md)
+- 3.4 [Boucles conditionnelles (while-do, repeat-until)](03-structures-controle/04-boucles-conditionnelles-while-repeat.md)
+- 3.5 [Instructions break et continue](03-structures-controle/05-instructions-break-continue.md)
+- 3.6 [Imbrication de structures](03-structures-controle/06-imbrication-structures.md)
+- 3.7 [Gestion des erreurs simples](03-structures-controle/07-gestion-erreurs-simples.md)
+- 3.8 [Validation des entrées utilisateur](03-structures-controle/08-validation-entrees-utilisateur.md)
+- 3.9 [Débogage pas à pas](03-structures-controle/09-debogage-pas-a-pas.md)
 
 ## 4. [Procédures et Fonctions](04-procedures-fonctions/README.md)
 
