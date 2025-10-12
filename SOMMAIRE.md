@@ -83,15 +83,15 @@
 
 ## 7. [Unités et Organisation du Code](07-unites-organisation-code/README.md)
 
-- 7.1 Concept d'unité en Pascal
-- 7.2 Structure d'une unité (interface/implementation)
-- 7.3 Clauses Uses et dépendances
-- 7.4 Ordre de compilation
-- 7.5 Variables et procédures publiques/privées
-- 7.6 Sections initialization et finalization
-- 7.7 Unités standard du RTL
-- 7.8 Création de bibliothèques réutilisables
-- 7.9 Documentation des unités
+- 7.1 [Concept d'unité en Pascal](07-unites-organisation-code/01-concept-unite-pascal.md)
+- 7.2 [Structure d'une unité (interface/implementation)](07-unites-organisation-code/02-structure-unite-interface-implementation.md)
+- 7.3 [Clauses Uses et dépendances](07-unites-organisation-code/03-clauses-uses-dependances.md)
+- 7.4 [Ordre de compilation](07-unites-organisation-code/04-ordre-compilation.md)
+- 7.5 [Variables et procédures publiques/privées](07-unites-organisation-code/05-variables-procedures-publiques-privees.md)
+- 7.6 [Sections initialization et finalization](07-unites-organisation-code/06-sections-initialization-finalization.md)
+- 7.7 [Unités standard du RTL](07-unites-organisation-code/07-unites-standard-rtl.md)
+- 7.8 [Création de bibliothèques réutilisables](07-unites-organisation-code/08-creation-bibliotheques-reutilisables.md)
+- 7.9 [Documentation des unités](07-unites-organisation-code/09-documentation-unites.md)
 
 ## 8. [Gestion des Fichiers et I/O](08-gestion-fichiers-io/README.md)
 
