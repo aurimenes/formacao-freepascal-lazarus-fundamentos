@@ -58,16 +58,16 @@
 
 ## 5. [Types de Données Structurés](05-types-donnees-structures/README.md)
 
-- 5.1 Tableaux statiques unidimensionnels
-- 5.2 Tableaux multidimensionnels
-- 5.3 Chaînes de caractères (String, ShortString)
-- 5.4 Enregistrements (Records)
-- 5.5 Enregistrements imbriqués
-- 5.6 Tableaux d'enregistrements
-- 5.7 Types énumérés
-- 5.8 Types ensemble (Set)
-- 5.9 Types intervalle
-- 5.10 Définition de types personnalisés (Type)
+- 5.1 [Tableaux statiques unidimensionnels](05-types-donnees-structures/01-tableaux-statiques-unidimensionnels.md)
+- 5.2 [Tableaux multidimensionnels](05-types-donnees-structures/02-tableaux-multidimensionnels.md)
+- 5.3 [Chaînes de caractères (String, ShortString)](05-types-donnees-structures/03-chaines-caracteres-string.md)
+- 5.4 [Enregistrements (Records)](05-types-donnees-structures/04-enregistrements-records.md)
+- 5.5 [Enregistrements imbriqués](05-types-donnees-structures/05-enregistrements-imbriques.md)
+- 5.6 [Tableaux d'enregistrements](05-types-donnees-structures/06-tableaux-enregistrements.md)
+- 5.7 [Types énumérés](05-types-donnees-structures/07-types-enumeres.md)
+- 5.8 [Types ensemble (Set)](05-types-donnees-structures/08-types-ensemble-set.md)
+- 5.9 [Types intervalle](05-types-donnees-structures/09-types-intervalle.md)
+- 5.10 [Définition de types personnalisés (Type)](05-types-donnees-structures/10-definition-types-personnalises.md)
 
 ## 6. [Pointeurs et Gestion Mémoire Basique](06-pointeurs-gestion-memoire-basique/README.md)
 
