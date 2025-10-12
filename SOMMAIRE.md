@@ -71,15 +71,15 @@
 
 ## 6. [Pointeurs et Gestion Mémoire Basique](06-pointeurs-gestion-memoire-basique/README.md)
 
-- 6.1 Concept de pointeur et adresse mémoire
-- 6.2 Déclaration et utilisation de pointeurs
-- 6.3 Allocation dynamique (New, Dispose)
-- 6.4 Pointeurs et tableaux
-- 6.5 Pointeurs et enregistrements
-- 6.6 Listes chaînées simples
-- 6.7 Arbres binaires basics
-- 6.8 Fuites mémoire et bonnes pratiques
-- 6.9 Débogage des problèmes mémoire
+- 6.1 [Concept de pointeur et adresse mémoire](06-pointeurs-gestion-memoire-basique/01-concept-pointeur-adresse-memoire.md)
+- 6.2 [Déclaration et utilisation de pointeurs](06-pointeurs-gestion-memoire-basique/02-declaration-utilisation-pointeurs.md)
+- 6.3 [Allocation dynamique (New, Dispose)](06-pointeurs-gestion-memoire-basique/03-allocation-dynamique-new-dispose.md)
+- 6.4 [Pointeurs et tableaux](06-pointeurs-gestion-memoire-basique/04-pointeurs-tableaux.md)
+- 6.5 [Pointeurs et enregistrements](06-pointeurs-gestion-memoire-basique/05-pointeurs-enregistrements.md)
+- 6.6 [Listes chaînées simples](06-pointeurs-gestion-memoire-basique/06-listes-chainees-simples.md)
+- 6.7 [Arbres binaires basics](06-pointeurs-gestion-memoire-basique/07-arbres-binaires-basics.md)
+- 6.8 [Fuites mémoire et bonnes pratiques](06-pointeurs-gestion-memoire-basique/08-fuites-memoire-bonnes-pratiques.md)
+- 6.9 [Débogage des problèmes mémoire](06-pointeurs-gestion-memoire-basique/09-debogage-problemes-memoire.md)
 
 ## 7. [Unités et Organisation du Code](07-unites-organisation-code/README.md)
 
