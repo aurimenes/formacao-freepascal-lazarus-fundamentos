@@ -124,17 +124,17 @@
 
 ## 10. [Fondamentaux de la POO](10-fondamentaux-poo/README.md)
 
-- 10.1 Concepts : Classes et Objets
-- 10.2 Encapsulation et visibilité
-- 10.3 Déclaration de classes
-- 10.4 Attributs et méthodes
-- 10.5 Constructeurs (Create)
-- 10.6 Destructeurs (Destroy, Free)
-- 10.7 Self et référence à l'objet courant
-- 10.8 Visibilité : private, protected, public, published
-- 10.9 Propriétés (properties) simples
-- 10.10 Comparaison procédural vs objet
-- 10.11 UML et diagrammes de classes basics
+- 10.1 [Concepts : Classes et Objets](10-fondamentaux-poo/01-concepts-classes-objets.md)
+- 10.2 [Encapsulation et visibilité](10-fondamentaux-poo/02-encapsulation-visibilite.md)
+- 10.3 [Déclaration de classes](10-fondamentaux-poo/03-declaration-classes.md)
+- 10.4 [Attributs et méthodes](10-fondamentaux-poo/04-attributs-methodes.md)
+- 10.5 [Constructeurs (Create)](10-fondamentaux-poo/05-constructeurs-create.md)
+- 10.6 [Destructeurs (Destroy, Free)](10-fondamentaux-poo/06-destructeurs-destroy-free.md)
+- 10.7 [Self et référence à l'objet courant](10-fondamentaux-poo/07-self-reference-objet-courant.md)
+- 10.8 [Visibilité : private, protected, public, published](10-fondamentaux-poo/08-visibilite-private-protected-public-published.md)
+- 10.9 [Propriétés (properties) simples](10-fondamentaux-poo/09-proprietes-properties-simples.md)
+- 10.10 [Comparaison procédural vs objet](10-fondamentaux-poo/10-comparaison-procedural-vs-objet.md)
+- 10.11 [UML et diagrammes de classes basics](10-fondamentaux-poo/11-uml-diagrammes-classes-basics.md)
 
 ## 11. [POO Avancée - Héritage](11-poo-avancee-heritage/README.md)
 
