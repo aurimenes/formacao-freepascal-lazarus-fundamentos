@@ -138,16 +138,16 @@
 
 ## 11. [POO Avancée - Héritage](11-poo-avancee-heritage/README.md)
 
-- 11.1 Concept d'héritage
-- 11.2 Classes dérivées
-- 11.3 Redéfinition de méthodes
-- 11.4 Méthodes virtuelles et override
-- 11.5 Méthodes abstraites et classes abstraites
-- 11.6 Polymorphisme
-- 11.7 Transtypage (as, is)
-- 11.8 Inherited et appel au parent
-- 11.9 Hiérarchies de classes
-- 11.10 Classe TObject et hiérarchie Pascal
+- 11.1 [Concept d'héritage](11-poo-avancee-heritage/01-concept-heritage.md)
+- 11.2 [Classes dérivées](11-poo-avancee-heritage/02-classes-derivees.md)
+- 11.3 [Redéfinition de méthodes](11-poo-avancee-heritage/03-redefinition-methodes.md)
+- 11.4 [Méthodes virtuelles et override](11-poo-avancee-heritage/04-methodes-virtuelles-override.md)
+- 11.5 [Méthodes abstraites et classes abstraites](11-poo-avancee-heritage/05-methodes-abstraites-classes-abstraites.md)
+- 11.6 [Polymorphisme](11-poo-avancee-heritage/06-polymorphisme.md)
+- 11.7 [Transtypage (as, is)](11-poo-avancee-heritage/07-transtypage-as-is.md)
+- 11.8 [Inherited et appel au parent](11-poo-avancee-heritage/08-inherited-appel-parent.md)
+- 11.9 [Hiérarchies de classes](11-poo-avancee-heritage/09-hierarchies-classes.md)
+- 11.10 [Classe TObject et hiérarchie Pascal](11-poo-avancee-heritage/10-classe-tobject-hierarchie-pascal.md)
 
 ## 12. [Interfaces et POO Avancée](12-interfaces-poo-avancee/README.md)
 
