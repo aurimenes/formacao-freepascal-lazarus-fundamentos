@@ -151,16 +151,16 @@
 
 ## 12. [Interfaces et POO Avancée](12-interfaces-poo-avancee/README.md)
 
-- 12.1 Concept d'interface
-- 12.2 Déclaration et implémentation
-- 12.3 Héritage multiple via interfaces
-- 12.4 IInterface et IUnknown
-- 12.5 Comptage de références
-- 12.6 Interfaces vs classes abstraites
-- 12.7 Delegation et composition
-- 12.8 Properties avec getters/setters
-- 12.9 Méthodes de classe (class methods)
-- 12.10 Design patterns basics (Singleton, Factory)
+- 12.1 [Concept d'interface](12-interfaces-poo-avancee/01-concept-interface.md)
+- 12.2 [Déclaration et implémentation](12-interfaces-poo-avancee/02-declaration-implementation.md)
+- 12.3 [Héritage multiple via interfaces](12-interfaces-poo-avancee/03-heritage-multiple-via-interfaces.md)
+- 12.4 [IInterface et IUnknown](12-interfaces-poo-avancee/04-iinterface-iunknown.md)
+- 12.5 [Comptage de références](12-interfaces-poo-avancee/05-comptage-references.md)
+- 12.6 [Interfaces vs classes abstraites](12-interfaces-poo-avancee/06-interfaces-vs-classes-abstraites.md)
+- 12.7 [Delegation et composition](12-interfaces-poo-avancee/07-delegation-composition.md)
+- 12.8 [Properties avec getters/setters](12-interfaces-poo-avancee/08-properties-getters-setters.md)
+- 12.9 [Méthodes de classe (class methods)](12-interfaces-poo-avancee/09-methodes-classe-class-methods.md)
+- 12.10 [Design patterns basics (Singleton, Factory)](12-interfaces-poo-avancee/10-design-patterns-basics.md)
 
 ## 13. [Gestion des Exceptions](13-gestion-exceptions/README.md)
 
