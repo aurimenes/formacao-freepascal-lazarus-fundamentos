@@ -107,16 +107,16 @@
 
 ## 9. [Introduction à FreePascal et Lazarus](09-introduction-freepascal-lazarus/README.md)
 
-- 9.1 Histoire et philosophie du projet FreePascal
-- 9.2 Différences avec Turbo Pascal
-- 9.3 L'écosystème Lazarus
-- 9.4 Installation sur Windows
-- 9.5 Installation sur Ubuntu/Linux
-- 9.6 Premier projet avec Lazarus IDE
-- 9.7 Structure d'un projet Lazarus
-- 9.8 Compilation et exécution
-- 9.9 Configuration de base de l'IDE
-- 9.10 Utilisation de l'aide et documentation
+- 9.1 [Histoire et philosophie du projet FreePascal](09-introduction-freepascal-lazarus/01-histoire-philosophie-projet-freepascal.md)
+- 9.2 [Différences avec Turbo Pascal](09-introduction-freepascal-lazarus/02-differences-turbo-pascal.md)
+- 9.3 [L'écosystème Lazarus](09-introduction-freepascal-lazarus/03-ecosysteme-lazarus.md)
+- 9.4 [Installation sur Windows](09-introduction-freepascal-lazarus/04-installation-windows.md)
+- 9.5 [Installation sur Ubuntu/Linux](09-introduction-freepascal-lazarus/05-installation-ubuntu-linux.md)
+- 9.6 [Premier projet avec Lazarus IDE](09-introduction-freepascal-lazarus/06-premier-projet-lazarus-ide.md)
+- 9.7 [Structure d'un projet Lazarus](09-introduction-freepascal-lazarus/07-structure-projet-lazarus.md)
+- 9.8 [Compilation et exécution](09-introduction-freepascal-lazarus/08-compilation-execution.md)
+- 9.9 [Configuration de base de l'IDE](09-introduction-freepascal-lazarus/09-configuration-base-ide.md)
+- 9.10 [Utilisation de l'aide et documentation](09-introduction-freepascal-lazarus/10-utilisation-aide-documentation.md)
 
 ---
 
