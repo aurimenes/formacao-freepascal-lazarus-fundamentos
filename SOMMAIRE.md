@@ -95,15 +95,15 @@
 
 ## 8. [Gestion des Fichiers et I/O](08-gestion-fichiers-io/README.md)
 
-- 8.1 Types de fichiers (texte, binaire, typé)
-- 8.2 Fichiers texte : ouverture, lecture, écriture
-- 8.3 Fichiers binaires et accès direct
-- 8.4 Fichiers typés
-- 8.5 Gestion des erreurs I/O
-- 8.6 Manipulation de répertoires
-- 8.7 Chemins et noms de fichiers
-- 8.8 Fichiers INI pour configuration
-- 8.9 Introduction aux streams
+- 8.1 [Types de fichiers (texte, binaire, typé)](08-gestion-fichiers-io/01-types-fichiers-texte-binaire-type.md)
+- 8.2 [Fichiers texte : ouverture, lecture, écriture](08-gestion-fichiers-io/02-fichiers-texte-ouverture-lecture-ecriture.md)
+- 8.3 [Fichiers binaires et accès direct](08-gestion-fichiers-io/03-fichiers-binaires-acces-direct.md)
+- 8.4 [Fichiers typés](08-gestion-fichiers-io/04-fichiers-types.md)
+- 8.5 [Gestion des erreurs I/O](08-gestion-fichiers-io/05-gestion-erreurs-io.md)
+- 8.6 [Manipulation de répertoires](08-gestion-fichiers-io/06-manipulation-repertoires.md)
+- 8.7 [Chemins et noms de fichiers](08-gestion-fichiers-io/07-chemins-noms-fichiers.md)
+- 8.8 [Fichiers INI pour configuration](08-gestion-fichiers-io/08-fichiers-ini-configuration.md)
+- 8.9 [Introduction aux streams](08-gestion-fichiers-io/09-introduction-streams.md)
 
 ## 9. [Introduction à FreePascal et Lazarus](09-introduction-freepascal-lazarus/README.md)
 
