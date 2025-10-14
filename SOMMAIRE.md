@@ -188,15 +188,15 @@
 
 ## 15. [Composants LCL Fondamentaux](15-composants-lcl-fondamentaux/README.md)
 
-- 15.1 Architecture de la LCL
-- 15.2 Hiérarchie des composants
-- 15.3 Conteneurs (TPanel, TGroupBox, TPageControl)
-- 15.4 Listes (TListBox, TComboBox, TTreeView)
-- 15.5 Grilles (TStringGrid, TDrawGrid)
-- 15.6 Composants de saisie avancés
-- 15.7 Composants d'affichage (TImage, TShape)
-- 15.8 Timers et traitement asynchrone
-- 15.9 Actions et TActionList
+- 15.1 [Architecture de la LCL](15-composants-lcl-fondamentaux/01-architecture-lcl.md)
+- 15.2 [Hiérarchie des composants](15-composants-lcl-fondamentaux/02-hierarchie-composants.md)
+- 15.3 [Conteneurs (TPanel, TGroupBox, TPageControl)](15-composants-lcl-fondamentaux/03-conteneurs-tpanel-tgroupbox-tpagecontrol.md)
+- 15.4 [Listes (TListBox, TComboBox, TTreeView)](15-composants-lcl-fondamentaux/04-listes-tlistbox-tcombobox-ttreeview.md)
+- 15.5 [Grilles (TStringGrid, TDrawGrid)](15-composants-lcl-fondamentaux/05-grilles-tstringgrid-tdrawgrid.md)
+- 15.6 [Composants de saisie avancés](15-composants-lcl-fondamentaux/06-composants-saisie-avances.md)
+- 15.7 [Composants d'affichage (TImage, TShape)](15-composants-lcl-fondamentaux/07-composants-affichage-timage-tshape.md)
+- 15.8 [Timers et traitement asynchrone](15-composants-lcl-fondamentaux/08-timers-traitement-asynchrone.md)
+- 15.9 [Actions et TActionList](15-composants-lcl-fondamentaux/09-actions-tactionlist.md)
 
 ---
 
