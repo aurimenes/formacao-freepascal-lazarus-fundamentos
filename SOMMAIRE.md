@@ -164,15 +164,15 @@
 
 ## 13. [Gestion des Exceptions](13-gestion-exceptions/README.md)
 
-- 13.1 Concept d'exception
-- 13.2 Try-except-finally
-- 13.3 Raise et déclenchement
-- 13.4 Hiérarchie des exceptions
-- 13.5 Exceptions personnalisées
-- 13.6 Exceptions et ressources
-- 13.7 Bonnes pratiques
-- 13.8 Débogage avec exceptions
-- 13.9 Logging des erreurs
+- 13.1 [Concept d'exception](13-gestion-exceptions/01-concept-exception.md)
+- 13.2 [Try-except-finally](13-gestion-exceptions/02-try-except-finally.md)
+- 13.3 [Raise et déclenchement](13-gestion-exceptions/03-raise-declenchement.md)
+- 13.4 [Hiérarchie des exceptions](13-gestion-exceptions/04-hierarchie-exceptions.md)
+- 13.5 [Exceptions personnalisées](13-gestion-exceptions/05-exceptions-personnalisees.md)
+- 13.6 [Exceptions et ressources](13-gestion-exceptions/06-exceptions-ressources.md)
+- 13.7 [Bonnes pratiques](13-gestion-exceptions/07-bonnes-pratiques.md)
+- 13.8 [Débogage avec exceptions](13-gestion-exceptions/08-debogage-avec-exceptions.md)
+- 13.9 [Logging des erreurs](13-gestion-exceptions/09-logging-erreurs.md)
 
 ## 14. [Introduction aux Applications Graphiques](14-introduction-applications-graphiques/README.md)
 
