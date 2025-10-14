@@ -176,15 +176,15 @@
 
 ## 14. [Introduction aux Applications Graphiques](14-introduction-applications-graphiques/README.md)
 
-- 14.1 Programmation événementielle concepts
-- 14.2 Première application fenêtrée
-- 14.3 Formulaires (TForm)
-- 14.4 Composants de base (TButton, TEdit, TLabel)
-- 14.5 Événements et handlers
-- 14.6 Propriétés des composants
-- 14.7 Layouts et anchors
-- 14.8 Menus et barres d'outils
-- 14.9 Boîtes de dialogue standard
+- 14.1 [Programmation événementielle concepts](14-introduction-applications-graphiques/01-programmation-evenementielle-concepts.md)
+- 14.2 [Première application fenêtrée](14-introduction-applications-graphiques/02-premiere-application-fenetree.md)
+- 14.3 [Formulaires (TForm)](14-introduction-applications-graphiques/03-formulaires-tform.md)
+- 14.4 [Composants de base (TButton, TEdit, TLabel)](14-introduction-applications-graphiques/04-composants-base-tbutton-tedit-tlabel.md)
+- 14.5 [Événements et handlers](14-introduction-applications-graphiques/05-evenements-handlers.md)
+- 14.6 [Propriétés des composants](14-introduction-applications-graphiques/06-proprietes-composants.md)
+- 14.7 [Layouts et anchors](14-introduction-applications-graphiques/07-layouts-anchors.md)
+- 14.8 [Menus et barres d'outils](14-introduction-applications-graphiques/08-menus-barres-outils.md)
+- 14.9 [Boîtes de dialogue standard](14-introduction-applications-graphiques/09-boites-dialogue-standard.md)
 
 ## 15. [Composants LCL Fondamentaux](15-composants-lcl-fondamentaux/README.md)
 
