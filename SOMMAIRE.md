@@ -256,15 +256,15 @@
 
 ## 20. [Débogage et Optimisation](20-debogage-optimisation/README.md)
 
-- 20.1 Utilisation avancée du débogueur Lazarus
-- 20.2 Points d'arrêt conditionnels
-- 20.3 Inspection de variables et expressions
-- 20.4 Profiling basique : identifier les goulots
-- 20.5 Optimisation des algorithmes courants
-- 20.6 Gestion efficace de la mémoire
-- 20.7 Outils de détection de fuites mémoire
-- 20.8 Logging structuré et niveaux de log
-- 20.9 Tests unitaires avec FPCUnit (introduction)
+- 20.1 [Utilisation avancée du débogueur Lazarus](20-debogage-optimisation/01-utilisation-avancee-debogueur-lazarus.md)
+- 20.2 [Points d'arrêt conditionnels](20-debogage-optimisation/02-points-arret-conditionnels.md)
+- 20.3 [Inspection de variables et expressions](20-debogage-optimisation/03-inspection-variables-expressions.md)
+- 20.4 [Profiling basique : identifier les goulots](20-debogage-optimisation/04-profiling-basique-identifier-goulots.md)
+- 20.5 [Optimisation des algorithmes courants](20-debogage-optimisation/05-optimisation-algorithmes-courants.md)
+- 20.6 [Gestion efficace de la mémoire](20-debogage-optimisation/06-gestion-efficace-memoire.md)
+- 20.7 [Outils de détection de fuites mémoire](20-debogage-optimisation/07-outils-detection-fuites-memoire.md)
+- 20.8 [Logging structuré et niveaux de log](20-debogage-optimisation/08-logging-structure-niveaux-log.md)
+- 20.9 [Tests unitaires avec FPCUnit (introduction)](20-debogage-optimisation/09-tests-unitaires-fpcunit-introduction.md)
 
 
 
