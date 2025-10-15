@@ -220,15 +220,15 @@
 
 ## 17. [Communications Réseau et API REST](17-communications-reseau-api-rest/README.md)
 
-- 17.1 Concepts fondamentaux : protocole HTTP
-- 17.2 Méthodes HTTP (GET, POST, PUT, DELETE)
-- 17.3 Introduction aux API REST
-- 17.4 Format JSON : structure et syntaxe
-- 17.5 Utilisation de TFPHttpClient
-- 17.6 Consommation d'API publiques
-- 17.7 Parsing JSON avec fpjson
-- 17.8 Gestion des erreurs réseau
-- 17.9 Headers et authentification basique
+- 17.1 [Concepts fondamentaux : protocole HTTP](17-communications-reseau-api-rest/01-concepts-fondamentaux-protocole-http.md)
+- 17.2 [Méthodes HTTP (GET, POST, PUT, DELETE)](17-communications-reseau-api-rest/02-methodes-http-get-post-put-delete.md)
+- 17.3 [Introduction aux API REST](17-communications-reseau-api-rest/03-introduction-api-rest.md)
+- 17.4 [Format JSON : structure et syntaxe](17-communications-reseau-api-rest/04-format-json-structure-syntaxe.md)
+- 17.5 [Utilisation de TFPHttpClient](17-communications-reseau-api-rest/05-utilisation-tfphttpclient.md)
+- 17.6 [Consommation d'API publiques](17-communications-reseau-api-rest/06-consommation-api-publiques.md)
+- 17.7 [Parsing JSON avec fpjson](17-communications-reseau-api-rest/07-parsing-json-fpjson.md)
+- 17.8 [Gestion des erreurs réseau](17-communications-reseau-api-rest/08-gestion-erreurs-reseau.md)
+- 17.9 [Headers et authentification basique](17-communications-reseau-api-rest/09-headers-authentification-basique.md)
 
 ## 18. [Introduction Pratique au Multi-threading](18-introduction-pratique-multi-threading/README.md)
 
