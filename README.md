@@ -43,6 +43,27 @@ Techniques avancées : bases de données, réseau, multi-threading
 3. **Réalisez les exercices** - La pratique est essentielle pour progresser
 4. **Référez-vous aux projets complets** - Des applications complètes illustrent les concepts
 
+### 🎓 Progression vers le Niveau Avancé
+
+Une fois cette formation terminée, vous aurez acquis des bases solides en FreePascal/Lazarus. Pour approfondir vos compétences et devenir un développeur professionnel, poursuivez avec la **Formation FreePascal/Lazarus - Niveau Développeur Avancé** :
+
+**🔗 [Formation Niveau Avancé sur GitHub](https://github.com/NDXDeveloper/formation-freepascal-lazarus-avancee)**
+
+Cette formation avancée comprend **26 modules** et **plus de 250 chapitres** couvrant :
+
+- Langage Object Pascal moderne et fonctionnalités avancées
+- Développement multi-plateforme professionnel (Windows/Ubuntu/Android)
+- Architecture logicielle avancée et design patterns
+- Développement web, microservices et API REST
+- Bases de données avancées et ORM (mORMot)
+- Intelligence artificielle et machine learning
+- IoT, systèmes embarqués (Raspberry Pi, Arduino)
+- DevOps, Docker, Kubernetes
+- Développement de jeux avec Castle Game Engine
+- Et bien plus encore...
+
+La formation avancée est conçue pour transformer vos compétences intermédiaires en expertise professionnelle, avec des projets complexes et des études de cas réels.
+
 ### 💻 Prérequis techniques
 
 - **Système d'exploitation** : Windows 10/11 ou Ubuntu 20.04+
@@ -51,7 +72,6 @@ Techniques avancées : bases de données, réseau, multi-threading
 - **RAM** : 4 GB minimum recommandé
 
 ### 📂 Organisation du repository
-
 ```
 formation-freepascal-lazarus-fondamentaux/
 ├── 01-prerequis-bases-programmation/
@@ -99,4 +119,6 @@ Ce projet est distribué sous licence MIT. Voir le fichier [LICENSE](LICENSE) po
 **Nicolas DEOUX**
 NDXdev@gmail.com
 
+---
 
+💡 **Astuce** : Prenez votre temps avec cette formation fondamentale. Une base solide est essentielle avant de passer au niveau avancé !
