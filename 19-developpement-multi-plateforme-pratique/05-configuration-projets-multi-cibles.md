@@ -803,4 +803,4 @@ La configuration de projets multi-cibles dans Lazarus vous permet de :
 
 Avec ces configurations bien maîtrisées, vous êtes prêt pour le chapitre suivant sur la cross-compilation, qui vous permettra de compiler pour Linux depuis Windows (et vice-versa) !
 
-⏭️
+⏭️ [Cross-compilation : théorie et pratique](/19-developpement-multi-plateforme-pratique/06-cross-compilation-theorie-pratique.md)

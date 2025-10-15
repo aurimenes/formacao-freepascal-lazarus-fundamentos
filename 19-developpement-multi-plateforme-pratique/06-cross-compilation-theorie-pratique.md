@@ -1029,4 +1029,4 @@ La cross-compilation avec FreePascal et Lazarus est un outil puissant qui vous p
 
 Dans le chapitre suivant, nous verrons comment gérer les dépendances externes et créer des packages de distribution pour chaque plateforme.
 
-⏭️
+⏭️ [Gestion des dépendances externes](/19-developpement-multi-plateforme-pratique/07-gestion-dependances-externes.md)

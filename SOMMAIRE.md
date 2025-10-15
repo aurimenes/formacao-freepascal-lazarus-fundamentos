@@ -244,15 +244,15 @@
 
 ## 19. [Développement Multi-plateforme en Pratique](19-developpement-multi-plateforme-pratique/README.md)
 
-- 19.1 Différences Windows/Linux à connaître
-- 19.2 Gestion portable des chemins (PathDelim, DirectorySeparator)
-- 19.3 Directives de compilation conditionnelle {$IFDEF}
-- 19.4 Unités spécifiques par plateforme
-- 19.5 Configuration de projets multi-cibles dans Lazarus
-- 19.6 Cross-compilation : théorie et pratique
-- 19.7 Gestion des dépendances externes
-- 19.8 Tests sur différentes plateformes
-- 19.9 Empaquetage et distribution
+- 19.1 [Différences Windows/Linux à connaître](19-developpement-multi-plateforme-pratique/01-differences-windows-linux.md)
+- 19.2 [Gestion portable des chemins (PathDelim, DirectorySeparator)](19-developpement-multi-plateforme-pratique/02-gestion-portable-chemins.md)
+- 19.3 [Directives de compilation conditionnelle {$IFDEF}](19-developpement-multi-plateforme-pratique/03-directives-compilation-conditionnelle.md)
+- 19.4 [Unités spécifiques par plateforme](19-developpement-multi-plateforme-pratique/04-unites-specifiques-plateforme.md)
+- 19.5 [Configuration de projets multi-cibles dans Lazarus](19-developpement-multi-plateforme-pratique/05-configuration-projets-multi-cibles.md)
+- 19.6 [Cross-compilation : théorie et pratique](19-developpement-multi-plateforme-pratique/06-cross-compilation-theorie-pratique.md)
+- 19.7 [Gestion des dépendances externes](19-developpement-multi-plateforme-pratique/07-gestion-dependances-externes.md)
+- 19.8 [Tests sur différentes plateformes](19-developpement-multi-plateforme-pratique/08-tests-differentes-plateformes.md)
+- 19.9 [Empaquetage et distribution](19-developpement-multi-plateforme-pratique/09-empaquetage-distribution.md)
 
 ## 20. [Débogage et Optimisation](20-debogage-optimisation/README.md)
 

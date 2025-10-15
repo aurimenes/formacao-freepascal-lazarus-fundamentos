@@ -1045,4 +1045,4 @@ Les unités spécifiques par plateforme sont puissantes mais doivent être utili
 
 Dans le prochain chapitre, nous verrons comment configurer Lazarus pour compiler vers différentes plateformes (cross-compilation).
 
-⏭️
+⏭️ [Configuration de projets multi-cibles dans Lazarus](/19-developpement-multi-plateforme-pratique/05-configuration-projets-multi-cibles.md)

@@ -479,4 +479,4 @@ Le chapitre suivant (19.2) vous montrera concrètement comment utiliser ces conn
 
 **N'oubliez pas :** La meilleure façon d'apprendre est de tester ! Compilez et exécutez vos programmes sur Windows ET sur Linux dès le début du développement, pas à la fin.
 
-⏭️
+⏭️ [Gestion portable des chemins (PathDelim, DirectorySeparator)](/19-developpement-multi-plateforme-pratique/02-gestion-portable-chemins.md)

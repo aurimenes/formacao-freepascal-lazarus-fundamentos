@@ -1508,4 +1508,4 @@ L'empaquetage et la distribution sont les **dernières étapes** mais non les mo
 
 Félicitations ! Vous avez maintenant toutes les connaissances pour développer, compiler, tester, packager et distribuer des applications FreePascal/Lazarus multi-plateformes de qualité professionnelle. 🎉
 
-⏭️
+⏭️ [Débogage et Optimisation](/20-debogage-optimisation/README.md)

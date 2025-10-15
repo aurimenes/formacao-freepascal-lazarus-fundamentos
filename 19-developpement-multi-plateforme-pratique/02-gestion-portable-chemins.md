@@ -831,4 +831,4 @@ En suivant ces règles simples, votre code sera naturellement portable et foncti
 
 Dans le prochain chapitre (19.3), nous verrons les directives de compilation conditionnelle qui permettent de gérer les cas où vous avez vraiment besoin de code spécifique à une plateforme.
 
-⏭️
+⏭️ [Directives de compilation conditionnelle {$IFDEF}](/19-developpement-multi-plateforme-pratique/03-directives-compilation-conditionnelle.md)

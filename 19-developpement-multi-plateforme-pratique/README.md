@@ -573,4 +573,4 @@ Dans la section suivante (19.1), nous allons explorer en détail les différence
 
 Bon courage et amusez-vous bien ! 🚀
 
-⏭️
+⏭️ [Différences Windows/Linux à connaître](/19-developpement-multi-plateforme-pratique/01-differences-windows-linux.md)

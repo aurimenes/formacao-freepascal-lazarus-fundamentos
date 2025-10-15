@@ -1179,4 +1179,4 @@ La gestion des dépendances externes est cruciale pour :
 
 Dans le prochain chapitre, nous verrons comment effectuer des tests rigoureux sur les différentes plateformes pour s'assurer que tout fonctionne correctement.
 
-⏭️
+⏭️ [Tests sur différentes plateformes](/19-developpement-multi-plateforme-pratique/08-tests-differentes-plateformes.md)

@@ -1335,4 +1335,4 @@ Les tests multi-plateformes sont **indispensables** pour garantir la qualité de
 
 Dans le prochain chapitre, nous verrons comment créer des packages de distribution professionnels pour chaque plateforme, facilitant l'installation et la mise à jour pour vos utilisateurs.
 
-⏭️
+⏭️ [Empaquetage et distribution](/19-developpement-multi-plateforme-pratique/09-empaquetage-distribution.md)

@@ -892,4 +892,4 @@ Avec ces outils, vous êtes maintenant capable de créer de vraies applications 
 
 Dans le prochain chapitre, nous verrons comment configurer Lazarus pour la cross-compilation et tester efficacement sur différentes plateformes.
 
-⏭️
+⏭️ [Unités spécifiques par plateforme](/19-developpement-multi-plateforme-pratique/04-unites-specifiques-plateforme.md)
