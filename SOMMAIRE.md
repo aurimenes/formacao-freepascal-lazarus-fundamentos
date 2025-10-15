@@ -204,19 +204,19 @@
 
 ## 16. [Bases de Données - Maîtrise Approfondie](16-bases-donnees-maitrise-approfondie/README.md)
 
-- 16.1 Concepts des bases de données relationnelles
-- 16.2 Introduction au SQL
-- 16.3 SQLite : base embarquée
-- 16.4 Composants de connexion
-- 16.5 TSQLQuery et requêtes
-- 16.6 Composants data-aware
-- 16.7 Navigation dans les données
-- 16.8 Ajout, modification, suppression
-- 16.9 Transactions basics
-- 16.10 Introduction aux bases Client/Serveur (concepts)
-- 16.11 **Connexion à PostgreSQL ou MariaDB**
-- 16.12 Gestion avancée des transactions (BEGIN, COMMIT, ROLLBACK)
-- 16.13 Gestion des erreurs de connexion et résilience
+- 16.1 [Concepts des bases de données relationnelles](16-bases-donnees-maitrise-approfondie/01-concepts-bases-donnees-relationnelles.md)
+- 16.2 [Introduction au SQL](16-bases-donnees-maitrise-approfondie/02-introduction-sql.md)
+- 16.3 [SQLite : base embarquée](16-bases-donnees-maitrise-approfondie/03-sqlite-base-embarquee.md)
+- 16.4 [Composants de connexion](16-bases-donnees-maitrise-approfondie/04-composants-connexion.md)
+- 16.5 [TSQLQuery et requêtes](16-bases-donnees-maitrise-approfondie/05-tsqlquery-requetes.md)
+- 16.6 [Composants data-aware](16-bases-donnees-maitrise-approfondie/06-composants-data-aware.md)
+- 16.7 [Navigation dans les données](16-bases-donnees-maitrise-approfondie/07-navigation-donnees.md)
+- 16.8 [Ajout, modification, suppression](16-bases-donnees-maitrise-approfondie/08-ajout-modification-suppression.md)
+- 16.9 [Transactions basics](16-bases-donnees-maitrise-approfondie/09-transactions-basics.md)
+- 16.10 [Introduction aux bases Client/Serveur (concepts)](16-bases-donnees-maitrise-approfondie/10-introduction-bases-client-serveur.md)
+- 16.11 [Connexion à PostgreSQL ou MariaDB](16-bases-donnees-maitrise-approfondie/11-connexion-postgresql-mariadb.md)
+- 16.12 [Gestion avancée des transactions (BEGIN, COMMIT, ROLLBACK)](16-bases-donnees-maitrise-approfondie/12-gestion-avancee-transactions.md)
+- 16.13 [Gestion des erreurs de connexion et résilience](16-bases-donnees-maitrise-approfondie/13-gestion-erreurs-connexion-resilience.md)
 
 ## 17. [Communications Réseau et API REST](17-communications-reseau-api-rest/README.md)
 
