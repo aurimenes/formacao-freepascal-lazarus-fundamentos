@@ -63,6 +63,7 @@ NOT (FALSE) = TRUE
 ```
 
 **Em Pascal:**
+
 ```pascal
 var
 aFaim: Boolean;
