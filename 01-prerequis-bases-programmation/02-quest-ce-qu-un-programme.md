@@ -1,432 +1,432 @@
-🔝 Retour au [Sommaire](/SOMMAIRE.md)
+🔝 Voltar para [Resumo](/SUMMARY.md)
 
-# 1.2 Qu'est-ce qu'un programme ?
+# 1.2 O que é um programa?
 
-## Introduction
+## Introdução
 
-Maintenant que vous comprenez les concepts fondamentaux de l'informatique, il est temps de répondre à une question essentielle : qu'est-ce qu'un programme informatique ? Cette section vous aidera à comprendre la nature d'un programme et comment il fonctionne.
+Agora que você entende os conceitos fundamentais da ciência da computação, é hora de responder a uma pergunta essencial: o que é um programa de computador? Esta seção ajudará você a entender a natureza de um programa e como ele funciona.
 
-## Définition d'un programme
+## Definição de um Programa
 
-### En termes simples
+### Em termos simples
 
-Un programme informatique est une **suite d'instructions** écrites dans un langage que l'ordinateur peut comprendre et exécuter. C'est comme une recette de cuisine, mais pour un ordinateur.
+Um programa de computador é uma **sequência de instruções** escrita em uma linguagem que um computador pode entender e executar. É como uma receita, mas para um computador.
 
-Tout comme une recette indique étape par étape comment préparer un plat, un programme indique étape par étape ce que l'ordinateur doit faire pour accomplir une tâche.
+Assim como uma receita lhe diz passo a passo como preparar um prato, um programa lhe diz passo a passo o que o computador deve fazer para realizar uma tarefa.
 
-### Les éléments constitutifs
+### Os Blocos de Construção
 
-Un programme est composé de :
-- **Instructions** : les actions que l'ordinateur doit effectuer
-- **Données** : les informations sur lesquelles le programme travaille
-- **Logique** : l'ordre et les conditions d'exécution des instructions
+Um programa é composto por:
+- **Instruções**: as ações que o computador deve executar
+- **Dados**: as informações com as quais o programa trabalha
+- **Lógica**: a ordem e as condições para executar as instruções
 
-## Analogie avec le monde réel
+## Analogia com o Mundo Real
 
-### La recette de cuisine
+### A Receita Culinária
 
-Prenons l'exemple d'une recette de crêpes :
+Vejamos o exemplo de uma receita de crepe:
 
 ```
-Ingrédients (données) :
-- 250g de farine
-- 3 œufs
-- 500ml de lait
-- Une pincée de sel
+Ingredientes (dados):
+- 250 g de farinha
+- 3 ovos
+- 500 ml de leite
+- Uma pitada de sal
 
-Instructions :
-1. Mélanger la farine et les œufs
-2. Ajouter progressivement le lait
-3. Ajouter le sel
-4. Laisser reposer 1 heure
-5. Faire chauffer une poêle
-6. Pour chaque crêpe :
-   - Verser une louche de pâte
-   - Attendre 2 minutes
-   - Retourner la crêpe
-   - Attendre 2 minutes
-7. Servir
+Instruções:
+1. Misture a farinha e os ovos
+2. Adicione o leite aos poucos
+3. Adicione o sal
+4. Deixe descansar por 1 hora
+5. Aqueça uma panela
+6. Para cada crepe:
+- Despeje uma concha de massa
+- Espere 2 minutos
+- Vire o crepe
+- Espere 2 minutos
+7. Sirva
 ```
 
-Un programme fonctionne exactement de la même manière :
-- Il prend des **données en entrée** (ingrédients)
-- Il effectue des **traitements** (mélanger, chauffer)
-- Il utilise des **boucles** (pour chaque crêpe)
-- Il produit un **résultat** (crêpes prêtes)
+Um programa funciona exatamente da mesma maneira:
+- Ele recebe **entrada** (ingredientes)
+- Realiza **processamento** (mistura, aquecimento)
+- Utiliza **loops** (para cada crepe)
+- Produz um **resultado** (crepes prontos)
 
-### Le GPS
+### GPS
 
-Un autre exemple : votre GPS est un programme qui :
-1. **Reçoit** votre position actuelle et votre destination (entrées)
-2. **Calcule** le meilleur itinéraire (traitement)
-3. **Affiche** les directions à suivre (sortie)
-4. **Met à jour** en temps réel selon votre position (boucle)
+Outro exemplo: seu GPS é um programa que:
+1. **Recebe** sua localização atual e destino (entradas)
+2. **Calcula** a melhor rota (processamento)
+3. **Exibe** as direções a seguir (saída)
+4. **Atualiza** em tempo real com base na sua localização (loop)
 
-## Les différents types de programmes
+## Diferentes Tipos de Programas
 
-### Programmes en ligne de commande (console)
+### Programas de Linha de Comando (Console)
 
-Ce sont les programmes les plus simples :
-- Ils s'exécutent dans une fenêtre de texte
-- Pas d'interface graphique
-- L'utilisateur tape des commandes au clavier
-- Les résultats s'affichent sous forme de texte
+Estes são os programas mais simples:
+- Executam em uma janela de texto
+- Sem interface gráfica
+- O usuário digita comandos no teclado
+- Os resultados são exibidos como texto
 
-**Exemple :** un programme qui calcule la moyenne de notes
+**Exemplo:** um programa que calcula a média das avaliações
 ```
-Entrez la première note : 15
-Entrez la deuxième note : 18
-Entrez la troisième note : 12
-Moyenne : 15
+Digite a primeira avaliação: 15
+Digite a segunda avaliação: 18
+Entrada na terceira classificação: 12
+Média: 15
 ```
 
-**Avantages :**
-- Simples à créer
-- Parfaits pour apprendre
-- Efficaces pour des tâches automatisées
+**Vantagens:**
+- Fácil de criar
+- Perfeito para aprender
+- Eficaz para tarefas automatizadas
 
-### Programmes avec interface graphique (GUI)
+### Programas com interface gráfica do usuário (GUI)
 
-Ce sont les programmes que vous utilisez tous les jours :
-- Fenêtres, boutons, menus
-- Interaction à la souris
-- Plus conviviaux pour l'utilisateur
+Estes são os programas que você usa todos os dias:
+- Janelas, botões, menus
+- Interação com o mouse
+- Mais amigável
 
-**Exemples :** navigateur web, traitement de texte, lecteur vidéo
+**Exemplos:** Navegador da web, processador de texto, reprodutor de vídeo
 
-**Avantages :**
-- Plus intuitifs
-- Plus agréables à utiliser
-- Permettent des interactions riches
+**Vantagens:**
+- Mais intuitivo
+- Mais agradável de usar
+- Permite interações ricas
 
-### Services et programmes en arrière-plan
+### Serviços e programas em segundo plano
 
-Ce sont des programmes qui fonctionnent sans interface visible :
-- Ils tournent en permanence sur votre ordinateur
-- Vous ne les voyez pas, mais ils sont actifs
-- Ils réalisent des tâches spécifiques
+Estes são programas que rodam sem uma interface visível:
+- Eles rodam constantemente no seu computador
+- Você não os vê, mas eles estão ativos
+- Eles executam tarefas específicas
 
-**Exemples :** antivirus, serveur web, service de synchronisation cloud
+**Exemplos:** Antivírus, servidor web, serviço de sincronização em nuvem
 
-### Applications web
+### Aplicativos da web
 
-Ce sont des programmes qui s'exécutent dans un navigateur :
-- Le code s'exécute sur un serveur distant
-- L'affichage se fait dans votre navigateur
-- Pas besoin d'installation
+Estes são programas que rodam em um navegador:
+- O código roda em um servidor remoto
+- A exibição é feita no seu navegador
+- Sem instalação obrigatório
 
-**Exemples :** webmail, réseaux sociaux, Google Docs
+**Exemplos:** webmail, redes sociais, Google Docs
 
-## Le cycle de vie d'un programme
+## O Ciclo de Vida de um Programa
 
-### 1. Conception
+### 1. Design
 
-Avant d'écrire une seule ligne de code, il faut :
-- **Définir le problème** à résoudre
-- **Analyser les besoins** : que doit faire le programme ?
-- **Concevoir l'algorithme** : comment le programme va-t-il fonctionner ?
-- **Planifier la structure** : comment organiser le code ?
+Antes de escrever uma única linha de código, você deve:
+- **Definir o problema** a ser resolvido
+- **Analisar os requisitos**: o que o programa deve fazer?
+- **Projetar o algoritmo**: como o programa funcionará?
+- **Planejar a estrutura**: como o código deve ser organizado?
 
-### 2. Écriture du code (programmation)
+### 2. Escrevendo o Código (Programação)
 
-C'est la phase où le programmeur :
-- Écrit le code source dans un langage de programmation
-- Utilise un éditeur de texte ou un IDE (Environnement de Développement Intégré)
-- Respecte les règles de syntaxe du langage
+Esta é a fase em que o programador:
+- Escreve o código-fonte em uma linguagem de programação
+- Utiliza um editor de texto ou um IDE (Ambiente Integrado de Desenvolvimento)
+- Segue as regras de sintaxe da linguagem
 
-**Exemple de code source en Pascal :**
+**Exemplo de código-fonte em Pascal:**
 ```pascal
-program Bonjour;
+program Hello;
 begin
-  WriteLn('Bonjour le monde !');
+WriteLn('Hello world!');
 end.
 ```
 
-### 3. Compilation
+### 3. Compilação
 
-Le code source doit être traduit en langage machine :
-- Le **compilateur** lit le code source
-- Il vérifie les erreurs de syntaxe
-- Il traduit le code en instructions binaires
-- Il produit un **fichier exécutable**
+O código-fonte deve ser traduzido para a linguagem de máquina:
+- O **compilador** lê o código-fonte
+- Ele verifica se há erros de sintaxe
+- Ele traduz o código em instruções binárias
+- Ele produz um **arquivo executável**
 
-**Sur Windows :** le fichier a l'extension `.exe`
-**Sur Linux :** le fichier n'a généralement pas d'extension
+**No Windows:** o arquivo tem a extensão `.exe`
+**No Linux:** o arquivo geralmente não tem extensão
 
-### 4. Test et débogage
+### 4. Teste e Depuração
 
-Une fois compilé, le programme doit être testé :
-- **Tests fonctionnels** : le programme fait-il ce qu'il doit faire ?
-- **Recherche de bugs** : y a-t-il des erreurs de logique ?
-- **Débogage** : correction des erreurs trouvées
-- **Tests limites** : que se passe-t-il dans des cas extrêmes ?
+Após a compilação, o programa deve ser testado:
+- **Teste funcional**: O programa faz o que deveria?
+- **Detecção de bugs**: Há algum erro de lógica?
+- **Depuração**: Corrige quaisquer erros encontrados
+- **Teste de limite**: O que acontece em casos extremos?
 
-### 5. Déploiement
+### 5. Implantação
 
-Quand le programme est prêt :
-- Il est distribué aux utilisateurs
-- Installation sur les ordinateurs cibles
-- Documentation fournie
+Quando o programa estiver pronto:
+- Distribuído aos usuários
+- Instalação nos computadores de destino
+- Documentação fornecida
 
-### 6. Maintenance
+### 6. Manutenção
 
-Après le déploiement :
-- Correction de bugs découverts par les utilisateurs
-- Ajout de nouvelles fonctionnalités
-- Mises à jour pour rester compatible avec les nouveaux systèmes
+Após a implantação:
+- Correções de bugs descobertas pelos usuários
+- Adição de novos recursos
+- Atualizações para manter a compatibilidade com novos sistemas
 
-## Comment un programme s'exécute
+## Como um programa é executado
 
-### Chargement en mémoire
+### Carregamento na memória
 
-Quand vous lancez un programme :
-1. Le système d'exploitation **lit** le fichier exécutable sur le disque dur
-2. Il **charge** le programme en mémoire RAM
-3. Il **alloue** de l'espace mémoire pour les données du programme
-4. Il **transfère** le contrôle au processeur
+Ao iniciar um programa:
+1. O sistema operacional **lê** o arquivo executável do disco rígido
+2. Ele **carrega** o programa na RAM
+3. Ele **aloca** espaço de memória para os dados do programa
+4. Ele **transfere** o controle para o processador
 
-### Exécution séquentielle
+### Execução sequencial
 
-Le processeur exécute les instructions **une par une**, dans l'ordre :
+O processador executa as instruções **uma a uma**, na seguinte ordem:
 
 ```
-Instruction 1 → Instruction 2 → Instruction 3 → ...
+Instrução 1 → Instrução 2 → Instrução 3 → ...
 ```
 
-Chaque instruction correspond à une opération élémentaire :
-- Effectuer un calcul
-- Lire ou écrire en mémoire
-- Afficher quelque chose à l'écran
-- Lire une entrée utilisateur
+Cada instrução corresponde a uma operação básica:
+- Executar um cálculo
+- Ler ou gravar na memória
+- Exibir algo na tela
+- Ler a entrada do usuário
 - Etc.
 
-### Le pointeur d'instruction
+### O ponteiro de instrução
 
-Le processeur garde en mémoire **où il en est** dans le programme :
-- Il utilise un "pointeur d'instruction"
-- Ce pointeur indique quelle est la prochaine instruction à exécuter
-- Après chaque instruction, le pointeur avance
+O processador lembra onde está no programa:
+- Ele usa um "ponteiro de instrução"
+- Este ponteiro indica a próxima instrução a ser executada
+- Após cada instrução, o ponteiro avança
 
-### Branchements et boucles
+### Ramificações e laços
 
-Le programme n'est pas toujours strictement linéaire :
-- **Conditions** : le programme peut sauter certaines instructions
-- **Boucles** : le programme peut revenir en arrière et répéter des instructions
-- **Appels de fonctions** : le programme peut sauter à un autre endroit, puis revenir
+O programa nem sempre é estritamente linear:
+- **Condições**: o programa pode pular certas instruções
+- **Laços**: o programa pode voltar e repetir instruções
+- **Chamadas de função**: o programa pode pular para outro local e então retornar
 
-## Les langages de programmation
+## Linguagens de programação
 
-### Pourquoi différents langages ?
+### Por que linguagens diferentes?
 
-Il existe des centaines de langages de programmation, car :
-- Chaque langage a ses points forts
-- Certains sont adaptés à des domaines particuliers
-- Certains sont plus faciles à apprendre
-- Les technologies évoluent et de nouveaux langages apparaissent
+Existem centenas de linguagens de programação porque:
+- Cada linguagem tem seus pontos fortes
+- Algumas são adequadas a domínios específicos
+- Algumas são mais fáceis de aprender
+- As tecnologias evoluem e novas linguagens surgem
 
-### Classification des langages
+### Classificação das Linguagens
 
-**Langages bas niveau**
-- Proches du langage machine
-- Très performants
-- Difficiles à lire et à écrire
-- Exemples : Assembleur
+**Linguagens de Baixo Nível**
+- Semelhantes à linguagem de máquina
+- Alto desempenho
+- Difíceis de ler e escrever
+- Exemplos: Assembler
 
-**Langages de niveau intermédiaire**
-- Bon compromis entre performance et lisibilité
-- Contrôle fin de la mémoire
-- Exemples : C, Pascal, Rust
+**Linguagens de Nível Intermediário**
+- Bom equilíbrio entre desempenho e legibilidade
+- Controle de memória refinado
+- Exemplos: C, Pascal, Rust
 
-**Langages de haut niveau**
-- Très lisibles, proches du langage humain
-- Gestion automatique de la mémoire
-- Plus lents mais plus faciles à utiliser
-- Exemples : Python, Java, JavaScript
+**Linguagens de Alto Nível**
+- Altamente legíveis, semelhantes à linguagem humana
+- Gerenciamento automático de memória
+- Mais lentas, mas fáceis de usar
+- Exemplos: Python, Java, JavaScript
 
-### Langages compilés vs interprétés
+### Linguagens Compiladas vs. Interpretadas
 
-**Langages compilés** (comme Pascal)
-- Le code est traduit **une fois** en fichier exécutable
-- L'exécution est rapide
-- Le fichier peut être distribué sans le code source
-- Exemples : Pascal, C, C++, Rust
+**Linguagens Compiladas** (como Pascal)
+- O código é traduzido **uma vez** para um arquivo executável
+- A execução é rápida
+- O arquivo pode ser distribuído sem o código-fonte
+- Exemplos: Pascal, C, C++, Rust
 
-**Langages interprétés**
-- Le code est traduit **ligne par ligne** pendant l'exécution
-- Plus lent à l'exécution
-- Nécessite un interpréteur installé
-- Exemples : Python, JavaScript, PHP
+**Linguagens Interpretadas**
+- O código é traduzido **linha por linha** durante a execução
+- Execução mais lenta
+- Requer um interpretador instalado
+- Exemplos: Python, JavaScript, PHP
 
-**Langages hybrides**
-- Compilés dans un format intermédiaire
-- Puis interprétés par une machine virtuelle
-- Exemples : Java, C#
+**Linguagens Híbridas**
+- Compilado em um formato intermediário
+- Em seguida, interpretado por uma máquina virtual
+- Exemplos: Java, C#
 
-## Le langage Pascal : un excellent choix pour débuter
+## Pascal: Uma Excelente Escolha para Iniciantes
 
-### Pourquoi apprendre Pascal ?
+### Por que Aprender Pascal?
 
-**1. Clarté et lisibilité**
-- La syntaxe est très proche du langage naturel
-- Le code est facile à lire et à comprendre
-- Les instructions sont explicites
+**1. Clareza e Legibilidade**
+- A sintaxe é muito próxima da linguagem natural
+- O código é fácil de ler e entender
+- As instruções são autoexplicativas
 
-**2. Pédagogique**
-- Conçu à l'origine pour l'enseignement
-- Encourage les bonnes pratiques
-- Structure claire et logique
+**2. Educacional**
+- Originalmente projetado para ensino
+- Incentiva boas práticas
+- Estrutura clara e lógica
 
-**3. Complet**
-- Permet d'apprendre tous les concepts fondamentaux
-- De la programmation simple à la programmation orientée objet
-- Du mode console aux interfaces graphiques
+**3. Abrangente**
+- Permite que você aprenda todos os conceitos fundamentais
+- Da programação simples à programação orientada a objetos
+- Do modo console às interfaces gráficas
 
-**4. Performant**
-- Langage compilé, donc rapide à l'exécution
-- Adapté aux applications professionnelles
+**4. Eficiente**
+- Linguagem compilada, portanto rápida de executar
+- Adequado para aplicações profissionais
 
-**5. Multi-plateforme**
-- FreePascal fonctionne sur Windows, Linux, macOS
-- Un même code peut fonctionner sur différents systèmes
+**5. Multiplataforma**
+- FreePascal funciona em Windows, Linux e macOS
+- O mesmo código pode ser executado em diferentes sistemas
 
-### Comparaison avec d'autres langages
+### Comparação com outras linguagens
 
-**Pascal vs Python**
-- Pascal : compilé, plus rapide, typage strict
-- Python : interprété, plus facile pour débuter, typage dynamique
+**Pascal vs. Python**
+- Pascal: compilado, mais rápido, tipagem estrita
+- Python: interpretado, mais fácil de começar, tipagem dinâmica
 
-**Pascal vs C**
-- Pascal : plus lisible, moins de pièges pour débutants
-- C : plus proche du matériel, utilisé pour les systèmes
+**Pascal vs. C**
+- Pascal: mais legível, menos armadilhas para iniciantes
+- C: mais próximo do hardware, usado para sistemas
 
-**Pascal vs Java**
-- Pascal : plus simple, compilation native
-- Java : orienté objet pur, machine virtuelle
+**Pascal vs. Java**
+- Pascal: compilação nativa mais simples
+- Java: máquina virtual puramente orientada a objetos
 
-## Structure générale d'un programme Pascal
+## Estrutura Geral de um Programa Pascal
 
-Voici à quoi ressemble un programme Pascal simple :
+Veja como é um programa Pascal simples:
 
 ```pascal
-program NomDuProgramme;
+program NomeDoPrograma;
 
-{ Section des déclarations }
+{ Seção de Declarações }
 var
-  variable1: Integer;
-  variable2: String;
+variável1: Inteiro;
+variável2: String;
 
-{ Corps du programme }
+{ Corpo do Programa }
 begin
-  { Instructions }
-  WriteLn('Début du programme');
-  variable1 := 42;
-  WriteLn('Valeur : ', variable1);
-  WriteLn('Fin du programme');
+{ Instruções }
+WriteLn('Início do programa');
+variável1 := 42;
+WriteLn('Valor: ', variável1);
+WriteLn('Fim do programa');
 end.
 ```
 
-**Éléments clés :**
-- `program` : définit le nom du programme
-- `var` : section des déclarations de variables
-- `begin` ... `end.` : bloc principal d'instructions
-- `;` : termine chaque instruction
-- `{ }` : commentaires
+**Elementos Principais:**
+- `program`: Define o nome do programa
+- `var`: Seção de declarações de variáveis
+- `begin` ... `end.`: Bloco principal de instruções
+- `;`: Finaliza cada instrução
+- `{ }`: Comentários
 
-Nous étudierons tout cela en détail dans les chapitres suivants.
+Estudaremos tudo isso em detalhes nos próximos capítulos.
 
-## Les erreurs de programmation
+## Erros de Programação
 
-### Types d'erreurs
+### Tipos de Erros
 
-**1. Erreurs de syntaxe**
-- Le code ne respecte pas les règles du langage
-- Détectées lors de la compilation
-- Le programme ne peut pas être compilé
+**1. Erros de Sintaxe**
+- O código não segue as regras da linguagem
+- Detectados durante a compilação
+- O programa não pode ser compilado
 
-Exemple : oublier un point-virgule
+Exemplo: falta um ponto e vírgula
 ```pascal
-WriteLn('Bonjour')  // Erreur : manque le ;
+WriteLn('Hello') // Erro: faltando ;
 ```
 
-**2. Erreurs d'exécution**
-- Le programme compile mais plante pendant l'exécution
-- Causées par des opérations impossibles
+**2. Erros de Tempo de Execução**
+- O programa compila, mas trava durante a execução
+- Causado por operações impossíveis
 
-Exemple : division par zéro
+Exemplo: divisão por zero
 ```pascal
-resultat := 10 / 0;  // Erreur à l'exécution !
+resultado := 10 / 0; // Erro de tempo de execução!
 ```
 
-**3. Erreurs de logique**
-- Le programme fonctionne mais ne fait pas ce qu'il devrait
-- Les plus difficiles à détecter
-- Nécessitent des tests approfondis
+**3. Erros de Lógica**
+- O programa funciona, mas não faz o que deveria
+- O mais difícil de detectar
+- Requer testes extensivos
 
-Exemple : mauvaise formule de calcul
+Exemplo: fórmula de cálculo incorreta
 ```pascal
-moyenne := (note1 + note2) * 2;  // Devrait être / 2
+média := (nota1 + nota2) * 2; // Deve ser / 2
 ```
 
-### L'importance du débogage
+### A Importância da Depuração
 
-Le débogage (debugging) est l'art de trouver et corriger les erreurs :
-- C'est une compétence essentielle du programmeur
-- Il faut être patient et méthodique
-- Utiliser des outils (débogueur, affichage de variables)
-- Comprendre la logique du programme
+Depuração é a arte de encontrar e corrigir erros:
+- É uma habilidade essencial do programador
+- Você deve ser paciente e metódico
+- Usar ferramentas (depurador, exibição de variáveis)
+- Entender a lógica do programa
 
-**Conseil :** Ne vous découragez pas ! Tous les programmeurs, même les experts, passent beaucoup de temps à déboguer leur code.
+**Dica:** Não desanime! Todos os programadores, mesmo os especialistas, gastam muito tempo depurando seu código.
 
-## Bonnes pratiques de programmation
+## Boas Práticas de Programação
 
-Même en tant que débutant, adoptez ces bonnes habitudes :
+Mesmo sendo iniciante, adote estes bons hábitos:
 
-### 1. Commentez votre code
-Expliquez ce que fait votre code avec des commentaires :
+### 1. Comente seu código
+Explique o que seu código faz com comentários:
 ```pascal
-{ Cette fonction calcule la moyenne de deux nombres }
+{ Esta função calcula a média de dois números }
 ```
 
-### 2. Utilisez des noms significatifs
+### 2. Use nomes significativos
 ```pascal
-// Mauvais
+// Ruim
 var x, y, z: Integer;
 
-// Bon
-var nombreEleves, totalPoints, moyenne: Integer;
+// Bom
+var numberStudents, totalPoints, average: Integer;
 ```
 
-### 3. Indentez correctement
+### 3. Indentação correta
 ```pascal
-// Bon
-if condition then
-begin
-  instruction1;
-  instruction2;
-end;
+// Bom
+se condição então
+começar
+instrução1;
+instrução2;
+fim;
 ```
 
-### 4. Testez régulièrement
-Ne codez pas tout d'un coup. Testez fréquemment au fur et à mesure.
+### 4. Teste regularmente
+Não codifique tudo de uma vez. Teste frequentemente à medida que avança.
 
-### 5. Gardez les choses simples
-Un code simple est plus facile à comprendre et à maintenir.
+### 5. Mantenha as coisas simples
+Código simples é mais fácil de entender e manter.
 
-## Conclusion
+## Conclusão
 
-Vous savez maintenant ce qu'est un programme informatique :
-- Une suite d'instructions exécutées par l'ordinateur
-- Qui passe par plusieurs étapes : conception, écriture, compilation, test
-- Qui peut prendre différentes formes : console, graphique, web
-- Qui peut contenir différents types d'erreurs
+Agora você sabe o que é um programa de computador:
+- Uma sequência de instruções executadas pelo computador
+- Que passa por várias etapas: design, escrita, compilação, teste
+- Que pode assumir diferentes formas: console, gráfico, web
+- Que pode conter diferentes tipos de erros
 
-Pascal est un excellent langage pour apprendre à programmer grâce à sa clarté et sa structure logique. Dans les sections suivantes, nous allons approfondir les concepts nécessaires avant d'écrire nos premiers programmes.
+Pascal é uma excelente linguagem para aprender a programar graças à sua clareza e estrutura lógica. Nas seções a seguir, nos aprofundaremos nos conceitos necessários antes de escrever nossos primeiros programas.
 
-**Points clés à retenir :**
-- Un programme est comme une recette que suit l'ordinateur
-- Le code source est compilé en fichier exécutable
-- Il existe différents types de langages de programmation
-- Pascal est particulièrement adapté aux débutants
-- Programmer implique aussi de tester et déboguer son code
+**Principais Conclusões:**
+- Um programa é como uma receita que o computador segue
+- O código-fonte é compilado em um arquivo executável
+- Existem diferentes tipos de linguagens de programação
+- Pascal é particularmente adequado para iniciantes
+- Programar também envolve testar e depurar seu código
 
-⏭️ [Systèmes de numération et représentation des données](/01-prerequis-bases-programmation/03-systemes-numeration-representation-donnees.md)
+⏭️ [Sistemas Numéricos e Representação de Dados](/01-prerequisites-programming-basics/03-number-systems-data-representation.md)

@@ -132,4 +132,119 @@ Os computadores só entendem uma coisa: eletricidade. Um componente eletrônico 
 Na programação, os dados podem ser de diferentes tipos:
 
 **Inteiros**
--
+- Exemplos: -5, 0, 42, 1000
+- Usado para contagem, numeração, etc.
+
+**Números de Ponto Flutuante**
+- Exemplos: 3,14, -0,5, 2,71828
+- Usado para cálculos científicos, preços, etc.
+
+**Caracteres e Texto**
+- Caractere único: 'A', 'z', '5', '$'
+- Texto único (string): "Olá", "Pascal", "123"
+
+**Booleanos**
+- Apenas dois valores possíveis: VERDADEIRO ou FALSO
+- Usado para decisões e testes lógicos
+
+### Como os dados são armazenados?
+
+Todos os dados são armazenados em formato binário na memória, mas em formatos diferentes:
+
+**Inteiros**
+- Um inteiro é armazenado diretamente em formato binário.
+- Exemplo: o número 5 em binário = 00000101 (formato de 8 bits).
+
+**Caracteres**
+- Cada caractere possui um código numérico.
+- Tabela ASCII: 'A' = 65, 'B' = 66, 'a' = 97, '0' = 48, etc.
+- Em Unicode (mais moderno): pode representar todos os alfabetos do mundo.
+
+**Números de Ponto Flutuante**
+- Armazenados em notação científica (mantissa e expoente).
+- Formato padronizado: IEEE 754.
+
+## A Importância dos Algoritmos
+
+### O que é um Algoritmo?
+
+Um algoritmo é uma sequência de instruções precisas e ordenadas que resolvem um problema ou executam uma tarefa.
+
+**Características de um bom algoritmo:**
+- **Preciso**: cada etapa deve ser clara e inequívoca
+- **Finito**: deve ser concluído após um número finito de etapas
+- **Eficiente**: deve resolver o problema em um tempo razoável
+
+### Exemplo simples: fazer chá
+
+Aqui está um algoritmo para fazer chá (em linguagem natural):
+
+```
+1. Encha a chaleira com água
+2. Ligue a chaleira
+3. Espere a água ferver
+4. Coloque um sachê de chá em uma xícara
+5. Despeje a água fervente na xícara
+6. Aguarde de 3 a 5 minutos
+7. Retire o sachê de chá
+8. Adicione açúcar, se desejar
+9. Finalize
+```
+
+Um programa de computador segue o mesmo princípio: é uma série de instruções executadas em uma ordem específica.
+
+## Lógica de Programação
+
+### As Três Estruturas Básicas
+
+Qualquer programa pode ser construído com apenas três estruturas fundamentais:
+
+**1. Sequência**
+- Execução de instruções uma após a outra
+- Exemplo: Primeiro A, depois B, depois C
+
+**2. Seleção (ou Condição)**
+- Escolha entre diferentes ações com base em uma condição
+- Exemplo: SE estiver chovendo, ENTÃO leve um guarda-chuva, CASO CONTRÁRIO, não leve nada
+
+**3. Repetição (ou Loop)**
+- Repetição de uma ação várias vezes
+- Exemplo: ENQUANTO houver páginas restantes, leia a próxima página
+
+Essas três estruturas serão estudadas em detalhes nos próximos capítulos.
+
+## Abstração e Resolução de Problemas
+
+### O Conceito de Abstração
+
+Abstração consiste em simplificar um problema complexo por meio de:
+- Ignorar detalhes não essenciais
+- Focar no que é importante
+- Dividir o problema em partes menores
+
+**Exemplo:**
+Quando você dirige um carro, não precisa entender detalhadamente como o motor funciona. Você usa uma interface simplificada: volante, pedais, alavanca de câmbio.
+
+### Decomposição do Problema
+
+Para resolver um problema complexo:
+1. **Divida** o problema em subproblemas menores
+2. **Resolva** cada subproblema separadamente
+3. **Monte** as soluções para obter a solução completa
+
+Essa abordagem é chamada de "dividir para conquistar" e é fundamental para a programação.
+
+## Conclusão
+
+Agora você tem uma compreensão básica de como um computador funciona e dos conceitos fundamentais da ciência da computação. Esses conceitos serão úteis ao longo de sua jornada de programação.
+
+Principais conclusões:
+- Um computador é composto de hardware e software
+- Tudo é armazenado em binário (0s e 1s) na memória
+- Um programa é uma sequência de instruções traduzidas para linguagem de máquina
+- Algoritmos são o cerne da programação
+- A lógica de programação é baseada em três estruturas: sequência, seleção e repetição
+
+Na próxima seção, aprenderemos mais sobre o que é um programa e como ele é estruturado.
+
+⏭️ [O que é um programa?](/01-prerequisites-programming-basics/02-what-is-a-program.md)
