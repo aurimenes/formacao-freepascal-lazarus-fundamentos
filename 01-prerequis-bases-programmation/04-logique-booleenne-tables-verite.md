@@ -1,733 +1,727 @@
-🔝 Retour au [Sommaire](/SOMMAIRE.md)
+🔝 Voltar para [Resumo](/SUMMARY.md)
 
-# 1.4 Logique booléenne et tables de vérité
+# 1.4 Lógica Booleana e Tabelas Verdade
 
-## Introduction
+## Introdução
 
-La logique booléenne est le fondement de toute la programmation. Elle permet de prendre des décisions, de contrôler le flux d'exécution d'un programme et de tester des conditions. Cette section vous donnera les outils pour comprendre et maîtriser la logique dans vos programmes.
+A lógica booleana é a base de toda programação. Ela permite que você tome decisões, controle o fluxo de execução do programa e teste condições. Esta seção fornecerá as ferramentas para entender e dominar a lógica em seus programas.
 
-## Qu'est-ce que la logique booléenne ?
+## O que é Lógica Booleana?
 
-### Histoire et origines
+### História e Origens
 
-La logique booléenne porte le nom du mathématicien britannique **George Boole** (1815-1864) qui a développé un système mathématique pour représenter la logique.
+A lógica booleana recebeu esse nome em homenagem ao matemático britânico George Boole (1815-1864), que desenvolveu um sistema matemático para representar a lógica.
 
-**Principe fondamental :** En logique booléenne, toute affirmation ne peut être que **vraie** ou **fausse**, sans état intermédiaire.
+**Princípio Fundamental:** Na lógica booleana, qualquer afirmação só pode ser **verdadeira** ou **falsa**, sem estados intermediários.
 
-### Les valeurs booléennes
+### Valores Booleanos
 
-Il n'existe que deux valeurs possibles :
-- **VRAI** (True, 1, Oui)
-- **FAUX** (False, 0, Non)
+Existem apenas dois valores possíveis:
+- **TRUE** (Verdadeiro, 1, Sim)
+- **FALSE** (Falso, 0, Não)
 
-**Exemples d'affirmations booléennes :**
+**Exemplos de declarações booleanas:**
 ```
-"Il pleut" → VRAI ou FAUX
-"5 est plus grand que 3" → VRAI
-"10 est égal à 20" → FAUX
-"La porte est ouverte" → VRAI ou FAUX
+"Está chovendo" → VERDADEIRO ou FALSO
+"5 é maior que 3" → VERDADEIRO
+"10 é igual a 20" → FALSO
+"A porta está aberta" → VERDADEIRO ou FALSO
 ```
 
-**En Pascal :**
+**Em Pascal:**
 ```pascal
 var
-  estVrai: Boolean;
+isTrue: Boolean;
 
 begin
-  estVrai := True;   // Affectation de VRAI
-  estVrai := False;  // Affectation de FAUX
-end.
+isTrue := True; // Atribui TRUE
+isTrue := False; // Atribui FALSE
+end. ```
+
+## Operadores Lógicos Básicos
+
+### O Operador NOT
+
+**Símbolo em Pascal:** `not`
+
+**Função:** Inverte um valor booleano.
+
+**Tabela Verdade:**
 ```
-
-## Les opérateurs logiques de base
-
-### L'opérateur NOT (NON)
-
-**Symbole en Pascal :** `not`
-
-**Fonction :** Inverse une valeur booléenne.
-
-**Table de vérité :**
-```
-| A     | NOT A |
+| A | NOT A |
 |-------|-------|
-| VRAI  | FAUX  |
-| FAUX  | VRAI  |
+| TRUE | FALSE |
+| FALSE | TRUE |
 ```
 
-**Exemples concrets :**
+**Exemplos Concretos:**
 ```
-NOT (Il pleut) = Il ne pleut pas
-NOT (La porte est ouverte) = La porte est fermée
-NOT (VRAI) = FAUX
-NOT (FAUX) = VRAI
+NOT (Está chovendo) = Não está chovendo
+NOT (A porta está aberta) = A porta está fechada
+NOT (TRUE) = FALSE
+NOT (FALSE) = TRUE
 ```
 
-**En Pascal :**
+**Em Pascal:**
 ```pascal
 var
-  aFaim: Boolean;
-  nAPasFaim: Boolean;
+aFaim: Boolean;
+nAPasFaim: Boolean;
 
 begin
-  aFaim := True;
-  nAPasFaim := not aFaim;  // nAPasFaim vaut False
-end.
+aFaim := True;
+nAPasFaim := not aFaim; // nAPasFaim é Falso
+fim.
 ```
 
-### L'opérateur AND (ET)
+### O Operador AND
 
-**Symbole en Pascal :** `and`
+**Símbolo de Pascal:** `and`
 
-**Fonction :** Retourne VRAI seulement si **toutes** les conditions sont vraies.
+**Função:** Retorna VERDADEIRO somente se **todas** as condições forem verdadeiras.
 
-**Table de vérité :**
+**Tabela Verdade:**
 ```
-| A     | B     | A AND B |
+| A | B | A E B |
 |-------|-------|---------|
-| FAUX  | FAUX  | FAUX    |
-| FAUX  | VRAI  | FAUX    |
-| VRAI  | FAUX  | FAUX    |
-| VRAI  | VRAI  | VRAI    |
+| FALSO | FALSO | FALSO |
+| FALSO | VERDADEIRO | FALSO |
+| VERDADEIRO | VERDADEIRO | VERDADEIRO |
 ```
 
-**Mémorisation :** Le résultat n'est VRAI que si A **ET** B sont vrais tous les deux.
+**Memorização:** O resultado é VERDADEIRO somente se A **E** B forem ambos verdadeiros.
 
-**Exemples concrets :**
+**Exemplos concretos:**
 ```
-(J'ai faim) AND (Il y a de la nourriture) → Je peux manger
-(Il pleut) AND (J'ai un parapluie) → Je peux sortir sans me mouiller
-(Age >= 18) AND (A le permis) → Peut conduire
+(Estou com fome) E (Tem comida) → Eu posso comer
+(Está chovendo) E (Eu tenho um guarda-chuva) → Eu posso sair sem me molhar
+(Idade >= 18) E (Tem carteira de habilitação) → Posso dirigir
 ```
 
-**En Pascal :**
+**Em Pascal:**
 ```pascal
 var
-  aFaim, aNourriture, peutManger: Boolean;
+aHunger, aFood, canEat: Boolean;
 
 begin
-  aFaim := True;
-  aNourriture := True;
-  peutManger := aFaim and aNourriture;  // VRAI
+aHunger := True;
+aFood := True;
+canEat := aHunger and aFood; // TRUE
 
-  // Exemple avec des conditions
-  if (age >= 18) and (aPermis) then
-    WriteLn('Vous pouvez conduire');
+// Exemplo com condições
+if (idade >= 18) and (aLicense) then
+WriteLn('Você pode dirigir');
 end.
 ```
 
-### L'opérateur OR (OU)
+### O Operador OU
 
-**Symbole en Pascal :** `or`
+**Símbolo em Pascal:** `ou`
 
-**Fonction :** Retourne VRAI si **au moins une** des conditions est vraie.
+**Função:** Retorna VERDADEIRO se **pelo menos uma** das condições for verdadeira.
 
-**Table de vérité :**
+**Tabela Verdade:**
 ```
-| A     | B     | A OR B |
+| A | B | A OU B |
 |-------|-------|--------|
-| FAUX  | FAUX  | FAUX   |
-| FAUX  | VRAI  | VRAI   |
-| VRAI  | FAUX  | VRAI   |
-| VRAI  | VRAI  | VRAI   |
+| FALSO | FALSO | FALSO |
+| FALSO | VERDADEIRO | VERDADEIRO |
+| VERDADEIRO | FALSO | VERDADEIRO |
 ```
 
-**Mémorisation :** Le résultat est VRAI si A **OU** B (ou les deux) est vrai.
+**Memorização:** O resultado é VERDADEIRO se A **OU** B (ou ambos) forem verdadeiros.
 
-**Exemples concrets :**
+**Exemplos concretos:**
 ```
-(C'est samedi) OR (C'est dimanche) → C'est le week-end
-(Il fait chaud) OR (J'ai soif) → Je veux boire
-(Note >= 10) OR (Rattrapages réussis) → Examen validé
+(É sábado) OU (É domingo) → É fim de semana
+(Está calor) OU (Estou com sede) → Quero beber
+(Nota >= 10) OU (Abdominais aprovados) → Exame aprovado
 ```
 
-**En Pascal :**
+**Em Pascal:**
 ```pascal
 var
-  estSamedi, estDimanche, estWeekend: Boolean;
+isSaturday, isSunday, isWeekend: Boolean;
 
 begin
-  estSamedi := False;
-  estDimanche := True;
-  estWeekend := estSamedi or estDimanche;  // VRAI
+isSaturday := False;
+isSunday := True;
+isWeekend := isSaturday or isSunday; // TRUE
 
-  // Exemple avec des conditions
-  if (temperature > 30) or (soleilBrillant) then
-    WriteLn('Portez de la crème solaire');
+// Exemplo com condições
+if (temperatura > 30) or (solBrilho) then
+WriteLn('Usar protetor solar');
 end.
 ```
 
-## Les opérateurs logiques composés
+## Operadores Lógicos Compostos
 
-### L'opérateur XOR (OU exclusif)
+### O Operador XOR (OU Exclusivo)
 
-**Symbole en Pascal :** `xor`
+**Símbolo em Pascal:** `xor`
 
-**Fonction :** Retourne VRAI si **une seule** des deux conditions est vraie (mais pas les deux).
+**Função:** Retorna VERDADEIRO se **apenas** uma das duas condições for verdadeira (mas não ambas).
 
-**Table de vérité :**
+**Tabela Verdade:**
 ```
-| A     | B     | A XOR B |
+| A | B | A XOR B |
 |-------|-------|---------|
-| FAUX  | FAUX  | FAUX    |
-| FAUX  | VRAI  | VRAI    |
-| VRAI  | FAUX  | VRAI    |
-| VRAI  | VRAI  | FAUX    |
+| FALSO | FALSO | FALSO |
+| FALSO | VERDADEIRO | VERDADEIRO |
+| VERDADEIRO | VERDADEIRO | FALSO |
 ```
 
-**Mémorisation :** Le résultat est VRAI si A et B sont **différents**.
+**Memorização:** O resultado é VERDADEIRO se A e B forem **diferentes**.
 
-**Exemples concrets :**
+**Exemplos concretos:**
 ```
-(Thé) XOR (Café) → Je prends l'un OU l'autre, mais pas les deux
-(Pile) XOR (Face) → Une pièce ne peut être que pile ou face
+(Chá) XOR (Café) → Eu pego um OU o outro, mas não ambos
+(Cara) XOR (Coroa) → Uma moeda só pode ser cara ou coroa
 ```
 
-**En Pascal :**
+**Em Pascal:**
 ```pascal
 var
-  choixThe, choixCafe: Boolean;
+choiceThe, choiceCafe: Boolean;
 
 begin
-  choixThe := True;
-  choixCafe := False;
+choiceThe := True;
+choiceCafe := False;
 
-  if choixThe xor choixCafe then
-    WriteLn('Vous avez fait un choix exclusif');
-  // Résultat : VRAI (un seul est vrai)
+if choiceThe xor choiceCafe then
+WriteLn('Você fez uma escolha exclusiva');
+// Resultado: VERDADEIRO (apenas uma é verdadeira)
 end.
 ```
 
-### Les opérateurs NAND et NOR
+### Os Operadores NAND e NOR
 
-Ces opérateurs sont moins courants en programmation mais importants en électronique.
+Esses operadores são menos comuns em programação, mas importantes em eletrônica.
 
-**NAND (NOT AND) :**
+**NAND (NÃO E):**
 ```
-| A     | B     | A NAND B |
+| A | B | A NAND B |
 |-------|-------|----------|
-| FAUX  | FAUX  | VRAI     |
-| FAUX  | VRAI  | VRAI     |
-| VRAI  | FAUX  | VRAI     |
-| VRAI  | VRAI  | FAUX     |
+| FALSE | FALSO | VERDADEIRO |
+| FALSO | VERDADEIRO | VERDADEIRO |
+| VERDADEIRO | FALSO | VERDADEIRO |
+| VERDADEIRO | VERDADEIRO | FALSO |
 ```
 
 NAND = NOT (A AND B)
 
-**NOR (NOT OR) :**
+**NOR (NOT OR):**
 ```
-| A     | B     | A NOR B |
+| A | B | A NOR B |
 |-------|-------|---------|
-| FAUX  | FAUX  | VRAI    |
-| FAUX  | VRAI  | FAUX    |
-| VRAI  | FAUX  | FAUX    |
-| VRAI  | VRAI  | FAUX    |
+| FALSO | FALSO | VERDADEIRO |
+| FALSO | VERDADEIRO | FALSO |
+| VERDADEIRO | FALSO | FALSO |
 ```
 
 NOR = NOT (A OR B)
 
-**En Pascal :**
+**Em Pascal:**
 ```pascal
-// NAND s'écrit :
-resultat := not (A and B);
+// NAND é escrito:
+result := not (A e B);
 
-// NOR s'écrit :
-resultat := not (A or B);
+/ NOR é escrito:
+result := not (A ou B);
 ```
 
-## Les opérateurs de comparaison
+## Operadores de Comparação
 
-Ces opérateurs retournent des valeurs booléennes.
+Esses operadores retornam valores booleanos.
 
-### Opérateurs disponibles en Pascal
+### Operadores disponíveis em Pascal
 
 ```
-=   : Égal à
-<>  : Différent de
-<   : Inférieur à
->   : Supérieur à
-<=  : Inférieur ou égal à
->=  : Supérieur ou égal à
+= : Igual a
+<> : Diferente de
+< : Menor que
+> : Maior que
+<= : Menor ou igual a
+>= : Maior ou igual a
 ```
 
-**Exemples :**
+**Exemplos:**
 ```pascal
-5 = 5      // VRAI
-5 <> 3     // VRAI (5 est différent de 3)
-10 > 7     // VRAI
-10 < 7     // FAUX
-10 >= 10   // VRAI
-8 <= 5     // FAUX
+5 = 5 // VERDADEIRO
+5 <> 3 // VERDADEIRO (5 não é igual a 3)
+10 > 7 // VERDADEIRO
+10 < 7 // FALSO
+10 >= 10 // VERDADEIRO
+8 <= 5 // FALSO
 ```
 
-### Utilisation dans les expressions
+### Uso em expressões
 
-```pascal
-var
-  age: Integer;
-  estMajeur, estEnfant: Boolean;
-
-begin
-  age := 20;
-
-  estMajeur := (age >= 18);     // VRAI
-  estEnfant := (age < 12);      // FAUX
-
-  if (age >= 18) and (age < 65) then
-    WriteLn('Vous êtes un adulte actif');
-end.
-```
-
-## Les expressions booléennes complexes
-
-### Combinaison d'opérateurs
-
-On peut combiner plusieurs opérateurs logiques dans une même expression.
-
-**Exemple 1 :** Pour entrer dans un parc d'attractions
 ```pascal
 var
-  age, taille: Integer;
-  avecAdulte, peutEntrer: Boolean;
+idade: Inteiro;
+éMaior, éFilho: Booleano;
 
 begin
-  age := 10;
-  taille := 140;
-  avecAdulte := True;
+idade := 20;
 
-  // Conditions : (plus de 12 ans) OU (plus de 130cm ET accompagné)
-  peutEntrer := (age >= 12) or ((taille >= 130) and avecAdulte);
-  // Résultat : VRAI
-end.
+éMaior := (idade >= 18); // VERDADEIRO
+éFilho := (idade < 12); // FALSO
+
+se (idade >= 18) e (idade < 65), então
+WriteLn('Você é um adulto ativo');
+fim.
 ```
 
-**Exemple 2 :** Conditions d'accès à une réduction
+## Expressões Booleanas Complexas
+
+### Operadores Combinadores
+
+Você pode combinar vários operadores lógicos em uma única expressão.
+
+**Exemplo 1:** Para entrar em um parque de diversões
 ```pascal
-// Réduction si : (Étudiant OU Retraité) ET pas déjà client
-reductionApplicable := (estEtudiant or estRetraite) and (not estDejaClient);
+var
+idade, altura: Inteiro;
+comAdulto, podeEntrar: Booleano;
+
+começo
+idade:= 10;
+altura:= 140;
+comAdulto:= Verdadeiro;
+
+// Condições: (acima de 12 anos) OU (acima de 130 cm E acompanhado)
+podeEntrar:= (idade >= 12) ou ((altura >= 130) e comAdulto);
+// Resultado: VERDADEIRO
+fim.
 ```
 
-### Ordre de priorité des opérateurs
-
-Comme en mathématiques, il existe un ordre de priorité :
-
-**1. Parenthèses** : `( )`
-**2. NOT** (négation)
-**3. AND** (multiplication logique)
-**4. OR, XOR** (addition logique)
-**5. Comparaisons** : `=`, `<>`, `<`, `>`, `<=`, `>=`
-
-**Exemple sans parenthèses :**
+**Exemplo 2:** Condições para acessar um desconto
 ```pascal
-A or B and C
-// Équivaut à : A or (B and C)
-// AND est évalué avant OR
+// Desconto se: (Estudante OU Aposentado) E ainda não for cliente
+reductionApplicable := (éEstudante ou éAposentado) e (não éJáJáUmCliente);
 ```
 
-**Conseil :** Utilisez toujours des parenthèses pour clarifier vos intentions, même si ce n'est pas strictement nécessaire.
+### Precedência de operadores
+
+Como na matemática, há uma ordem de precedência:
+
+**1. Parênteses**: `( )`
+**2. NÃO** (negação)
+**3. E** (multiplicação lógica)
+**4. OU, XOR** (adição lógica)
+**5. Comparações**: `=`, `<>`, `<`, `>`, `<=`, `>=`
+
+**Exemplo sem parênteses:**
+```pascal
+A ou B e C
+// Equivalente a: A ou (B e C)
+// AND é avaliado antes de OR
+```
+
+**Dica:** Sempre use parênteses para esclarecer suas intenções, mesmo que não seja estritamente necessário.
 
 ```pascal
-// Ambigu
-if age >= 18 and age <= 65 or estRetraite then ...
+// Ambíguo
+se idade >= 18 e idade <= 65 ou estRetirement então ...
 
-// Clair
-if ((age >= 18) and (age <= 65)) or estRetraite then ...
-```
-
-## Les lois de la logique booléenne
-
-### Lois fondamentales
-
-**Loi de commutativité :**
-```
-A AND B = B AND A
-A OR B = B OR A
+// Limpar
+se ((idade >= 18) e (idade <= 65)) ou estRetirement então ...
 ```
 
-**Loi d'associativité :**
+## As leis da lógica booleana
+
+### Leis básicas
+
+**Lei da comutatividade:**
 ```
-(A AND B) AND C = A AND (B AND C)
-(A OR B) OR C = A OR (B OR C)
+A E B = B E A
+A OU B = B OU A
 ```
 
-**Loi de distributivité :**
+**Lei da associatividade:**
 ```
-A AND (B OR C) = (A AND B) OR (A AND C)
-A OR (B AND C) = (A OR B) AND (A OR C)
-```
-
-**Loi de l'identité :**
-```
-A AND VRAI = A
-A OR FAUX = A
+(A E B) E C = A E (B E C)
+(A OU B) OU C = A OU (B OU C)
 ```
 
-**Loi de l'élément absorbant :**
+**Lei distributiva:**
 ```
-A AND FAUX = FAUX
-A OR VRAI = VRAI
-```
-
-**Loi de complémentarité :**
-```
-A AND (NOT A) = FAUX
-A OR (NOT A) = VRAI
+A E (B OU C) = (A E B) OU (A E C)
+A OU (B E C) = (A OU B) E (A OU C)
 ```
 
-**Loi de la double négation :**
+**Lei da Identidade:**
 ```
-NOT (NOT A) = A
-```
-
-### Les lois de De Morgan
-
-Ces lois sont très importantes pour simplifier les expressions :
-
-**Première loi :**
-```
-NOT (A AND B) = (NOT A) OR (NOT B)
+A E VERDADEIRO = A
+A OU FALSO = A
 ```
 
-**Deuxième loi :**
+**Lei dos Elementos Absorventes:**
 ```
-NOT (A OR B) = (NOT A) AND (NOT B)
+A E FALSO = FALSO
+A OU VERDADEIRO = VERDADEIRO
 ```
 
-**Exemple pratique :**
+**Lei da Complementaridade:**
+```
+A E (NÃO A) = FALSO
+A OU (NÃO A) = VERDADEIRO
+```
+
+**Lei da Dupla Negação:**
+```
+NÃO (NÃO A) = A
+```
+
+### Leis de De Morgan
+
+Estas leis são muito importantes para simplificar expressões:
+
+**Primeira Lei:**
+```
+NÃO (A E B) = (NÃO A) OU (NÃO B)
+```
+
+**Segunda Lei:**
+```
+NÃO (A OU B) = (NÃO A) E (NÃO B)
+```
+
+**Exemplo Prático :**
 ```pascal
-// Expression originale
+// Expressão original
 if not ((age < 18) or (age > 65)) then
-  WriteLn('Adulte actif');
+WriteLn('Adulto ativo');
 
-// Équivalent selon De Morgan
+/ Equivalente de acordo com De Morgan
 if (age >= 18) and (age <= 65) then
-  WriteLn('Adulte actif');
+WriteLn('Adulto ativo');
 ```
 
-## Tables de vérité pour expressions complexes
+## Tabelas verdade para expressões complexas
 
-### Construire une table de vérité
+### Construindo uma tabela verdade
 
-Pour analyser une expression complexe, on construit une table avec toutes les combinaisons possibles.
+Para analisar uma expressão complexa, construímos uma tabela com todas as combinações possíveis.
 
-**Exemple : (A AND B) OR (NOT A AND C)**
+**Exemplo: (A AND B) OR (NOT A AND C)**
 
 ```
-| A     | B     | C     | A AND B | NOT A | NOT A AND C | Résultat |
-|-------|-------|-------|---------|-------|-------------|----------|
-| FAUX  | FAUX  | FAUX  | FAUX    | VRAI  | FAUX        | FAUX     |
-| FAUX  | FAUX  | VRAI  | FAUX    | VRAI  | VRAI        | VRAI     |
-| FAUX  | VRAI  | FAUX  | FAUX    | VRAI  | FAUX        | FAUX     |
-| FAUX  | VRAI  | VRAI  | FAUX    | VRAI  | VRAI        | VRAI     |
-| VRAI  | FAUX  | FAUX  | FAUX    | FAUX  | FAUX        | FAUX     |
-| VRAI  | FAUX  | VRAI  | FAUX    | FAUX  | FAUX        | FAUX     |
-| VRAI  | VRAI  | FAUX  | VRAI    | FAUX  | FAUX        | VRAI     |
-| VRAI  | VRAI  | VRAI  | VRAI    | FAUX  | FAUX        | VRAI     |
+| A | B | C | A AND B | NOT A | NOT A AND C | Resultado |
+|-------|-------|-------|---------|----------|------|----------|----------|----------|
+| FALSO | FALSO | FALSO | VERDADEIRO | FALSO | FALSO |
+| FALSO | FALSO | VERDADEIRO | FALSO | VERDADEIRO | VERDADEIRO | VERDADEIRO | VERDADEIRO |
+| FALSO | VERDADEIRO | FALSO | FALSO | VERDADEIRO | FALSO | FALSO |
+| VERDADEIRO | FALSO | FALSO | FALSO | FALSO | FALSO |
+| VERDADEIRO | FALSO | FALSO | FALSO | FALSO | FALSO | FALSO |
+| VERDADEIRO | VERDADEIRO | FALSO | FALSO | FALSO | FALSO | VERDADEIRO |
+| VERDADEIRO | VERDADEIRO | VERDADEIRO | FALSO | FALSO | FALSO | VERDADEIRO |
 ```
 
-**Méthode :**
-1. Lister toutes les combinaisons possibles des variables (2ⁿ lignes pour n variables)
-2. Calculer les expressions intermédiaires
-3. Calculer le résultat final
+**Método:**
+1. Liste todas as combinações possíveis de variáveis ​​(2 linhas para n variáveis)
+2. Calcule as expressões intermediárias
+3. Calcule o resultado final
 
-## Applications en programmation
+## Aplicações de Programação
 
-### Les conditions IF
+### Condições SE
 
-Les expressions booléennes sont au cœur des instructions conditionnelles.
+Expressões booleanas são o cerne das instruções condicionais.
 
 ```pascal
 var
-  temperature: Integer;
-  estEte, faitChaud: Boolean;
+temperatura: Inteiro;
+éVerão, éQuente: Booleano;
 
 begin
-  temperature := 28;
-  estEte := True;
+temperatura := 28;
+éVerão := Verdadeiro;
 
-  // Condition simple
-  if temperature > 25 then
-    WriteLn('Il fait chaud');
+/ Condição Simples
+se temperatura > 25 então
+WriteLn('Está quente');
 
-  // Condition composée
-  if (temperature > 25) and estEte then
-    WriteLn('C''est l''été et il fait chaud');
+/ Condição Composta
+se (temperatura > 25) e éVerão então
+WriteLn('É verão e está quente');
 
-  // Condition avec ELSE
-  if (temperature < 10) or (not estEte) then
-    WriteLn('Prenez un manteau')
-  else
-    WriteLn('Vêtements légers suffisent');
-end.
+// Condição com ELSE
+se (temperatura < 10) ou (não estEte) então
+WriteLn('Leve um casaco')
+senão
+WriteLn('Roupas leves são suficientes');
+fim.
 ```
 
-### Les boucles WHILE
+### Laços WHILE
 
-Les boucles utilisent aussi des expressions booléennes.
+Uso de laços também expressões booleanas.
 
 ```pascal
 var
-  compteur, somme: Integer;
-  continuer: Boolean;
+contador, soma: Inteiro;
+continue: Booleano;
 
 begin
-  compteur := 1;
-  somme := 0;
-  continuer := True;
+contador := 1;
+soma := 0;
+continue := Verdadeiro;
 
-  // La boucle continue tant que la condition est VRAIE
-  while (compteur <= 10) and continuer do
-  begin
-    somme := somme + compteur;
-    compteur := compteur + 1;
+/ O loop continua enquanto a condição for VERDADEIRA
+while (contador <= 10) and continue do
+begin
+soma := soma + contador;
+contador := contador + 1;
 
-    // On peut arrêter la boucle si une condition est remplie
-    if somme > 30 then
-      continuer := False;
-  end;
-end.
+/ O loop pode ser interrompido se uma condição for atendida
+if soma > 30 then
+continue := Falso;
+fim;
+fim.
 ```
 
-### Les drapeaux (flags)
+### Sinalizadores
 
-Les variables booléennes servent souvent de drapeaux pour contrôler l'état du programme.
+Variáveis ​​booleanas são frequentemente usadas como sinalizadores para controlar o estado do programa.
 
 ```pascal
 var
-  trouve, erreur, fini: Boolean;
-  i: Integer;
+encontrado, erro, finalizado: Booleano;
+i: Inteiro;
 
 begin
-  trouve := False;
-  erreur := False;
-  i := 1;
+encontrado := Falso;
+erro := Falso;
+i := 1;
 
-  while (i <= 100) and (not trouve) and (not erreur) do
-  begin
-    // Recherche d'un élément
-    if tableau[i] = valeurRecherchee then
-      trouve := True
-    else if tableau[i] < 0 then
-      erreur := True;
+enquanto (i <= 100) e (não encontrado) e (não erro)
+começar
+// Procurar um elemento
+se array[i] = valorDePesquisa, então
+encontrado:= Verdadeiro
+senão se array[i] < 0, então
+erro:= Verdadeiro;
 
-    i := i + 1;
-  end;
+i := i + 1;
+fim;
 
-  if trouve then
-    WriteLn('Élément trouvé')
-  else if erreur then
-    WriteLn('Erreur détectée')
-  else
-    WriteLn('Élément non trouvé');
-end.
+se encontrado, então
+WriteLn('Elemento encontrado')
+senão se erro, então
+WriteLn('Erro detectado')
+senão
+WriteLn('Elemento não encontrado');
+fim.
 ```
 
-## Court-circuit d'évaluation
+## Curto-circuito na Avaliação
 
-### Qu'est-ce que le court-circuit ?
+### O que é curto-circuito?
 
-En Pascal (et beaucoup d'autres langages), les expressions booléennes sont évaluées de gauche à droite, et l'évaluation s'arrête dès que le résultat est connu.
+Em Pascal (e em muitas outras linguagens), as expressões booleanas são avaliadas da esquerda para a direita e a avaliação para assim que o resultado é conhecido.
 
-**Pour AND :**
-- Si la première condition est FAUX, le résultat est forcément FAUX
-- La deuxième condition n'est pas évaluée
+**Para E:**
+- Se a primeira condição for FALSA, o resultado será necessariamente FALSA
+- A segunda condição não será avaliada
 
-**Pour OR :**
-- Si la première condition est VRAI, le résultat est forcément VRAI
-- La deuxième condition n'est pas évaluée
+**Para OU:**
+- Se a primeira condição for VERDADEIRA, o resultado será necessariamente VERDADEIRA
+- A segunda condição não será avaliada
 
-### Exemple pratique
+### Exemplo prático
 
-```pascal
-// Éviter une division par zéro
-if (denominateur <> 0) and (numerateur / denominateur > 10) then
-  WriteLn('Résultat supérieur à 10');
-// Si denominateur = 0, la division n'est jamais effectuée
+pascal
+// Evitar divisão por zero
+if (denominador <> 0) and (numerador / denominador > 10) then
+WriteLn('Resultado maior que 10');
+// Se denominador = 0, a divisão nunca será realizada
 
-// Vérifier qu'un tableau n'est pas vide avant d'accéder à un élément
-if (Length(tableau) > 0) and (tableau[0] = valeur) then
-  WriteLn('Premier élément correspond');
+// Verificar se um array não está vazio antes de acessar um elemento
+if (Comprimento(array) > 0) and (array[0] = valor) then
+WriteLn('O primeiro elemento corresponde');
 ```
 
-**Attention :** En FreePascal, pour garantir le court-circuit, utilisez les directives de compilation ou les opérateurs spéciaux `and then` et `or else` :
+**Aviso:** No FreePascal, para garantir o curto-circuito, use as diretivas do compilador ou os operadores especiais `and then` e `or else`:
 
 ```pascal
-// Court-circuit garanti
+// Curto-circuito garantido
 if (x <> 0) and then (y / x > 5) then
-  WriteLn('OK');
+WriteLn('OK');
 ```
 
-## Simplification d'expressions booléennes
+## Simplificando Expressões Booleanas
 
-### Pourquoi simplifier ?
+### Por que simplificar?
 
-Une expression simplifiée est :
-- Plus facile à comprendre
-- Plus rapide à exécuter
-- Moins sujette aux erreurs
+Uma expressão simplificada é:
+- Mais fácil de entender
+- Mais rápida de executar
+- Menos propensa a erros
 
-### Exemples de simplification
+### Exemplos de Simplificação
 
-**Exemple 1 : Utilisation des lois**
+**Exemplo 1: Usando Leis**
 ```pascal
-// Expression originale
+// Expressão Original
 if (age >= 18) and (True) then
-  ...
+...
 
-// Simplifié (loi de l'identité : A AND VRAI = A)
+// Simplificada (Lei da Identidade: A AND TRUE = A)
 if age >= 18 then
-  ...
+...
 ```
 
-**Exemple 2 : Élimination des négations doubles**
+**Exemplo 2: Eliminando Negações Duplas**
 ```pascal
-// Expression originale
-if not (not estActif) then
-  ...
+// Expressão Original
+if not (not isActive) then
+...
 
-// Simplifié (double négation)
-if estActif then
-  ...
+// Simplificada (negação dupla)
+if isActive then
+...
 ```
 
-**Exemple 3 : Application de De Morgan**
+**Exemplo 3: Aplicando De Morgan**
 ```pascal
-// Expression originale
-if not (estFermé or estComplet) then
-  ...
+// Expressão Original
+if not (isClosed or isComplete) then
+...
 
-// Simplifié (De Morgan)
-if (not estFermé) and (not estComplet) then
-  ...
+// Simplificada (De Morgan)
+if (not isClosed) and (not isFull) então
+...
 
-// Ou mieux, avec des noms positifs
-if estOuvert and aPlacesDisponibles then
-  ...
+// Ou melhor, com nomes positivos
+se isOpen e hasAvailablePlaces então
+...
 ```
 
-## Bonnes pratiques
+## Melhores Práticas
 
-### 1. Utilisez des noms de variables explicites
+### 1. Use nomes de variáveis ​​explícitos
 
 ```pascal
-// Mauvais
-if x and y or not z then ...
+// Ruim
+se x e y ou não z então ...
 
-// Bon
-if estConnecté and aLesPermissions or not estVerrouillé then ...
+// Bom
+se isLoggedIn e hasPermissions ou não isLocked então ...
 ```
 
-### 2. Évitez les comparaisons inutiles avec True/False
+### 2. Evite comparações desnecessárias de Verdadeiro/Falso
 
 ```pascal
-// Mauvais
-if estActif = True then ...
-if estFermé = False then ...
+// Ruim
+se isActive = True então ...
+se isClosed = False então ...
 
-// Bon
-if estActif then ...
-if not estFermé then ...
+// Bom
+se isActive então ...
+se não isClosed então ...
 ```
 
-### 3. Utilisez des parenthèses pour la clarté
+### 3. Use parênteses para maior clareza
 
 ```pascal
-// Moins clair
-if age >= 18 and age <= 65 or estRetraité then ...
+// Menos claro
+se age >= 18 and age <= 65 or isRetired então ...
 
-// Plus clair
-if ((age >= 18) and (age <= 65)) or estRetraité then ...
+// Mais claro
+se ((age >= 18) and (age <= 65)) ou isRetired então ...
 ```
 
-### 4. Préférez les expressions positives
+### 4. Prefira expressões positivas
 
 ```pascal
-// Moins clair
-if not (not estOuvert) then ...
+// Menos claro
+if not (not isOpen) then ...
 
-// Plus clair
-if estOuvert then ...
+// Mais claro
+if isOpen then ...
 ```
 
-### 5. Décomposez les expressions complexes
+### 5. Decomponha expressões complexas
 
 ```pascal
-// Complexe
-if (age >= 18) and (age <= 65) and (aPermis) and (not estSuspendu) then ...
+// Complexo
+if (age >= 18) and (age <= 65) and (hasLicense) and (not isSuspended) then ...
 
-// Plus lisible
+// Mais legível
 var
-  estAdulte, peutConduire: Boolean;
+isAdult, canDrive: Boolean;
 begin
-  estAdulte := (age >= 18) and (age <= 65);
-  peutConduire := aPermis and (not estSuspendu);
+isAdult := (age >= 18) and (age <= 65);
+canDrive := hasLicense and (not isSuspended);
 
-  if estAdulte and peutConduire then ...
+if isAdult and canDrive then ...
 end.
 ```
 
-## Pièges courants à éviter
+## Armadilhas comuns a evitar
 
-### 1. Confusion entre = et :=
+### 1. Confusão entre = e :=
 
 ```pascal
-// Erreur : = est pour la comparaison, pas l'affectation
+// Erro: = é para comparação, não atribuição
 if x = 5 then
-  x = 10;  // ERREUR !
+x = 10; // ERRO!
 
-// Correct
+/ Correto
 if x = 5 then
-  x := 10;  // Affectation
+x := 10; // Tarefa
 ```
 
-### 2. Oublier les parenthèses
+### 2. Esquecendo Parênteses
 
 ```pascal
-// Ambigu à cause de la priorité des opérateurs
+// Ambíguo devido à precedência de operadores
 if age >= 18 and aPermis then ...
 
-// Mieux
+// Melhor
 if (age >= 18) and aPermis then ...
 ```
 
-### 3. Négations complexes
+### 3. Negações Complexas
 
 ```pascal
-// Difficile à comprendre
+// Difícil de entender
 if not (not A and not B) then ...
 
-// Appliquer De Morgan pour simplifier
+// Aplique De Morgan para simplificar
 if A or B then ...
 ```
 
-### 4. Court-circuit involontaire
+### 4. Curto-circuito não intencional
 
 ```pascal
-// Peut causer des problèmes si la fonction a des effets de bord
-if (a > 0) and FonctionQuiModifie() then ...
-// Si a <= 0, FonctionQuiModifie() n'est jamais appelée !
+// Pode causar problemas se a função tiver efeitos colaterais
+if (a > 0) and FunctionThatModifies() then ...
+// Se a <= 0, FunctionThatModifies() nunca é chamada!
 ```
 
-## Conclusion
+## Conclusão
 
-La logique booléenne est un outil fondamental en programmation qui vous permettra de créer des programmes intelligents capables de prendre des décisions.
+A lógica booleana é uma ferramenta fundamental em Programação que permitirá a você criar programas inteligentes capazes de tomar decisões.
 
-**Points clés à retenir :**
-- Il n'existe que deux valeurs booléennes : VRAI et FAUX
-- Les opérateurs de base sont NOT, AND, OR
-- Les tables de vérité permettent d'analyser les expressions
-- Les lois booléennes permettent de simplifier les expressions
-- Les expressions booléennes sont au cœur des structures de contrôle (if, while)
-- Utilisez des noms explicites et des parenthèses pour la clarté
-- Attention à l'évaluation en court-circuit
+**Principais Conclusões:**
+- Existem apenas dois valores booleanos: TRUE e FALSE
+- Os operadores básicos são NOT, AND e OR
+- Tabelas verdade permitem analisar expressões
+- Leis booleanas permitem simplificar expressões
+- Expressões booleanas estão no centro das estruturas de controle (if, while)
+- Use nomes e parênteses explícitos para maior clareza
+- Cuidado com avaliações em curto-circuito
 
-**Ce que vous devez maîtriser :**
-- Construire et comprendre des tables de vérité
-- Combiner des conditions avec AND, OR, NOT
-- Simplifier des expressions booléennes
-- Utiliser correctement les opérateurs de comparaison
-- Écrire des conditions claires et maintenables
+**O que você precisa dominar:**
+- Construir e compreender tabelas verdade
+- Combinar condições com AND, OR e NOT
+- Simplificar expressões booleanas
+- Usar operadores de comparação corretamente
+- Escrever condições claras e fáceis de manter
 
-Dans la prochaine section, nous mettrons ces connaissances en pratique avec les algorithmes et le pseudo-code, avant de commencer à programmer réellement en Pascal.
+Na próxima seção, colocaremos esse conhecimento em prática com algoritmos e pseudocódigo, antes de começarmos a programar em Pascal.
 
-⏭️ [Algorithmes et pseudo-code](/01-prerequis-bases-programmation/05-algorithmes-pseudo-code.md)
+⏭️ [Algoritmos e pseudocódigo](/01-prerequisites-programming-bases/05-algorithms-pseudo-code.md)
