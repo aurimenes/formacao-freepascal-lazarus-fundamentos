@@ -1,102 +1,102 @@
-# Formation FreePascal/Lazarus
+# Treinamento FreePascal/Lazarus
 
-## De Débutant à Intermédiaire - Édition Multi-plateforme
+## Do Iniciante ao Intermediário - Edição Multiplataforma
 
-### 📚 À propos de cette formation
+### 📚 Sobre este curso
 
-Formation complète et structurée pour apprendre la programmation en FreePascal et le développement d'applications avec Lazarus IDE. Cette formation couvre progressivement tous les concepts essentiels, des bases de la programmation jusqu'aux techniques intermédiaires de développement multi-plateforme.
+Um treinamento abrangente e estruturado para aprender programação e desenvolvimento de aplicativos FreePascal com o IDE Lazarus. Este curso aborda progressivamente todos os conceitos essenciais, desde os fundamentos da programação até técnicas intermediárias de desenvolvimento multiplataforma.
 
-### 🎯 Objectifs pédagogiques
+### 🎯 Objetivos de Aprendizagem
 
-- Maîtriser les fondamentaux de la programmation en Pascal
-- Comprendre et appliquer les concepts de la programmation orientée objet
-- Développer des applications graphiques avec Lazarus et la LCL
-- Créer des applications multi-plateformes (Windows/Linux)
-- Acquérir les compétences intermédiaires : bases de données, API REST, multi-threading
+- Dominar os fundamentos da programação em Pascal
+- Entender e aplicar os conceitos da programação orientada a objetos
+- Desenvolver aplicações gráficas com Lazarus e LCL
+- Criar aplicações multiplataforma (Windows/Linux)
+- Adquirir habilidades intermediárias: bancos de dados, APIs REST, multithreading
 
-### 👥 Public cible
+### 👥 Público-alvo
 
-- **Débutants complets** en programmation souhaitant apprendre avec un langage structuré
-- **Étudiants** en informatique cherchant une ressource complète en français
-- **Développeurs** voulant découvrir FreePascal/Lazarus
-- **Enseignants** recherchant un support de cours structuré
+- **Iniciantes** em programação que desejam aprender com uma linguagem estruturada
+- **Estudantes de ciência da computação** que buscam um recurso abrangente em francês
+- **Desenvolvedores** que desejam descobrir FreePascal/Lazarus
+- **Professores** que buscam material didático estruturado
 
-### 📖 Structure de la formation
+### 📖 Estrutura do Curso
 
-La formation est organisée en **3 parties principales** et **20 modules** progressifs :
+O curso é organizado em **3 partes principais** e **20 módulos progressivos**:
 
-#### **PARTIE I : FONDAMENTAUX** (Modules 1-9)
-Bases de la programmation et introduction au langage Pascal
+#### **PARTE I: FUNDAMENTOS** (Módulos 1 a 9)
+Noções básicas de programação e introdução à linguagem Pascal
 
-#### **PARTIE II : PROGRAMMATION ORIENTÉE OBJET** (Modules 10-15)
-Concepts POO et développement d'applications graphiques
+#### **PARTE II: PROGRAMAÇÃO ORIENTADA A OBJETOS** (Módulos 10 a 15)
+Conceitos de POO e desenvolvimento de aplicações gráficas
 
-#### **PARTIE III : CONSOLIDATION INTERMÉDIAIRE** (Modules 16-20)
-Techniques avancées : bases de données, réseau, multi-threading
+#### **PARTE III: CONSOLIDAÇÃO INTERMEDIÁRIA** (Módulos 16 a 20)
+Técnicas avançadas: bancos de dados, redes, multithreading
 
-📋 **Consultez le [SOMMAIRE.md](SOMMAIRE.md) pour le détail complet des modules**
+📋 **Consulte [CONTENTS.md](CONTENTS.md) para obter detalhes completos dos módulos**
 
-### 🚀 Comment utiliser cette formation
+### 🚀 Como usar este treinamento
 
-1. **Suivez l'ordre des modules** - Chaque module s'appuie sur les précédents
-2. **Pratiquez avec les exemples** - Chaque concept est illustré par du code
-3. **Réalisez les exercices** - La pratique est essentielle pour progresser
-4. **Référez-vous aux projets complets** - Des applications complètes illustrent les concepts
+1. **Siga a ordem dos módulos** - Cada módulo se baseia nos anteriores
+2. **Pratique com os exemplos** - Cada conceito é ilustrado com código
+3. **Conclua os exercícios** - A prática é essencial para o progresso
+4. **Consulte os projetos completos** - Aplicações completas ilustram os conceitos
 
-### 🎓 Progression vers le Niveau Avancé
+### 🎓 Progressão para o Nível Avançado
 
-Une fois cette formation terminée, vous aurez acquis des bases solides en FreePascal/Lazarus. Pour approfondir vos compétences et devenir un développeur professionnel, poursuivez avec la **Formation FreePascal/Lazarus - Niveau Développeur Avancé** :
+Ao concluir este curso, você terá adquirido uma base sólida em FreePascal/Lazarus. Para aprimorar suas habilidades e se tornar um desenvolvedor profissional, continue com o **Treinamento FreePascal/Lazarus - Nível Desenvolvedor Avançado**:
 
-**🔗 [Formation Niveau Avancé sur GitHub](https://github.com/NDXDeveloper/formation-freepascal-lazarus-avancee)**
+**🔗 [Treinamento de Nível Avançado no GitHub](https://github.com/NDXDeveloper/formation-freepascal-lazarus-avancee)**
 
-Cette formation avancée comprend **26 modules** et **plus de 250 chapitres** couvrant :
+Este treinamento avançado inclui **26 módulos** e **mais de 250 capítulos**, abrangendo:
 
-- Langage Object Pascal moderne et fonctionnalités avancées
-- Développement multi-plateforme professionnel (Windows/Ubuntu/Android)
-- Architecture logicielle avancée et design patterns
-- Développement web, microservices et API REST
-- Bases de données avancées et ORM (mORMot)
-- Intelligence artificielle et machine learning
-- IoT, systèmes embarqués (Raspberry Pi, Arduino)
+- Linguagem Modern Object Pascal e recursos avançados
+- Desenvolvimento profissional multiplataforma (Windows/Ubuntu/Android)
+- Arquitetura de software avançada e padrões de design
+- Desenvolvimento web, microsserviços e APIs REST
+- Bancos de dados avançados e ORM (mORMot)
+- Inteligência artificial e aprendizado de máquina
+- IoT, sistemas embarcados (Raspberry Pi, Arduino)
 - DevOps, Docker, Kubernetes
-- Développement de jeux avec Castle Game Engine
-- Et bien plus encore...
+- Desenvolvimento de jogos com Castle Game Engine
+- E muito mais...
 
-La formation avancée est conçue pour transformer vos compétences intermédiaires en expertise professionnelle, avec des projets complexes et des études de cas réels.
+O treinamento avançado foi desenvolvido para transformar suas habilidades intermediárias em expertise profissional, com projetos complexos e estudos de caso reais.
 
-### 💻 Prérequis techniques
+### 💻 Requisitos Técnicos
 
-- **Système d'exploitation** : Windows 10/11 ou Ubuntu 20.04+
-- **IDE** : Lazarus 2.2+ avec FreePascal 3.2+
-- **Espace disque** : 2 GB minimum pour l'installation complète
-- **RAM** : 4 GB minimum recommandé
+- **Sistema Operacional**: Windows 10/11 ou Ubuntu 20.04+
+- **IDE**: Lazarus 2.2+ com FreePascal 3.2+
+- **Espaço em Disco**: Mínimo de 2 GB para instalação completa
+- **RAM**: Mínimo de 4 GB recomendado
 
-### 📂 Organisation du repository
+### 📂 Organização do Repositório
 ```
-formation-freepascal-lazarus-fondamentaux/
-├── 01-prerequis-bases-programmation/
-├── 02-introduction-langage-pascal/
-├── 03-structures-controle/
+freepascal-lazarus-fundamentals-training/
+├── 01-programming-basics-prerequisites/
+├── 02-pascal-language-introduction/
+├── 03-control-structures/
 ├── ...
-├── 20-debogage-optimisation/
-├── SOMMAIRE.md
-├── README.md
-└── LICENSE
+├── 20-debugging-optimization/
+├── RESUMO.md
+├── LEIA-ME.md
+└── LICENÇA
 ```
 
-Chaque module contient :
-- `README.md` : Introduction et objectifs du module
-- Fichiers numérotés : Leçons détaillées
-- `exemples/` : Code source des exemples
-- `exercices/` : Exercices pratiques
-- `projets/` : Projets complets (quand applicable)
+Cada módulo contém:
+- `LEIA-ME.md`: Introdução e objetivos do módulo
+- Arquivos numerados: Lições detalhadas
+- `exemplos/`: Código-fonte para exemplos
+- `exercícios/`: Exercícios práticos
+- `projetos/`: Projetos completos (quando aplicável)
 
-### 🛠️ Installation de l'environnement
+### 🛠️ Instalação do Ambiente
 
 #### Windows
-1. Téléchargez Lazarus depuis [www.lazarus-ide.org](https://www.lazarus-ide.org)
-2. Exécutez l'installateur avec les options par défaut
-3. Lancez Lazarus IDE
+1. Baixe o Lazarus em [www.lazarus-ide.org](https://www.lazarus-ide.org)
+2. Execute o instalador com as opções padrão
+3. Inicie o Lazarus IDE
 
 #### Ubuntu/Linux
 ```bash
@@ -104,21 +104,25 @@ sudo apt update
 sudo apt install lazarus
 ```
 
-### 📚 Ressources complémentaires
+### 📚 Recursos Adicionais
 
-- [Documentation officielle FreePascal](https://www.freepascal.org/docs.html)
+- [FreePascal Oficial Documentação](https://www.freepascal.org/docs.html)
 - [Wiki Lazarus](https://wiki.lazarus.freepascal.org/)
-- [Forum FreePascal/Lazarus](https://forum.lazarus.freepascal.org/)
+- [Fórum FreePascal/Lazarus](https://forum.lazarus.freepascal.org/)
 
-### 📄 Licence
+### 📄 Licença
 
-Ce projet est distribué sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+Este projeto é distribuído sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-### ✍️ Auteur
+### ✍️ Autor
 
 **Nicolas DEOUX**
 NDXdev@gmail.com
 
+Tradução para o Português por
+Aurimenes Silva
+aurimenes@gmail.com
+
 ---
 
-💡 **Astuce** : Prenez votre temps avec cette formation fondamentale. Une base solide est essentielle avant de passer au niveau avancé !
+💡 **Dica**: Aproveite este treinamento fundamental. Uma base sólida é essencial antes de avançar para o nível avançado!

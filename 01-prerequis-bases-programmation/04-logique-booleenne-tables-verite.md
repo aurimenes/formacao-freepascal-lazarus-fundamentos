@@ -48,6 +48,7 @@ end. ```
 
 **Tabela Verdade:**
 ```
+
 | A | NOT A |
 |-------|-------|
 | TRUE | FALSE |
@@ -63,7 +64,6 @@ NOT (FALSE) = TRUE
 ```
 
 **Em Pascal:**
-
 ```pascal
 var
 aFaim: Boolean;
