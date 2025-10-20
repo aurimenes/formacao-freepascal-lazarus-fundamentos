@@ -1,788 +1,789 @@
-🔝 Retour au [Sommaire](/SOMMAIRE.md)
+🔝 Voltar para [Resumo](/SUMMARY.md)
 
-# 1.6 Organigrammes et structuration de la pensée
+# 1.6 Fluxogramas e Estruturação do Pensamento
 
-## Introduction
+## Introdução
 
-Les organigrammes (ou logigrammes, flowcharts en anglais) sont des représentations graphiques d'algorithmes. Ils permettent de visualiser le flux d'exécution d'un programme de manière claire et intuitive. Dans cette section, nous allons apprendre à lire, créer et utiliser les organigrammes pour structurer notre pensée avant de programmer.
+Fluxogramas são representações gráficas de algoritmos. Eles nos permitem visualizar o fluxo de execução de um programa de forma clara e intuitiva. Nesta seção, aprenderemos como ler, criar e usar fluxogramas para estruturar nosso pensamento antes de programar.
 
-## Qu'est-ce qu'un organigramme ?
+## O que é um fluxograma?
 
-### Définition
+### Definição
 
-Un **organigramme** est un diagramme qui représente visuellement la séquence d'opérations à effectuer pour résoudre un problème ou accomplir une tâche.
+Um **fluxograma** é um diagrama que representa visualmente a sequência de operações a serem realizadas para resolver um problema ou realizar uma tarefa.
 
-**Avantages des organigrammes :**
-- **Visuel** : plus facile à comprendre qu'un texte
-- **Universel** : compris par tous, indépendamment du langage de programmation
-- **Clair** : met en évidence la logique du programme
-- **Communication** : facilite les discussions en équipe
-- **Documentation** : sert de référence pour comprendre le code
+**Vantagens dos Fluxogramas:**
+- **Visual**: Mais fácil de entender do que texto
+- **Universal**: Compreensível por todos, independentemente da linguagem de programação
+- **Claro**: Destaca a lógica do programa
+- **Comunicação**: Facilita as discussões em equipe
+- **Documentação**: Serve como referência para a compreensão do código
 
-**Inconvénients :**
-- Peut devenir complexe pour de grands programmes
-- Prend du temps à dessiner
-- Difficile à maintenir quand le code évolue
+**Desvantagens:**
+- Pode se tornar complexo para programas grandes
+- Demorado para desenhar
+- Difícil de manter à medida que o código evolui
 
-### Quand utiliser les organigrammes ?
+### Quando usar fluxogramas?
 
-Les organigrammes sont particulièrement utiles pour :
-- Planifier un nouveau programme
-- Comprendre un algorithme existant
-- Identifier les erreurs de logique
-- Expliquer un concept à d'autres personnes
-- Documenter des processus complexes
+Os fluxogramas são particularmente úteis para:
+- Planejar um novo programa
+- Entender um algoritmo existente
+- Identificar erros de lógica
+- Explicar um conceito para outras pessoas
+- Documentar processos complexos
 
-## Les symboles standard des organigrammes
+## Símbolos Padrão de Fluxograma
 
-Les organigrammes utilisent des formes géométriques standardisées. Voici les symboles les plus courants :
+Os fluxogramas usam formas geométricas padronizadas. Aqui estão os símbolos mais comuns:
 
-### Symboles de base
+### Símbolos Básicos
 
-**1. Terminal (Début/Fin)**
+**1. Terminal (Início/Fim)**
 ```
-     ╔═══════════╗
-     ║   DÉBUT   ║
-     ╚═══════════╝
+╔═══════════╗
+║ INÍCIO ║
+╚══════════╝
 ```
-- Forme : Ovale ou rectangle aux coins arrondis
-- Usage : Marque le début et la fin d'un programme
-- Texte : "DÉBUT", "FIN", "START", "END"
+- Formato: Oval ou retângulo com cantos arredondados
+- Uso: Marca o início e o fim de um programa
+- Texto: "INÍCIO", "FIM", "INÍCIO", "FIM"
 
-**2. Traitement (Instruction)**
+**2. Processamento (Instrução)**
 ```
-     ┌─────────────┐
-     │ Instruction │
-     └─────────────┘
+┌─────────────┐
+│ Instrução │
+└────────────┘
 ```
-- Forme : Rectangle
-- Usage : Représente une action, un calcul, une affectation
-- Exemples : "somme ← a + b", "compteur ← compteur + 1"
+- Forma: Retângulo
+- Uso: Representa uma ação, um cálculo, uma atribuição
+- Exemplos: "soma ← a + b", "contador ← contador + 1"
 
-**3. Entrée/Sortie**
+**3. Entrada/Saída**
 ```
-     ╱───────────╲
-    ╱ Afficher X  ╲
-    ╲─────────────╱
+╱────────────╲
+╱ Exibir X ╲
+╲───────────────╱
 ```
-- Forme : Parallélogramme
-- Usage : Lecture de données ou affichage de résultats
-- Exemples : "LIRE nombre", "AFFICHER résultat"
+- Formato: Paralelogramo
+- Uso: Leitura de dados ou exibição de resultados
+- Exemplos: "LER número", "EXIBIR resultado"
 
-**4. Décision (Condition)**
+**4. Decisão (Condição)**
 ```
-          ╱╲
-         ╱  ╲
-        ╱Cond╲
-        ╲ ? ╱
-         ╲  ╱
-          ╲╱
+╱╲
+╱ ╲
+╱Cond╲
+╲ ? ╱
+╲ ╱
+╲╱
 ```
-- Forme : Losange (diamant)
-- Usage : Test d'une condition, choix entre deux chemins
-- Sorties : Deux flèches (OUI/NON, VRAI/FAUX)
-- Exemple : "x > 0 ?"
+- Forma: Diamante
+- Uso: Testa uma condição, escolhe entre dois caminhos
+- Saídas: Duas setas (SIM/NÃO, VERDADEIRO/FALSO)
+- Exemplo: "x > 0?"
 
-**5. Connecteur**
+**5. Conector**
 ```
-        ( A )
+( A )
 ```
-- Forme : Cercle
-- Usage : Connexion entre parties d'un organigramme (évite les flèches trop longues)
-- Contient : Une lettre ou un numéro
+- Forma: Círculo
+- Uso: Conecta partes de um fluxograma (evita setas muito longas)
+- Contém: Uma letra ou um número
 
-**6. Flèche de liaison**
+**6. Seta de Conexão**
 ```
-        →  ou  ↓
+→ ou ↓
 ```
-- Usage : Indique le sens du flux, l'ordre d'exécution
-- Toujours orientée
+- Uso: Indica a direção do fluxo, a ordem de execução
+- Sempre orientado
 
-**7. Sous-programme (Appel de fonction/procédure)**
+**7. Subrotina (Chamada de Função/Procedimento)**
 ```
-     ┌─────────────┐
-     │ Fonction()  │
-     │─────────────│
-     └─────────────┘
+┌─────────────┐
+│ Função() │
+│──────────────│
+└───────────┘
 ```
-- Forme : Rectangle avec deux barres verticales sur les côtés
-- Usage : Appel d'une fonction ou procédure
-- Exemple : "CalculerMoyenne()"
+- Formato: Retângulo com duas barras verticais nas laterais
+- Uso: Chamar uma função ou procedimento
+- Exemplo: "CalcularMédia()"
 
-**8. Boucle (préparation)**
+**8. Laço (Preparação)**
 ```
-     ┌─────────────┐
-     │   i = 1,10  │
-     └─────────────┘
+┌─────────────┐
+│ i = 1,10 │
+└────────────┘
 ```
-- Forme : Hexagone
-- Usage : Initialisation d'une boucle FOR
-- Exemple : "i DE 1 À 10"
+- Forma: Hexágono
+- Uso: Inicializar um laço FOR
+- Exemplo: "i DE 1 A 10"
 
-## Construction d'organigrammes simples
+## Construindo Fluxogramas Simples
 
-### Exemple 1 : Programme séquentiel simple
+### Exemplo 1: Programa Sequencial Simples
 
-**Problème :** Calculer et afficher la somme de deux nombres.
+**Problema:** Calcular e exibir a soma de dois números.
 
-**Organigramme :**
+**Fluxograma:**
 ```
-     ╔═══════════╗
-     ║   DÉBUT   ║
-     ╚═════╤═════╝
-           │
-     ╱─────┴──────╲
-    ╱ LIRE a, b    ╲
-    ╲──────┬────────╱
-           │
-     ┌─────┴──────┐
-     │ somme ← a+b│
-     └─────┬──────┘
-           │
-     ╱─────┴──────╲
-    ╱ AFFICHER     ╲
-    ╲    somme     ╱
-     ╲─────┬──────╱
-           │
-     ╔═════╧═════╗
-     ║    FIN    ║
-     ╚═══════════╝
-```
-
-**Pseudo-code correspondant :**
-```
-DÉBUT
-    LIRE a, b
-    somme ← a + b
-    AFFICHER somme
-FIN
+╔═══════════╗
+║ INICIAR ║
+╚════╤═════╝
+│
+╱─────┴──────╲
+╱ LEIA a, b ╲
+╲───────┬─────────╱
+│
+┌──────┴──────┐
+│ soma ← a+b│
+└──────┬──────┘
+│
+╱─────┴───────╲
+╱ EXIBIR ╲
+╲ soma ╱
+╲─────┬───────╱
+│
+╔═════╧═════╗
+║ FIM ║
+╚═══════════╝
 ```
 
-### Exemple 2 : Structure de décision (SI...ALORS...SINON)
-
-**Problème :** Déterminer si un nombre est positif ou négatif.
-
-**Organigramme :**
+**Pseudocódigo correspondente:**
 ```
-     ╔═══════════╗
-     ║   DÉBUT   ║
-     ╚═════╤═════╝
-           │
-     ╱─────┴──────╲
-    ╱ LIRE nombre  ╲
-    ╲──────┬────────╱
-           │
-          ╱╲
-         ╱  ╲
-        ╱ nb ╲
-       ╱  >=0 ╲____NON___
-       ╲   ?  ╱           ╲
-        ╲    ╱             │
-         ╲  ╱              │
-          ╲╱               │
-       OUI │               │
-           │               │
-     ╱─────┴──────╲   ╱────┴─────╲
-    ╱ AFFICHER     ╲ ╱ AFFICHER   ╲
-    ╲  "Positif"   ╱ ╲  "Négatif" ╱
-     ╲─────┬──────╱   ╲────┬─────╱
-           │               │
-           └───────┬───────┘
-                   │
-             ╔═════╧═════╗
-             ║    FIN    ║
-             ╚═══════════╝
+BEGIN
+LEIA a, b
+soma ← a + b
+IMPRIMA soma
+FIM
 ```
 
-**Pseudo-code correspondant :**
-```
-DÉBUT
-    LIRE nombre
-    SI nombre >= 0 ALORS
-        AFFICHER "Positif"
-    SINON
-        AFFICHER "Négatif"
-    FIN SI
-FIN
-```
+### Exemplo 2: Estrutura de Decisão (SE...ENTÃO...SENÃO)
 
-### Exemple 3 : Boucle POUR
+**Problema:** Determine se um número é positivo ou negativo.
 
-**Problème :** Afficher les nombres de 1 à 5.
-
-**Organigramme :**
+**Fluxograma:**
 ```
-     ╔═══════════╗
-     ║   DÉBUT   ║
-     ╚═════╤═════╝
-           │
-     ┌─────┴──────┐
-     │  i ← 1     │
-     └─────┬──────┘
-           │
-          ╱╲
-         ╱  ╲
-        ╱ i  ╲
-       ╱  <=5 ╲____NON___
-       ╲   ?  ╱           ╲
-        ╲    ╱             │
-         ╲  ╱              │
-          ╲╱               │
-       OUI │               │
-           │               │
-     ╱─────┴──────╲        │
-    ╱ AFFICHER i   ╲       │
-    ╲──────┬────────╱       │
-           │                │
-     ┌─────┴──────┐         │
-     │ i ← i + 1  │         │
-     └─────┬──────┘         │
-           │                │
-           └────────────────┘
-                            │
-                      ╔═════╧═════╗
-                      ║    FIN    ║
-                      ╚═══════════╝
+╔════════════╗
+║ INICIAR ║
+╚════╤═════╝
+│
+╱─────┴──────╲
+╱ LEITURA número ╲
+╲───────┬─────────╱
+│
+╱╲
+╱ ╲
+╱ nb ╲
+╱ >=0 ╲____NÃO___
+╲? ╱ ╲
+╲ ╱ │
+╲ ╱ │
+╲╱ │
+SIM │ │
+│ │
+╱────┴──────╲ ╱────┴──────╲
+╱ EXIBIR ╲ ╱ EXIBIR ╲
+╲ "Positivo" ╱ ╲ "Negativo" ╱
+╲─────┬────────╱ ╲────┬──────
+│ │
+└───────────┘
+│
+╔═════╧═════╗
+║ FIM ║
+╚══════════╝
 ```
 
-**Pseudo-code correspondant :**
+**Pseudocódigo correspondente:**
 ```
-DÉBUT
-    i ← 1
-    TANT QUE i <= 5 FAIRE
-        AFFICHER i
-        i ← i + 1
-    FIN TANT QUE
-FIN
-```
-
-### Exemple 4 : Boucle RÉPÉTER...JUSQU'À
-
-**Problème :** Demander un mot de passe jusqu'à ce qu'il soit correct.
-
-**Organigramme :**
-```
-     ╔═══════════╗
-     ║   DÉBUT   ║
-     ╚═════╤═════╝
-           │
-     ╱─────┴──────╲
-    ╱ LIRE         ╲
-    ╲   motDePasse ╱
-     ╲─────┬──────╱
-           │
-          ╱╲
-         ╱  ╲
-        ╱ MDP╲
-       ╱correct╲___NON___
-       ╲   ?   ╱          ╲
-        ╲     ╱            │
-         ╲   ╱             │
-          ╲╱               │
-       OUI │               │
-           │          ╱────┴─────╲
-           │         ╱ AFFICHER   ╲
-           │         ╲  "Erreur"  ╱
-           │          ╲────┬─────╱
-           │               │
-           │               │
-           │               │
-           │  ╱────────────┘
-           │ ╱
-     ╱─────┴──────╲
-    ╱ AFFICHER     ╲
-    ╲  "Accès OK"  ╱
-     ╲─────┬──────╱
-           │
-     ╔═════╧═════╗
-     ║    FIN    ║
-     ╚═══════════╝
+INÍCIO
+LEIA o número
+SE o número for >= 0 ENTÃO
+EXIBIR "Positivo"
+SENÃO
+EXIBIR "Negativo"
+FIM SE
+FIM
 ```
 
-## Exemples d'organigrammes complets
+### Exemplo
+3: Loop FOR
 
-### Exemple 5 : Calcul de factorielle
+**Problema:** Exibir os números de 1 a 5.
 
-**Problème :** Calculer n! (factorielle de n)
-
-**Organigramme :**
+**Fluxograma:**
 ```
-     ╔═══════════╗
-     ║   DÉBUT   ║
-     ╚═════╤═════╝
-           │
-     ╱─────┴──────╲
-    ╱ LIRE n       ╲
-    ╲──────┬────────╱
-           │
-     ┌─────┴──────┐
-     │ fact ← 1   │
-     │ i ← 1      │
-     └─────┬──────┘
-           │
-          ╱╲
-         ╱  ╲
-        ╱ i  ╲
-       ╱  <= n╲____NON___
-       ╲   ?  ╱           ╲
-        ╲    ╱             │
-         ╲  ╱              │
-          ╲╱               │
-       OUI │               │
-           │               │
-     ┌─────┴──────┐        │
-     │fact ← fact │        │
-     │     × i    │        │
-     └─────┬──────┘        │
-           │               │
-     ┌─────┴──────┐        │
-     │ i ← i + 1  │        │
-     └─────┬──────┘        │
-           │               │
-           └───────────────┘
-                           │
-                     ╱─────┴──────╲
-                    ╱ AFFICHER     ╲
-                    ╲    fact      ╱
-                     ╲─────┬──────╱
-                           │
-                     ╔═════╧═════╗
-                     ║    FIN    ║
-                     ╚═══════════╝
+╔════════════╗
+║ INICIAR ║
+╚════╤═════╝
+│
+┌─────┴──────┐
+│ i ← 1 │
+└─────┬──────┘
+│
+╱╲
+╱ ╲
+╱i╲
+╱ <=5 ╲____NÃO___
+╲? ╱ ╲
+╲ ╱ │
+╲ ╱ │
+╲╱ │
+SIM │ │
+│ │
+╱────┴───────╲ │
+╱ MOSTRAR i ╲ │
+╲───────┬─────────╱ │
+│ │
+┌──────┴──────┐ │
+│i←i+1││
+└─────┬──────┘ │
+│ │
+└─────────────────┘
+│
+╔═════╧═════╗
+║ FIM ║
+╚═══════════╝
 ```
 
-### Exemple 6 : Recherche du maximum dans un tableau
-
-**Problème :** Trouver le plus grand élément d'un tableau.
-
-**Organigramme :**
+**Correspondente pseudocódigo:**
 ```
-     ╔═══════════╗
-     ║   DÉBUT   ║
-     ╚═════╤═════╝
-           │
-     ╱─────┴──────╲
-    ╱ LIRE tableau ╲
-    ╲   et taille  ╱
-     ╲─────┬──────╱
-           │
-     ┌─────┴──────┐
-     │ max ←      │
-     │ tableau[0] │
-     │ i ← 1      │
-     └─────┬──────┘
-           │
-          ╱╲
-         ╱  ╲
-        ╱ i  ╲
-       ╱<taille╲___NON___
-       ╲   ?   ╱          ╲
-        ╲     ╱            │
-         ╲   ╱             │
-          ╲╱               │
-       OUI │               │
-           │               │
-          ╱╲               │
-         ╱  ╲              │
-        ╱tab[i]╲           │
-       ╱  > max╲__NON__    │
-       ╲   ?   ╱       ╲   │
-        ╲     ╱         │  │
-         ╲   ╱          │  │
-          ╲╱            │  │
-       OUI │            │  │
-           │            │  │
-     ┌─────┴──────┐     │  │
-     │ max ←      │     │  │
-     │ tableau[i] │     │  │
-     └─────┬──────┘     │  │
-           │            │  │
-           └────┬───────┘  │
-                │          │
-     ┌──────────┴──────┐   │
-     │ i ← i + 1       │   │
-     └──────────┬──────┘   │
-                │          │
-                └──────────┘
-                           │
-                     ╱─────┴──────╲
-                    ╱ AFFICHER     ╲
-                    ╲     max      ╱
-                     ╲─────┬──────╱
-                           │
-                     ╔═════╧═════╗
-                     ║    FIN    ║
-                     ╚═══════════╝
+BEGIN
+i ← 1
+WHILE i <= 5 DO
+DISPLAY i
+i ← i + 1
+END WHILE
+END
 ```
 
-### Exemple 7 : Menu avec choix multiples
+### Exemplo 4: Loop Repeat...until
 
-**Problème :** Afficher un menu et exécuter l'option choisie.
+**Problema:** Solicita uma senha até que ela esteja correta.
 
-**Organigramme simplifié :**
+**Fluxograma:**
 ```
-     ╔═══════════╗
-     ║   DÉBUT   ║
-     ╚═════╤═════╝
-           │
-     ╱─────┴──────╲
-    ╱ AFFICHER menu╲
-    ╲──────┬────────╱
-           │
-     ╱─────┴──────╲
-    ╱ LIRE choix   ╲
-    ╲──────┬────────╱
-           │
-          ╱╲
-         ╱  ╲
-        ╱choix╲
-       ╱  = 1  ╲___NON___
-       ╲   ?   ╱          ╲
-        ╲     ╱            │
-         ╲   ╱             │
-          ╲╱               │
-       OUI │              ╱╲
-           │             ╱  ╲
-     ┌─────┴──────┐     ╱choix╲
-     │  Option 1  │    ╱  = 2  ╲___NON___
-     └─────┬──────┘    ╲   ?   ╱          ╲
-           │            ╲     ╱            │
-           │             ╲   ╱            ╱╲
-           │              ╲╱              ╱  ╲
-           │           OUI │             ╱choix╲
-           │               │            ╱  = 3  ╲___NON___
-           │         ┌─────┴──────┐    ╲   ?   ╱          ╲
-           │         │  Option 2  │     ╲     ╱            │
-           │         └─────┬──────┘      ╲   ╱             │
-           │               │              ╲╱               │
-           │               │           OUI │               │
-           │               │               │               │
-           │               │         ┌─────┴──────┐  ┌─────┴──────┐
-           │               │         │  Option 3  │  │   Erreur   │
-           │               │         └─────┬──────┘  └─────┬──────┘
-           │               │               │               │
-           └───────┬───────┴───────┬───────┴───────┬───────┘
-                   │               │               │
-             ╔═════╧═══════════════╧═══════════════╧═════╗
-             ║                  FIN                      ║
-             ╚═══════════════════════════════════════════╝
+╔════════════╗
+║ INICIAR ║
+╚════╤═════╝
+│
+╱─────┴──────╲
+╱ LER ╲
+╲ Senha ╱
+╲──────┬───────╱
+│
+╱╲
+╱ ╲
+╱ SENHA╲
+╱correta╲___NÃO___
+╲ ? ╱ ╲
+╲ ╱ │
+╲ ╱ │
+╲╱ │
+SIM │ │
+│ ╱────┴─────╲
+│ ╱ EXIBIÇÃO ╲
+│ ╲ "Erro" ╱
+│ ╲────┬─────╱
+│ │
+│ │
+│ │
+│ ╱───────────┘
+│ ╱
+╱─────┴──────╲
+╱ EXIBIR ╲
+╲ "Acesso OK" ╱
+╲─────┬────────╱
+│
+╔═════╧═════╗
+║ FIM ║
+╚═══════════╝
 ```
 
-## Structuration de la pensée avec les organigrammes
+## Exemplos de Fluxogramas Completos
 
-### Méthode de conception descendante (Top-Down)
+### Exemplo 5: Calculando um Fatorial
 
-La conception descendante consiste à décomposer un problème complexe en sous-problèmes plus simples.
+**Problema:** Calcule n! (fatorial de n)
 
-**Étapes :**
-
-1. **Identifier le problème principal**
-   - Que doit faire le programme globalement ?
-
-2. **Décomposer en grandes étapes**
-   - Quelles sont les phases principales ?
-
-3. **Raffiner chaque étape**
-   - Détailler chaque phase en sous-étapes
-
-4. **Continuer jusqu'aux opérations élémentaires**
-   - Arrêter quand chaque bloc est simple
-
-**Exemple : Programme de gestion de notes d'étudiants**
-
-**Niveau 1 (global) :**
+**Fluxograma:**
 ```
-     ╔═══════════╗
-     ║   DÉBUT   ║
-     ╚═════╤═════╝
-           │
-     ┌─────┴──────┐
-     │   Saisir   │
-     │    notes   │
-     └─────┬──────┘
-           │
-     ┌─────┴──────┐
-     │  Calculer  │
-     │  moyenne   │
-     └─────┬──────┘
-           │
-     ┌─────┴──────┐
-     │  Afficher  │
-     │  résultats │
-     └─────┬──────┘
-           │
-     ╔═════╧═════╗
-     ║    FIN    ║
-     ╚═══════════╝
-```
-
-**Niveau 2 (détaillé) :**
-Chaque bloc du niveau 1 devient un organigramme complet.
-
-### Identification des structures
-
-Apprenez à reconnaître les patterns :
-
-**1. Séquence (suite d'actions)**
-```
-Action A → Action B → Action C
+╔════════════╗
+║ INICIAR ║
+╚════╤═════╝
+│
+╱─────┴──────╲
+╱ LEIA n ╲
+╲───────┬──────────╱
+│
+┌─────┴──────┐
+│ fato ← 1 │
+│ i ← 1 │
+└──────┬──────┘
+│
+╱╲
+╱ ╲
+╱i╲
+╱ <= n╲____NÃO___
+╲? ╱ ╲
+╲ ╱ │
+╲ ╱ │
+╲╱ │
+SIM │ │
+│ │
+┌─────┴──────┐ │
+│fato ← fato │ │
+│ × i │ │
+└─────┬──────┘ │
+│ │
+┌─────┴──────┐ │
+│i←i+1││
+└─────┬──────┘ │
+│ │
+└────────────────┘
+│
+╱──────┴─────╲
+╱ MOSTRAR ╲
+╲ fato ╱
+╲─────┬───────╱
+│
+╔═════╧═════╗
+║ FIM ║
+╚══════════╝
 ```
 
-**2. Alternative (choix)**
+### Exemplo 6: Encontrando o máximo em um array
+
+**Problema:** Encontre o maior elemento em um array.
+
+**Fluxograma:**
 ```
-        Condition ?
-         ╱      ╲
-      OUI        NON
-       │          │
-    Action A   Action B
+╔════════════╗
+║ INICIAR ║
+╚════╤════╝
+│
+╱──────┴──────╲
+╱ LEIA a tabela ╲
+╲ e tamanho ╱
+╲──────┬──────╱
+│
+┌─────┴──────┐
+│ max ← │
+│ array[0] │
+│ i ← 1 │
+└──────┬──────┘
+│
+╱╲
+╱ ╲
+╱i╲
+╱<tamanho╲___NÃO___
+╲? ╱ ╲
+╲ ╱ │
+╲ ╱ │
+╲╱ │
+SIM │ │
+│ │
+╱╲ │
+╱ ╲ │
+╱tab[i]╲ │
+╱ > max╲__NÃO__ │
+╲ ? ╱ ╲ │
+╲ ╱ │ │
+╲ ╱ │ │
+╲╱ │ │
+SIM │ │ │
+│ │ │
+┌────┴──────┐ │ │
+│ máx ← │ │ │
+│ array[i] │ │ │
+└────┬──────┘ │ │
+│ │ │
+└────┬───────┘ │
+│ │
+┌──────────┴──────┐ │
+│i←i+1││
+└───────────┬──────┘ │
+│ │
+└──────────┘
+│
+╱──────┴──────╲
+╱ MOSTRAR ╲
+╲ máx. ╱
+╲──────┬───────╱
+│
+╔═════╧═════╗
+║ FIM ║
+╚════════════╝
 ```
 
-**3. Répétition (boucle)**
+### Exemplo 7: Menu com Múltiplas Opções
+
+**Problema:** Exibir um menu e executar a opção escolhida.
+
+**Fluxograma Simplificado:**
 ```
-    ┌───────────┐
-    │  Condition? ──NON──> Sortie
-    └──┬────────┘
-       OUI
-       │
-    ┌──┴────┐
-    │ Action│
-    └──┬────┘
-       │
-       └──> (retour)
+╔═══════════╗
+║ INICIAR ║
+╚═════╤═════╝
+│
+╱──────┴───────╲
+╱ MOSTRAR menu ╲
+╲───────┬─────────╱
+│
+╱──────┴───────╲
+╱ LEIA a opção ╲
+╲───────┬─────────╱
+│
+╱╲
+╱ ╲
+╱escolha╲
+╱ = 1 ╲___NÃO___
+╲? ╱ ╲
+╲ ╱ │
+╲ ╱ │
+╲╱ │
+SIM │ ╱╲
+│ ╱ ╲
+┌─────┴──────┐ ╱escolha╲
+│ Opção 1 │ ╱ = 2 ╲___NÃO___
+└─────┬──────┘ ╲ ? ╱ ╲
+│ ╲ ╱ │
+│ ╲ ╱ ╱╲
+│ ╲╱ ╱ ╲
+│ SIM │ ╱escolha╲
+│ │ ╱ = 3 ╲___NÃO___
+│ ┌─────┴──────┐ ╲ ? ╱ ╲
+│ │ Opção 2 │ ╲ ╱ │
+│ └─────┬──────┘ ╲ ╱ │
+│ │ ╲╱ │
+│ │ SIM │ │
+│ │ │ │ │
+│ │ │ ┌────┴──────┐ ┌─────┴──────┐
+│ │ │ Opção 3 │ │ Erro │
+│ │ └─────┬──────┘ └──────┬──────┘
+│ │ │ │
+└───────┬───────┴───────┬───────┴────────┬─────────┘
+│ │ │
+╔═════╧═══════════════════╧════════════════╧═════╗
+║ FIM ║
+╚═════════════════════════════════════════════════
 ```
 
-## Passage de l'organigramme au code
+## Estruturando o Pensamento com Fluxogramas
 
-### Correspondances directes
+### Método de Design Top-Down
 
-**Structure séquentielle :**
+O design top-down envolve a divisão de um problema complexo em subproblemas mais simples.
+
+**Etapas:**
+
+1. **Identifique o Problema Principal**
+- O que o programa deve fazer em geral?
+
+2. **Divida em etapas principais**
+- Quais são as etapas principais?
+
+3. **Refine cada etapa**
+- Divida cada fase em subetapas
+
+4. **Continue com as operações básicas**
+- Pare quando cada bloco estiver simples
+
+**Exemplo: Programa de Caderneta de Notas do Aluno**
+
+**Nível 1 (Global):**
 ```
-Organigramme:          Pascal:
-┌─────────┐            a := 5;
-│ a ← 5   │            b := 10;
-└────┬────┘            c := a + b;
+╔═══════════╗
+║ INICIAR ║
+╚════╤═════╝
+│
+┌────┴──────┐
+│ Insira │
+│ notas │
+└─────┬──────┘
+│
+┌──────┴──────┐
+│ Calcular │
+│ média │
+└──────┬──────┘
+│
+┌────┴──────┐
+│ Mostrar │
+│ resultados │
+└─────┬───────┘
+│
+╔═════╧═════╗
+║ FIM ║
+╚══════════╝
+```
+
+**Nível 2 (Detalhado):**
+Cada bloco do Nível 1 se torna um fluxograma completo.
+
+### Identificando Estruturas
+
+Aprenda a reconhecer padrões:
+
+**1. Sequência (série de ações)**
+```
+Ação A → Ação B → Ação C
+```
+
+**2. Alternativa (escolha)**
+```
+Condição?
+╱ ╲
+SIM NÃO
+│ │
+Ação A Ação B
+```
+
+**3. Repetição (loop)**
+```
+┌───────────┐
+│ Condição? ──NÃO──> Sair
+└──┬───────┘
+SIM
+│
+┌──┴────┐
+│ Ação│
+└──┬────┘
+│
+└──> (retornar)
+```
+
+## Fluxograma para Código
+
+### Correspondência Direta
+
+**Estrutura Sequencial:**
+```
+Fluxograma: Pascal:
+┌─────────┐ a := 5;
+│ a ← 5 │ b := 10;
+└────┬────┘ c := a + b;
 ┌────┴────┐
-│ b ← 10  │
+│ b ← 10 │
 └────┬────┘
 ┌────┴────┐
-│c ← a+b  │
+│c ← a+b │
 └─────────┘
 ```
 
-**Structure alternative :**
+**Estrutura alternativa:**
 ```
-Organigramme:          Pascal:
-    ╱╲                 if x > 0 then
-   ╱x>0╲                 WriteLn('Positif')
-   ╲  ?╱               else
-  OUI NON                WriteLn('Négatif');
-   │   │
- ┌─┴─┐ ┌─┴─┐
- │Pos│ │Nég│
- └───┘ └───┘
-```
-
-**Structure répétitive :**
-```
-Organigramme:          Pascal:
- ┌─────────┐           i := 1;
- │ i ← 1   │           while i <= 10 do
- └────┬────┘           begin
-     ╱╲                  WriteLn(i);
-    ╱i≤10╲               i := i + 1;
-    ╲  ?╱              end;
-  OUI │ NON
-   ┌──┴──┐
-   │Aff i│
-   └──┬──┘
-   ┌──┴──┐
-   │i←i+1│
-   └──┬──┘
-      │
-   (retour)
+Organograma: Pascal:
+╱╲ se x > 0 então
+╱x>0╲ WriteLn('Positivo')
+╲ ?╱ senão
+SIM NÃO WriteLn('Negativo');
+│ │
+┌─┴─┐ ┌─┴─┐
+│Pos│ │Neg│
+└───┘ └───┘
 ```
 
-## Outils pour créer des organigrammes
+**Estrutura de Repetição:**
+```
+Fluxograma: Pascal:
+┌─────────┐ i := 1;
+│ i ← 1 │ enquanto i <= 10 do
+└────┬────┘ begin
+╱╲WriteLn(i);
+╱i≤10╲ i := i + 1;
+╲ ?╱ fim;
+SIM │ NÃO
+┌──┴──┐
+│Mostrar i│
+└──┬──┘
+┌──┴──┐
+│i←i+1│
+└──┬──┘
+│
+(voltar)
+```
 
-### Outils en ligne (gratuits)
+## Ferramentas para criar fluxogramas
+
+### Ferramentas online (grátis)
 
 **1. Draw.io (diagrams.net)**
-- Gratuit et open source
-- Interface intuitive
-- Nombreux symboles prédéfinis
-- Export en PNG, SVG, PDF
+- Gratuito e de código aberto
+- Interface intuitiva
+- Vários símbolos predefinidos
+- Exportar para PNG, SVG e PDF
 
 **2. Lucidchart**
-- Version gratuite disponible
-- Collaboration en temps réel
-- Bibliothèques de formes
+- Versão gratuita disponível
+- Colaboração em tempo real
+- Bibliotecas de formas
 
-**3. Google Drawings**
-- Intégré à Google Drive
-- Simple et accessible
-- Partage facile
+**3. Desenhos Google**
+- Integrado ao Google Drive
+- Simples e acessível
+- Fácil de compartilhar
 
-### Logiciels de bureau
+### Software Office
 
 **1. Microsoft Visio**
-- Professionnel et complet
-- Payant
-- Standard en entreprise
+- Profissional e abrangente
+- Pago
+- Padrão empresarial
 
 **2. LibreOffice Draw**
-- Gratuit et open source
-- Fonctionnalités complètes
-- Compatible Windows, Linux, macOS
+- Gratuito e de código aberto
+- Completo
+- Compatível com Windows, Linux e macOS
 
 **3. Dia**
-- Gratuit et open source
-- Spécialisé dans les diagrammes techniques
-- Léger et simple
+- Gratuito e de código aberto
+- Especializado em diagramas técnicos
+- Leve e simples
 
-### Outils de programmation
+### Ferramentas de Programação
 
 **1. Flowgorithm**
-- Spécialement conçu pour l'apprentissage
-- Permet d'exécuter l'organigramme
-- Génère du code dans plusieurs langages
+- Especialmente projetado para aprendizagem
+- Permite executar fluxogramas
+- Gera código em várias linguagens
 
 **2. yEd**
-- Gratuit
-- Mise en page automatique
-- Excellent pour les grands diagrammes
+- Gratuito
+- Layout automático
+- Excelente para diagramas grandes
 
-## Bonnes pratiques pour les organigrammes
+## Melhores práticas para fluxogramas
 
-### 1. Commencez toujours par DÉBUT et terminez par FIN
+### 1. Sempre comece com BEGIN e termine com END
 
 ```
-✓ Correct:        ✗ Incorrect:
-╔════════╗        ┌─────────┐
-║ DÉBUT  ║        │ Action  │
-╚═══╤════╝        └────┬────┘
-    │             ┌────┴────┐
-┌───┴────┐        │ Action  │
-│ Action │        └─────────┘
+✓ Correto: ✗ Incorreto:
+╔════════╗ ┌─────────┐
+║ BEGIN ║ │ Ação │
+╚═══╤════╝ └────┬────┘
+│ ┌────┴────┐
+┌───┴────┐ │ Ação │
+│ Ação │ └─────────┘
 └───┬────┘
 ╔═══╧════╗
-║  FIN   ║
+║ FIM ║
 ╚════════╝
 ```
 
-### 2. Utilisez des flèches claires
+### 2. Use setas claras
 
-- Une seule direction par flèche
-- Évitez les croisements
-- Privilégiez le flux de haut en bas et de gauche à droite
+- Apenas uma direção por seta
+- Evite interseções
+- Favoreça o fluxo de cima para baixo e da esquerda para a direita
 
-### 3. Soyez cohérent dans les symboles
+### 3. Seja consistente com os símbolos
 
-Utilisez toujours les mêmes formes pour les mêmes types d'opérations.
+Use sempre as mesmas formas para os mesmos tipos de operações.
 
-### 4. Gardez-le simple
+### 4. Mantenha a simplicidade
 
-Si l'organigramme devient trop complexe :
-- Décomposez en sous-organigrammes
-- Utilisez des sous-programmes
-- Créez plusieurs niveaux de détail
+Se o fluxograma ficar muito complexo:
+- Divida-o em subfluxogramas
+- Use sub-rotinas
+- Crie vários níveis de detalhe
 
-### 5. Annotez si nécessaire
+### 5. Anote, se necessário
 
-Ajoutez des commentaires pour clarifier les parties complexes.
+Adicione comentários para esclarecer partes complexas.
 
-### 6. Testez mentalement votre organigramme
+### 6. Teste seu fluxograma mentalmente
 
-Suivez le chemin avec des valeurs d'exemple pour vérifier la logique.
+Siga o caminho com valores de exemplo para verificar a lógica.
 
-## Erreurs courantes à éviter
+## Erros comuns a evitar
 
-### 1. Boucle infinie
-
-```
-✗ Incorrect:
-    ╱╲
-   ╱  ╲
-  ╱ i>0╲
-  ╲ ?  ╱
-   ╲  ╱
-    ╲╱
-  OUI│
-  ┌──┴──┐
-  │i←i+1│  ← i augmente, ne diminue jamais !
-  └──┬──┘
-     │
-  (retour au test)
-```
-
-### 2. Condition sans action
+### 1. Loop infinito
 
 ```
-✗ Incorrect:
-    ╱╲
-   ╱  ╲
-  ╱ a>b╲
-  ╲ ?  ╱
-   ╲  ╱
-    ╲╱
-  OUI│NON  ← Que faire dans chaque cas ?
-     │
+✗ Incorreto:
+╱╲
+╱ ╲
+╱ i>0╲
+╲ ? ╱
+╲ ╱
+╲╱
+SIM│
+┌──┴──┐
+│i←i+1│ ← i aumenta, nunca diminui!
+└──┬──┘
+│
+(retornar ao teste)
 ```
 
-### 3. Flux non défini
+### 2. Condição sem ação
 
-Chaque chemin doit mener quelque part (FIN ou retour).
+```
+✗ Incorreto:
+╱╲
+╱ ╲
+╱ a>b╲
+╲ ? ╱
+╲ ╱
+╲╱
+SIM│NÃO ← O que deve ser feito em cada caso?
+│
+```
 
-### 4. Trop de détails
+### 3. Fluxo Indefinido
 
-Ne mettez pas des détails triviaux comme "ouvrir le programme" ou "fermer la fenêtre".
+Todo caminho deve levar a algum lugar (FIM ou retorno).
 
-### 5. Oublier les cas limites
+### 4. Muitos Detalhes
 
-N'oubliez pas de gérer :
-- Tableaux vides
-- Valeurs nulles
-- Divisions par zéro
+Não inclua detalhes triviais como "abrir programa" ou "fechar janela".
 
-## Organigrammes vs Pseudo-code
+### 5. Esquecer Casos Extremos
 
-### Quand utiliser l'un ou l'autre ?
+Lembre-se de lidar com:
+- Matrizes Vazias
+- Valores Nulos
+- Divisão por Zero
 
-**Organigrammes :**
-- ✓ Visualiser la logique globale
-- ✓ Expliquer à des non-programmeurs
-- ✓ Identifier les flux alternatifs
-- ✓ Algorithmes courts et moyens
+## Fluxogramas vs. Pseudocódigo
 
-**Pseudo-code :**
-- ✓ Programmes longs et complexes
-- ✓ Plus proche du code réel
-- ✓ Plus rapide à écrire
-- ✓ Facilite la traduction en code
+### Quando Usar um ou Outro?
 
-**Meilleure approche :**
-Utiliser les deux ensemble :
-1. Organigramme pour la vue d'ensemble
-2. Pseudo-code pour les détails
+**Fluxogramas:**
+- ✓ Visualizam a lógica geral
+- ✓ Explicam para não programadores
+- ✓ Identificam fluxos alternativos
+- ✓ Algoritmos de curta e média duração
 
-## Conclusion
+**Pseudocódigo:**
+- ✓ Programas longos e complexos
+- ✓ Mais próximos do código real
+- ✓ Mais rápidos de escrever
+- ✓ Facilitam a tradução para código
 
-Les organigrammes sont un outil puissant pour visualiser et structurer votre pensée avant de programmer. Ils vous permettent de :
-- Clarifier la logique de votre programme
-- Identifier les erreurs avant de coder
-- Communiquer vos idées efficacement
-- Planifier la structure de votre code
+**Melhor abordagem:**
+Use os dois juntos:
+1. Fluxograma para o panorama geral
+2. Pseudocódigo para os detalhes
 
-**Points clés à retenir :**
-- Les symboles standard (ovale, rectangle, losange, parallélogramme) ont chacun un usage précis
-- Un organigramme commence par DÉBUT et se termine par FIN
-- Les flèches indiquent le flux d'exécution
-- Décomposez les problèmes complexes en sous-organigrammes
-- Testez mentalement votre organigramme avant de coder
-- Combinez organigrammes et pseudo-code pour une meilleure conception
+## Conclusão
 
-**Conseil pratique :**
-Pour vos premiers programmes, dessinez toujours un organigramme simple avant de commencer à coder. Cette habitude vous fera gagner beaucoup de temps et vous évitera de nombreuses erreurs de logique.
+Fluxogramas são uma ferramenta poderosa para visualizar e estruturar seu pensamento antes de programar. Eles permitem que você:
+- Esclareça a lógica do seu programa
+- Identifique erros antes de codificar
+- Comunique suas ideias de forma eficaz
+- Planeje a estrutura do seu código
 
-Dans la prochaine section, nous allons découvrir les systèmes d'exploitation et comment interagir avec eux, ce qui nous préparera à installer et utiliser FreePascal et Lazarus.
+**Principais conclusões:**
+- Os símbolos padrão (oval, retângulo, losango, paralelogramo) têm uma finalidade específica
+- Um fluxograma começa com BEGIN e termina com END
+- As setas indicam o fluxo de execução
+- Divida problemas complexos em subfluxogramas
+- Teste mentalmente seu fluxograma antes de codificar
+- Combine fluxogramas e pseudocódigo para um design melhor
 
-⏭️ [Introduction aux systèmes d'exploitation](/01-prerequis-bases-programmation/07-introduction-systemes-exploitation.md)
+**Dica prática:**
+Para seus primeiros programas, sempre desenhe um fluxograma simples antes de começar a codificar. Esse hábito economizará muito tempo e evitará muitos erros de lógica.
+
+Na próxima seção, aprenderemos sobre sistemas operacionais e como interagir com eles, o que nos preparará para instalar e usar o FreePascal e o Lazarus.
+
+⏭️ [Introdução aos Sistemas Operacionais](/01-prerequisites-programming-bases/07-introduction-operating-systems.md)

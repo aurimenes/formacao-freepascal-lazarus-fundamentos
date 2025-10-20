@@ -120,7 +120,7 @@ Este projeto é distribuído sob a Licença MIT. Consulte o arquivo [LICENSE](LI
 NDXdev@gmail.com
 
 Tradução para o Português por
-Aurimenes Silva
+**Aurimenes Silva**
 aurimenes@gmail.com
 
 ---

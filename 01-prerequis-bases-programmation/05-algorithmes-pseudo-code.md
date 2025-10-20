@@ -1,903 +1,902 @@
-🔝 Retour au [Sommaire](/SOMMAIRE.md)
+🔝 Voltar para [Resumo](/SUMMARY.md)
 
-# 1.5 Algorithmes et pseudo-code
+# 1.5 Algoritmos e Pseudocódigo
 
-## Introduction
+## Introdução
 
-Avant d'écrire du code dans un langage de programmation, il est essentiel de réfléchir à la logique de résolution du problème. C'est là qu'interviennent les algorithmes et le pseudo-code, des outils fondamentaux pour tout programmeur.
+Antes de escrever código em uma linguagem de programação, é essencial considerar a lógica por trás da resolução do problema. É aqui que entram os algoritmos e o pseudocódigo, ferramentas fundamentais para qualquer programador.
 
-## Qu'est-ce qu'un algorithme ?
+## O que é um algoritmo?
 
-### Définition
+### Definição
 
-Un **algorithme** est une suite finie et ordonnée d'instructions claires et précises permettant de résoudre un problème ou d'accomplir une tâche.
+Um **algoritmo** é uma sequência finita e ordenada de instruções claras e precisas para resolver um problema ou realizar uma tarefa.
 
-**Caractéristiques essentielles :**
-- **Fini** : l'algorithme doit se terminer après un nombre fini d'étapes
-- **Défini** : chaque étape doit être précise et sans ambiguïté
-- **Efficace** : chaque étape doit être réalisable
-- **Entrées** : données nécessaires au début
-- **Sorties** : résultats produits à la fin
+**Características Essenciais:**
+- **Finito**: O algoritmo deve ser concluído após um número finito de etapas
+- **Definido**: Cada etapa deve ser precisa e inequívoca
+- **Eficiente**: Cada etapa deve ser viável
+- **Entradas**: Dados necessários no início
+- **Saídas**: Resultados produzidos no final
 
-### Les algorithmes dans la vie quotidienne
+### Algoritmos no Dia a Dia
 
-Nous utilisons des algorithmes tous les jours sans nous en rendre compte :
+Usamos algoritmos todos os dias sem perceber:
 
-**Algorithme pour faire du café :**
+**Algoritmo para fazer café:**
 ```
-1. Remplir le réservoir d'eau
-2. Mettre un filtre dans le porte-filtre
-3. Ajouter le café moulu dans le filtre
-4. Placer la cafetière sous le porte-filtre
-5. Allumer la machine
-6. Attendre que le café coule
-7. Éteindre la machine
-8. Servir le café
-```
-
-**Algorithme pour se rendre au travail :**
-```
-1. Sortir de chez soi
-2. Marcher jusqu'à l'arrêt de bus
-3. Attendre le bus n°12
-4. Monter dans le bus
-5. Descendre à l'arrêt "Centre-ville"
-6. Marcher jusqu'au bureau
+1. Encha o tanque de água
+2. Coloque um filtro no porta-filtro
+3. Adicione café moído ao filtro
+4. Coloque a cafeteira sob o porta-filtro
+5. Ligue a máquina
+6. Espere o café sair
+7. Desligue a máquina
+8. Sirva o café
 ```
 
-### Les algorithmes en informatique
-
-En programmation, les algorithmes décrivent comment transformer des données d'entrée en résultats désirés.
-
-**Exemple : Calculer la moyenne de trois notes**
+**Algoritmo para ir ao trabalho:**
 ```
-Entrées : note1, note2, note3
-Traitement : moyenne = (note1 + note2 + note3) / 3
-Sortie : moyenne
-```
-
-## Le pseudo-code
-
-### Qu'est-ce que le pseudo-code ?
-
-Le **pseudo-code** est une façon d'écrire un algorithme en utilisant un langage informel, à mi-chemin entre le langage naturel et un langage de programmation.
-
-**Avantages du pseudo-code :**
-- Indépendant du langage de programmation
-- Plus facile à lire qu'un code réel
-- Permet de se concentrer sur la logique, pas sur la syntaxe
-- Facilite la communication entre développeurs
-- Sert de documentation
-
-**Inconvénients :**
-- Ne peut pas être exécuté directement par un ordinateur
-- Pas de syntaxe standardisée (varie selon les auteurs)
-
-### Pourquoi utiliser le pseudo-code ?
-
-**Avant de programmer :**
-- Clarifier votre pensée
-- Détecter les erreurs de logique tôt
-- Planifier la structure du programme
-
-**Pour communiquer :**
-- Expliquer votre solution à d'autres
-- Documenter votre approche
-- Discuter d'améliorations possibles
-
-## Conventions du pseudo-code
-
-Il n'existe pas de standard unique, mais voici des conventions courantes :
-
-### Instructions de base
-
-**Affectation (donner une valeur à une variable) :**
-```
-variable ← valeur
-nombre ← 10
-nom ← "Alice"
+1. Sair de casa
+2. Caminhar até o ponto de ônibus
+3. Esperar o ônibus 12
+4. Embarcar no Ônibus
+5. Desça no ponto "Centre-ville"
+6. Caminhe até o escritório
 ```
 
-**Affichage (montrer quelque chose à l'utilisateur) :**
+### Algoritmos em Ciência da Computação
+
+Em programação, algoritmos descrevem como transformar dados de entrada em resultados desejados.
+
+**Exemplo: Calculando a média de três notas**
 ```
-AFFICHER "message"
-AFFICHER variable
-AFFICHER "La somme est : ", somme
+Entradas: nota1, nota2, nota3
+Processamento: média = (nota1 + nota2 + nota3) / 3
+Saída: média
 ```
 
-**Saisie (demander une information à l'utilisateur) :**
+## Pseudocódigo
+
+### O que é pseudocódigo?
+
+**Pseudocódigo** é uma maneira de escrever um algoritmo usando uma linguagem informal, um meio-termo entre a linguagem natural e uma linguagem de programação.
+
+**Vantagens do pseudocódigo:**
+- Independente de linguagem de programação
+- Mais fácil de ler do que código real
+- Permite que você se concentre na lógica, não na sintaxe
+- Facilita a comunicação entre desenvolvedores
+- Serve como documentação
+
+**Desvantagens:**
+- Não pode ser executado diretamente por um computador
+- Sem sintaxe padronizada (varia de acordo com o autor)
+
+### Por que usar pseudocódigo?
+
+**Antes de Programar:**
+- Esclareça seu pensamento
+- Detecte erros lógicos antecipadamente
+- Planeje a estrutura do programa
+
+**Para se comunicar:**
+- Explique sua solução para outras pessoas
+- Documente sua abordagem
+- Discuta possíveis melhorias
+
+## Convenções de Pseudocódigo
+
+Não existe um padrão único, mas aqui estão algumas convenções comuns:
+
+### Instruções Básicas
+
+**Atribuição (atribuir um valor a uma variável):**
 ```
-LIRE variable
-SAISIR age
-DEMANDER nom
+variável ← valor
+número ← 10
+nome ← "Alice"
 ```
 
-**Commentaires :**
+**Exibir (mostrar algo ao usuário):**
 ```
-// Ceci est un commentaire sur une ligne
-/* Ceci est un commentaire
-   sur plusieurs lignes */
-```
-
-### Structure de sélection (condition)
-
-**SI ... ALORS ... SINON**
-```
-SI condition ALORS
-    instructions si vrai
-SINON
-    instructions si faux
-FIN SI
+EXIBIR "mensagem"
+EXIBIR variável
+EXIBIR "A soma é: ", soma
 ```
 
-**Exemple :**
+**Entrada (solicitar informações ao usuário):**
 ```
-SI age >= 18 ALORS
-    AFFICHER "Vous êtes majeur"
-SINON
-    AFFICHER "Vous êtes mineur"
-FIN SI
+GET variável
+ENTER idade
+ASK Nome
 ```
 
-**Sélection multiple (choix) :**
+**Comentários:**
 ```
-SELON variable
-    CAS valeur1 :
-        instructions
-    CAS valeur2 :
-        instructions
-    DÉFAUT :
-        instructions
-FIN SELON
+// Este é um comentário de uma única linha
+/* Este é um Comentário multilinha
+*/
 ```
 
-### Structures de répétition (boucles)
+### Estrutura de Seleção (Condição)
 
-**POUR (nombre d'itérations connu) :**
+**SE ... ENTÃO ... SENÃO**
 ```
-POUR variable DE début À fin FAIRE
-    instructions
-FIN POUR
-```
-
-**Exemple :**
-```
-POUR i DE 1 À 10 FAIRE
-    AFFICHER i
-FIN POUR
+SE condição ENTÃO
+instruções se verdadeiro
+SENÃO
+instruções se falso
+FIM SE
 ```
 
-**TANT QUE (condition en début) :**
+**Exemplo:**
 ```
-TANT QUE condition FAIRE
-    instructions
-FIN TANT QUE
-```
-
-**Exemple :**
-```
-compteur ← 1
-TANT QUE compteur <= 10 FAIRE
-    AFFICHER compteur
-    compteur ← compteur + 1
-FIN TANT QUE
+SE idade >= 18 ENTÃO
+EXIBIR "Você é adulto"
+SENÃO
+EXIBIR "Você é menor de idade"
+FIM SE
 ```
 
-**RÉPÉTER ... JUSQU'À (condition en fin) :**
+**Seleção Múltipla (Escolha):**
 ```
-RÉPÉTER
-    instructions
-JUSQU'À condition
-```
-
-**Exemple :**
-```
-RÉPÉTER
-    AFFICHER "Entrez un nombre positif : "
-    LIRE nombre
-JUSQU'À nombre > 0
+DE ACORDO COM variável
+CASO valor1:
+instruções
+CASO valor2:
+instruções
+PADRÃO:
+instruções
+FIM DE ACORDO COM
 ```
 
-## Exemples d'algorithmes simples
+### Estruturas de Repetição (Loops)
 
-### Exemple 1 : Calculer l'aire d'un rectangle
-
-**Problème :** Calculer l'aire d'un rectangle connaissant sa longueur et sa largeur.
-
-**Pseudo-code :**
+**PARA (número conhecido de iterações):**
 ```
-ALGORITHME AireRectangle
-
-VARIABLES
-    longueur : réel
-    largeur : réel
-    aire : réel
-
-DÉBUT
-    AFFICHER "Entrez la longueur : "
-    LIRE longueur
-
-    AFFICHER "Entrez la largeur : "
-    LIRE largeur
-
-    aire ← longueur × largeur
-
-    AFFICHER "L'aire du rectangle est : ", aire
-FIN
+PARA variável DE início A fim DO
+instruções
+FIM PARA
 ```
 
-**En Pascal :**
+**Exemplo:**
+```
+PARA i DE 1 A 10 FAÇA
+EXIBIR i
+FIM PARA
+```
+
+**ENQUANTO (condição no início):**
+```
+ENQUANTO condição FAÇA
+instruções
+FIM ENQUANTO
+```
+
+**Exemplo:**
+```
+contador ← 1
+ENQUANTO contador <= 10 FAÇA
+EXIBIR contador
+contador ← contador + 1
+FIM ENQUANTO
+```
+
+**REPETIR ... ATÉ (condição no final):**
+```
+REPETIR
+instruções
+ATÉ condição
+```
+
+**Exemplo:**
+```
+REPETIR
+EXIBIR "Digite um número positivo: "
+LER número
+ATÉ número > 0
+```
+
+## Exemplos de algoritmos simples
+
+### Exemplo 1: Calcular a Área de um Retângulo
+
+**Problema:** Calcule a área de um retângulo, dados seu comprimento e largura.
+
+**Pseudocódigo:**
+```
+ALGORITMO RectangleArea
+
+VARIÁVEIS
+comprimento: real
+largura: real
+área: real
+
+INÍCIO
+EXIBIR "Digite o comprimento: "
+LER comprimento
+
+EXIBIR "Digite a largura: "
+LER largura
+
+área ← comprimento × largura
+
+EXIBIR "A área do retângulo é: ", área
+FIM
+```
+
+**Em Pascal:**
 ```pascal
-program AireRectangle;
+program RectangleArea;
 var
-  longueur, largeur, aire: Real;
+comprimento, largura, área: Real;
+início
+WriteLn('Digite o comprimento: ');
+ReadLn(comprimento);
+
+WriteLn('Digite a largura: ');
+ReadLn(largura);
+
+área := comprimento * largura;
+
+WriteLn('A área do retângulo é: ', área: 0:2);
+fim.
+```
+
+### Exemplo 2: Determinando se um número é par ou ímpar
+
+**Problema:** Verifique se um inteiro é par ou ímpar.
+
+**Pseudocódigo:**
+```
+ALGORITMO ParOuÍmpar
+
+VARIÁVEIS
+número: inteiro
+
+INÍCIO
+EXIBIR "Digite um inteiro: "
+LER número
+
+SE (número módulo 2) = 0 ENTÃO
+EXIBIR número, " é par"
+SENÃO
+EXIBIR número, " é ímpar"
+FIM SE
+FIM
+```
+
+**Em Pascal:**
+```pascal
+programa ParOuÍmpar;
+var
+número: Inteiro;
 begin
-  WriteLn('Entrez la longueur : ');
-  ReadLn(longueur);
+WriteLn('Digite um inteiro: ');
+ReadLn(número);
 
-  WriteLn('Entrez la largeur : ');
-  ReadLn(largeur);
-
-  aire := longueur * largeur;
-
-  WriteLn('L''aire du rectangle est : ', aire:0:2);
+if (número mod 2) = 0 then
+WriteLn(número, ' é par')
+else
+WriteLn(número, ' é ímpar');
 end.
 ```
 
-### Exemple 2 : Déterminer si un nombre est pair ou impair
+### Exemplo 3: Calcular a soma dos primeiros N números inteiros
 
-**Problème :** Vérifier si un nombre entier est pair ou impair.
+**Problema:** Calcular 1 + 2 + 3 + ... + N
 
-**Pseudo-code :**
+**Pseudocódigo (versão 1 - com loop):**
 ```
-ALGORITHME PairOuImpair
+AlgoritmoSomaInteiro
 
-VARIABLES
-    nombre : entier
+VARIÁVEIS
+N: inteiro
+soma: inteiro
+i: inteiro
 
-DÉBUT
-    AFFICHER "Entrez un nombre entier : "
-    LIRE nombre
+INÍCIO
+EXIBIR "Digite N: "
+LER N
 
-    SI (nombre modulo 2) = 0 ALORS
-        AFFICHER nombre, " est pair"
-    SINON
-        AFFICHER nombre, " est impair"
-    FIN SI
-FIN
-```
+soma ← 0
 
-**En Pascal :**
-```pascal
-program PairOuImpair;
-var
-  nombre: Integer;
-begin
-  WriteLn('Entrez un nombre entier : ');
-  ReadLn(nombre);
+PARA i DE 1 ATÉ N FAÇA
+soma ← soma + i
+FIM PARA
 
-  if (nombre mod 2) = 0 then
-    WriteLn(nombre, ' est pair')
-  else
-    WriteLn(nombre, ' est impair');
-end.
+EXIBIR "A soma é: ", soma
+FIM
 ```
 
-### Exemple 3 : Calculer la somme des N premiers entiers
-
-**Problème :** Calculer 1 + 2 + 3 + ... + N
-
-**Pseudo-code (version 1 - avec boucle) :**
+**Pseudocódigo (versão 2 - com fórmula matemática):**
 ```
-ALGORITHME SommeEntiers
+AlgoritmoSomaInteiro
 
-VARIABLES
-    N : entier
-    somme : entier
-    i : entier
+VARIÁVEIS
+N: inteiro
+soma: inteiro
 
-DÉBUT
-    AFFICHER "Entrez N : "
-    LIRE N
+INÍCIO
+EXIBIR "Digite N: "
+LER N
 
-    somme ← 0
+soma ← N × (N + 1) / 2
 
-    POUR i DE 1 À N FAIRE
-        somme ← somme + i
-    FIN POUR
-
-    AFFICHER "La somme est : ", somme
-FIN
+EXIBIR "A soma é: ", soma
+FIM
 ```
 
-**Pseudo-code (version 2 - avec formule mathématique) :**
+**Observação:** A versão 2 é mais eficiente porque não utiliza um laço!
+
+### Exemplo 4: Encontrando o máximo de três números
+
+**Problema:** Determine o maior de três números.
+
+**Pseudocódigo:**
 ```
-ALGORITHME SommeEntiersRapide
+ALGORITMO MaximumThreeNumbers
 
-VARIABLES
-    N : entier
-    somme : entier
+VARIÁVEIS
+a, b, c: real
+máximo: real
 
-DÉBUT
-    AFFICHER "Entrez N : "
-    LIRE N
+INÍCIO
+EXIBIR "Digite o primeiro número: "
+LER a
 
-    somme ← N × (N + 1) / 2
+EXIBIR "Digite o segundo número: "
+LER b
 
-    AFFICHER "La somme est : ", somme
-FIN
-```
+EXIBIR "Digite o terceiro número: "
+LER c
 
-**Observation :** La version 2 est plus efficace car elle n'utilise pas de boucle !
+// Suponha que a seja o máximo
+máximo ← a
 
-### Exemple 4 : Trouver le maximum de trois nombres
+// Verifique se b é maior
+SE b > máximo ENTÃO
+máximo ← b
+FIM SE
 
-**Problème :** Déterminer le plus grand de trois nombres.
+// Verifique se c é maior
+SE c > máximo ENTÃO
+máximo ← c
+FIM SE
 
-**Pseudo-code :**
-```
-ALGORITHME MaximumTroisNombres
-
-VARIABLES
-    a, b, c : réel
-    maximum : réel
-
-DÉBUT
-    AFFICHER "Entrez le premier nombre : "
-    LIRE a
-
-    AFFICHER "Entrez le deuxième nombre : "
-    LIRE b
-
-    AFFICHER "Entrez le troisième nombre : "
-    LIRE c
-
-    // Supposer que a est le maximum
-    maximum ← a
-
-    // Vérifier si b est plus grand
-    SI b > maximum ALORS
-        maximum ← b
-    FIN SI
-
-    // Vérifier si c est plus grand
-    SI c > maximum ALORS
-        maximum ← c
-    FIN SI
-
-    AFFICHER "Le maximum est : ", maximum
-FIN
+EXIBIR "O máximo é: ", máximo
+FIM
 ```
 
-### Exemple 5 : Table de multiplication
+### Exemplo 5: Tabuada
 
-**Problème :** Afficher la table de multiplication d'un nombre.
+**Problema:** Exiba a tabuada de um número.
 
-**Pseudo-code :**
+**Pseudocódigo:**
 ```
-ALGORITHME TableMultiplication
+ALGORITMO DA TABUADA DE MULTIPLICAÇÃO
 
-VARIABLES
-    nombre : entier
-    i : entier
-    resultat : entier
+VARIÁVEIS
+número: inteiro
+i: inteiro
+resultado: inteiro
 
-DÉBUT
-    AFFICHER "Table de multiplication de quel nombre ? "
-    LIRE nombre
+INÍCIO
+EXIBIR "TABUADA DE QUAL NÚMERO?"
+LEITURA número
 
-    AFFICHER "Table de ", nombre, " :"
-    AFFICHER "-------------------"
+EXIBIR "TABUADA DE ", número, " :"
+EXIBIR "-------------------"
 
-    POUR i DE 1 À 10 FAIRE
-        resultat ← nombre × i
-        AFFICHER nombre, " × ", i, " = ", resultat
-    FIN POUR
-FIN
-```
-
-## Algorithmes avec validation d'entrée
-
-### Exemple : Demander un nombre positif
-
-**Problème :** Continuer à demander un nombre jusqu'à ce qu'il soit positif.
-
-**Pseudo-code :**
-```
-ALGORITHME DemanderNombrePositif
-
-VARIABLES
-    nombre : entier
-
-DÉBUT
-    RÉPÉTER
-        AFFICHER "Entrez un nombre positif : "
-        LIRE nombre
-
-        SI nombre <= 0 ALORS
-            AFFICHER "Erreur ! Le nombre doit être positif."
-        FIN SI
-
-    JUSQU'À nombre > 0
-
-    AFFICHER "Merci, vous avez entré : ", nombre
-FIN
+PARA i DE 1 A 10 FAÇA
+resultado ← número × i
+EXIBIR número, " × ", i, " = ", resultado
+FIM PARA
+FIM
 ```
 
-### Exemple : Menu avec choix
+## Algoritmos com validação de entrada
 
-**Pseudo-code :**
+### Exemplo: Solicitar um número positivo
+
+**Problema:** Continue solicitando um número até que ele seja positivo.
+
+**Pseudocódigo:**
 ```
-ALGORITHME MenuPrincipal
+ALGORITMO AskPositiveNumber
 
-VARIABLES
-    choix : entier
+VARIÁVEIS
+número: inteiro
 
-DÉBUT
-    RÉPÉTER
-        AFFICHER "=== MENU PRINCIPAL ==="
-        AFFICHER "1. Option 1"
-        AFFICHER "2. Option 2"
-        AFFICHER "3. Option 3"
-        AFFICHER "0. Quitter"
-        AFFICHER "Votre choix : "
-        LIRE choix
+INICIAR
+REPETIR
+EXIBIR "Digite um número positivo: "
+LER número
 
-        SELON choix
-            CAS 1 :
-                AFFICHER "Vous avez choisi l'option 1"
-            CAS 2 :
-                AFFICHER "Vous avez choisi l'option 2"
-            CAS 3 :
-                AFFICHER "Vous avez choisi l'option 3"
-            CAS 0 :
-                AFFICHER "Au revoir !"
-            DÉFAUT :
-                AFFICHER "Choix invalide !"
-        FIN SELON
+SE número <= 0 ENTÃO
+EXIBIR "Erro! O número deve ser positivo."
+FIM SE
 
-    JUSQU'À choix = 0
-FIN
+ATÉ número > 0
+
+EXIBIR "Obrigado, você digitou: ", número
+FIM
 ```
 
-## Algorithmes de recherche
+### Exemplo: Menu com opções
 
-### Recherche linéaire
-
-**Problème :** Trouver si un élément existe dans un tableau.
-
-**Pseudo-code :**
+**Pseudocódigo:**
 ```
-ALGORITHME RechercheLineaire
+ALGORITMO Menu Principal
 
-VARIABLES
-    tableau : tableau de N entiers
-    valeurCherchee : entier
-    i : entier
-    trouve : booléen
-    position : entier
+VARIÁVEIS
+escolha: inteiro
 
-DÉBUT
-    // Supposer que le tableau est déjà rempli
+INICIAR
+REPETIR
+EXIBIR "=== MENU PRINCIPAL ==="
+EXIBIR "1. Opção 1"
+EXIBIR "2. Opção 2"
+EXIBIR "3. Opção 3"
+EXIBIR "0. Sair"
+EXIBIR "Sua escolha: "
+LER opções
 
-    AFFICHER "Quelle valeur cherchez-vous ? "
-    LIRE valeurCherchee
+BASEADO EM opções
+CASO 1:
+EXIBIR "Você escolheu a opção 1"
+CASO 2:
+EXIBIR "Você escolheu a opção 2"
+CASO 3:
+EXIBIR "Você escolheu a opção 3"
+CASO 0:
+EXIBIR "Adeus!"
+PADRÃO:
+EXIBIR "Escolha inválida!"
+FIM DE ACORDO COM
 
-    trouve ← FAUX
-    position ← -1
-
-    POUR i DE 0 À N-1 FAIRE
-        SI tableau[i] = valeurCherchee ALORS
-            trouve ← VRAI
-            position ← i
-            SORTIR DE LA BOUCLE
-        FIN SI
-    FIN POUR
-
-    SI trouve ALORS
-        AFFICHER "Valeur trouvée à la position ", position
-    SINON
-        AFFICHER "Valeur non trouvée"
-    FIN SI
-FIN
+ATÉ escolha = 0
+FIM
 ```
 
-## Algorithmes de tri (introduction)
+## Algoritmos de Busca
 
-### Tri par sélection (principe simplifié)
+### Busca Linear
 
-**Problème :** Trier un tableau de nombres par ordre croissant.
+**Problema:** Descubra se um elemento existe em um array.
 
-**Pseudo-code simplifié :**
+**Pseudocódigo:**
 ```
-ALGORITHME TriSelection
+ALGORITMO DE Busca Linear
 
-VARIABLES
-    tableau : tableau de N entiers
-    i, j : entier
-    minIndex : entier
-    temp : entier
+VARIÁVEIS
+array: array de N inteiros
+searchValue: inteiro
+i: inteiro
+found: booleano
+position: inteiro
 
-DÉBUT
-    // Pour chaque position
-    POUR i DE 0 À N-2 FAIRE
-        // Trouver le minimum dans la partie non triée
-        minIndex ← i
+BEGIN
+// Suponha que o array já esteja cheio
 
-        POUR j DE i+1 À N-1 FAIRE
-            SI tableau[j] < tableau[minIndex] ALORS
-                minIndex ← j
-            FIN SI
-        FIN POUR
+EXIBIR "Qual valor você está procurando?"
+LEIA valorPesquisar
 
-        // Échanger les éléments
-        SI minIndex ≠ i ALORS
-            temp ← tableau[i]
-            tableau[i] ← tableau[minIndex]
-            tableau[minIndex] ← temp
-        FIN SI
-    FIN POUR
+encontrado ← FALSO
+posição ← -1
 
-    AFFICHER "Tableau trié !"
-FIN
-```
+PARA i DE 0 A N-1 FAÇA
+SE array[i] = valorPesquisar ENTÃO
+encontrado ← VERDADEIRO
+posição ← i
+SAÍDA DO LOOP
+FIM SE
+FIM PARA
 
-## Décomposition en sous-problèmes
-
-### Utilisation de procédures et fonctions
-
-Pour les algorithmes complexes, on les décompose en parties plus petites.
-
-**Exemple : Calculatrice simple**
-
-**Pseudo-code :**
-```
-FONCTION Addition(a, b : réel) : réel
-DÉBUT
-    RETOURNER a + b
-FIN
-
-FONCTION Soustraction(a, b : réel) : réel
-DÉBUT
-    RETOURNER a - b
-FIN
-
-FONCTION Multiplication(a, b : réel) : réel
-DÉBUT
-    RETOURNER a × b
-FIN
-
-FONCTION Division(a, b : réel) : réel
-DÉBUT
-    SI b = 0 ALORS
-        AFFICHER "Erreur : division par zéro"
-        RETOURNER 0
-    SINON
-        RETOURNER a / b
-    FIN SI
-FIN
-
-ALGORITHME CalculatriceSimple
-
-VARIABLES
-    a, b : réel
-    operation : caractère
-    resultat : réel
-
-DÉBUT
-    AFFICHER "Entrez le premier nombre : "
-    LIRE a
-
-    AFFICHER "Entrez l'opération (+, -, *, /) : "
-    LIRE operation
-
-    AFFICHER "Entrez le second nombre : "
-    LIRE b
-
-    SELON operation
-        CAS '+' :
-            resultat ← Addition(a, b)
-        CAS '-' :
-            resultat ← Soustraction(a, b)
-        CAS '*' :
-            resultat ← Multiplication(a, b)
-        CAS '/' :
-            resultat ← Division(a, b)
-        DÉFAUT :
-            AFFICHER "Opération inconnue"
-            RETOURNER
-    FIN SELON
-
-    AFFICHER "Résultat : ", resultat
-FIN
+SE encontrado ENTÃO
+EXIBIR "Valor encontrado na posição ", posição
+SENÃO
+EXIBIR "Valor não encontrado"
+FIM SE
+FIM
 ```
 
-## Analyse d'algorithmes (notions de base)
+## Algoritmos de Ordenação (Introdução)
 
-### Efficacité algorithmique
+### Ordenação por Seleção (princípio simplificado)
 
-Tous les algorithmes ne se valent pas. Certains sont plus rapides que d'autres.
+**Problema:** Ordene um array de números em ordem crescente.
 
-**Critères d'évaluation :**
-- **Temps d'exécution** : combien de temps prend l'algorithme ?
-- **Utilisation mémoire** : combien d'espace mémoire nécessite-t-il ?
-- **Simplicité** : est-il facile à comprendre et à maintenir ?
-
-### Compter les opérations
-
-**Exemple 1 : Algorithme linéaire**
+**Pseudocódigo Simplificado:**
 ```
-POUR i DE 1 À N FAIRE
-    AFFICHER i
-FIN POUR
+ALGORITMO SortSelection
+
+VARIÁVEIS
+matriz: matriz de N inteiros
+i, j: inteiro
+índicemin: inteiro
+temp: inteiro
+
+INÍCIO
+// Para cada posição
+PARA i DE 0 A N-2 FAÇA
+// Encontre o mínimo na parte não ordenada
+índicemin ← i
+
+PARA j DE i+1 A N-1 FAÇA
+SE matriz[j] < matriz[índicemin] ENTÃO
+índicemin ← j
+FIM SE
+FIM PARA
+
+// Troca os elementos
+SE Índicemin ≠ i ENTÃO
+temp ← matriz[i]
+matriz[i] ← matriz[índicemin]
+matriz[índicemin] ← temp
+FIM SE
+FIM PARA
+
+EXIBIR "Matriz ordenada!"
+FIM
 ```
-Nombre d'opérations : N (proportionnel à la taille de l'entrée)
 
-**Exemple 2 : Algorithme quadratique**
+## Decomposição em subproblemas
+
+### Uso de procedimentos e funções
+
+Para algoritmos complexos, nós os decompomos em partes menores.
+
+**Exemplo: Calculadora Simples**
+
+**Pseudocódigo:**
 ```
-POUR i DE 1 À N FAIRE
-    POUR j DE 1 À N FAIRE
-        AFFICHER i, j
-    FIN POUR
-FIN POUR
+FUNÇÃO Adição(a, b: real): real
+INÍCIO
+RETORNA a + b
+FIM
+
+FUNÇÃO Subtração(a, b: real): real
+INÍCIO
+RETORNA a - b
+FIM
+
+FUNÇÃO Multiplicação(a, b: real): real
+INÍCIO
+RETORNA a × b
+FIM
+
+FUNÇÃO Divisão(a, b: real): real
+INÍCIO
+SE b = 0 ENTÃO
+EXIBIR "Erro: divisão por zero"
+RETORNA 0
+SENÃO
+RETORNA a / b
+FIM SE
+FIM
+
+ALGORITMO Calculadora Simples
+
+VARIÁVEIS
+a, b: real
+operação: caractere
+resultado: real
+
+INÍCIO
+EXIBIR "Digite o primeiro número: "
+LER a
+
+EXIBIR "Digite a operação (+, -, *, /): "
+LER operação
+
+EXIBIR "Digite o segundo número: "
+LER b
+
+DE ACORDO COM a operação
+CASO '+':
+Resultado ← Adição(a, b)
+CASO '-':
+Resultado ← Subtração(a, b)
+CASO '*':
+Resultado ← Multiplicação(a, b)
+CASO '/':
+Resultado ← Divisão(a, b)
+PADRÃO:
+EXIBIR "Operação desconhecida"
+RETORNAR
+FIM DE ACORDO COM
+
+EXIBIR "Resultado: ", resultado
+FIM
 ```
-Nombre d'opérations : N × N = N² (croît rapidement)
 
-**Exemple 3 : Algorithme constant**
+## Análise de Algoritmos (Noções Básicas)
+
+### Eficiência Algorítmica
+
+Nem todos os algoritmos são criados iguais. Alguns são mais rápidos que outros.
+
+**Critérios de avaliação:**
+- **Tempo de execução**: Quanto tempo o algoritmo leva?
+- **Uso de memória**: Quanta memória ele requer?
+- **Simplicidade**: É fácil de entender e manter?
+
+### Operações de Contagem
+
+**Exemplo 1: Algoritmo Linear**
 ```
-resultat ← N × (N + 1) / 2
+PARA i DE 1 A N DO
+IMPRIMA i
+FIM PARA
 ```
-Nombre d'opérations : quelques opérations seulement (indépendant de N)
+Número de operações: N (proporcional ao tamanho da entrada)
 
-### Notation Big O (introduction)
+**Exemplo 2: Algoritmo Quadrático**
+```
+PARA i DE 1 A N DO
+PARA j DE 1 A N DO
+IMPRIMA i, j
+FIM PARA
+FIM PARA
+```
+Número de operações: N × N = N² (cresce rapidamente)
 
-C'est une notation mathématique pour décrire l'efficacité :
+**Exemplo 3: Algoritmo Constante**
+```
+Resultado ← N × (N + 1) / 2
+```
+Número de operações: apenas algumas operações (independentes de N)
 
-- **O(1)** : Constant - toujours le même temps
-- **O(log N)** : Logarithmique - très efficace
-- **O(N)** : Linéaire - proportionnel à la taille
-- **O(N log N)** : Quasi-linéaire - assez efficace
-- **O(N²)** : Quadratique - moins efficace pour grandes données
-- **O(2^N)** : Exponentiel - très inefficace
+### Notação Big O (Introdução)
 
-**Exemple pratique :**
-- Recherche dans un tableau non trié : O(N)
-- Tri par sélection : O(N²)
-- Calcul mathématique direct : O(1)
+Esta é uma notação matemática para descrever a eficiência:
 
-## Du pseudo-code au code Pascal
+- **O(1)**: Constante - sempre ao mesmo tempo
+- **O(log N)**: Logarítmico - muito eficiente
+- **O(N)**: Linear - proporcional ao tamanho
+- **O(N log N)**: Quase linear - bastante eficiente
+- **O(N²)**: Quadrático - menos eficiente para dados grandes
+- **O(2^N)**: Exponencial - muito ineficiente
 
-### Correspondances principales
+**Exemplo prático:**
+- Buscando em um array não ordenado: O(N)
+- Ordenação por seleção: O(N²)
+- Cálculo matemático direto: O(1)
 
-| Pseudo-code | Pascal |
+## Do pseudocódigo ao código Pascal
+
+### Principais correspondências
+
+| Pseudocódigo | Pascal |
 |-------------|--------|
-| `variable ← valeur` | `variable := valeur;` |
-| `AFFICHER` | `WriteLn()` |
-| `LIRE` | `ReadLn()` |
-| `SI ... ALORS ... SINON` | `if ... then ... else` |
-| `POUR i DE 1 À N` | `for i := 1 to N do` |
-| `TANT QUE condition` | `while condition do` |
-| `RÉPÉTER ... JUSQU'À` | `repeat ... until` |
-| `SELON variable` | `case variable of` |
-| `FONCTION/PROCÉDURE` | `function/procedure` |
+| `variável ← valor` | `variável := valor;` |
+| `DISPLAY` | `WriteLn()` |
+| `READ` | `ReadLn()` |
+| `SE ... ENTÃO ... SENÃO` | `se ... então ... senão` |
+| `PARA i DE 1 A N` | `para i := 1 a N faça` |
+| `ENQUANTO condição` | `enquanto condição faça` |
+| `REPITA ... ATÉ` | `repita ... até` |
+| `DE ACORDO COM a variável` | `caso variável de` |
+| `FUNÇÃO/PROCEDIMENTO` | `função/procedimento` |
 
-### Exemple de traduction complète
+### Exemplo de Tradução Completo
 
-**Pseudo-code :**
+**Pseudocódigo:**
 ```
-ALGORITHME Factorielle
+ALGORITMO Fatorial
 
-FONCTION Fact(n : entier) : entier
-DÉBUT
-    SI n <= 1 ALORS
-        RETOURNER 1
-    SINON
-        RETOURNER n × Fact(n - 1)
-    FIN SI
-FIN
+FUNÇÃO Fato(n: inteiro): inteiro
+INÍCIO
+SE n <= 1 ENTÃO
+RETORNA 1
+SENÃO
+RETORNA n × Fato(n - 1)
+FIM SE
+FIM
 
-DÉBUT PRINCIPAL
-    VARIABLES
-        nombre : entier
-        resultat : entier
+INÍCIO PRINCIPAL
+VARIÁVEIS
+número: inteiro
+resultado: inteiro
 
-    AFFICHER "Entrez un nombre : "
-    LIRE nombre
+EXIBIR "Digite um número: "
+LER número
 
-    resultat ← Fact(nombre)
+resultado ← Fato(número)
 
-    AFFICHER "Factorielle de ", nombre, " = ", resultat
-FIN
+EXIBIR "Fatorial de ", número, " = ", resultado
+FIM
 ```
 
-**Code Pascal :**
+**Código Pascal:**
 ```pascal
-program Factorielle;
+programa Fatorial;
 
-function Fact(n: Integer): Integer;
-begin
-  if n <= 1 then
-    Fact := 1
-  else
-    Fact := n * Fact(n - 1);
-end;
+função Fato(n: Inteiro): Inteiro;
+início
+se n <= 1 então
+Fato := 1
+senão
+Fato := n * Fato(n - 1);
+fim;
 
 var
-  nombre, resultat: Integer;
+número, resultado: Inteiro;
 
 begin
-  WriteLn('Entrez un nombre : ');
-  ReadLn(nombre);
+WriteLn('Digite um número: ');
+ReadLn(número);
 
-  resultat := Fact(nombre);
+result := Fact(número);
 
-  WriteLn('Factorielle de ', nombre, ' = ', resultat);
+WriteLn('Fatorial de ', número, ' = ', resultado);
 end.
 ```
 
-## Bonnes pratiques pour écrire des algorithmes
+## Melhores Práticas para Escrever Algoritmos
 
-### 1. Commencez simple
+### 1. Comece Simples
 
-Ne cherchez pas la solution parfaite immédiatement. Écrivez d'abord une version qui fonctionne, puis optimisez.
+Não procure a solução perfeita imediatamente. Escreva uma versão funcional primeiro e depois otimize.
 
-### 2. Décomposez le problème
+### 2. Decomponha o Problema
 
-Divisez les problèmes complexes en sous-problèmes plus simples.
-
-```
-Problème : Gérer une bibliothèque
-
-Sous-problèmes :
-- Ajouter un livre
-- Rechercher un livre
-- Emprunter un livre
-- Retourner un livre
-- Afficher la liste des livres
-```
-
-### 3. Utilisez des noms explicites
+Divida problemas complexos em subproblemas mais simples.
 
 ```
-// Mauvais
-POUR i DE 1 À n FAIRE
-    x ← x + y[i]
-FIN POUR
+ProbLeme: Gerenciando uma Biblioteca
 
-// Bon
-POUR indiceLivre DE 1 À nombreLivres FAIRE
-    prixTotal ← prixTotal + prixLivres[indiceLivre]
-FIN POUR
+Subproblemas:
+- Adicionar um livro
+- Buscar um livro
+- Pegar um livro emprestado
+- Devolver um livro
+- Exibir a lista de livros
 ```
 
-### 4. Commentez votre algorithme
+### 3. Use nomes significativos
 
 ```
-// Calculer la moyenne des notes positives uniquement
-somme ← 0
-compteur ← 0
+// Ruim
+PARA i DE 1 PARA n FAÇA
+x ← x + y[i]
+FIM PARA
 
-POUR chaque note FAIRE
-    SI note > 0 ALORS
-        somme ← somme + note
-        compteur ← compteur + 1
-    FIN SI
-FIN POUR
-
-SI compteur > 0 ALORS
-    moyenne ← somme / compteur
-FIN SI
+// Bom
+PARA índice_livros DE 1 PARA número_de_livros FAÇA
+preço_total ← preço_total + preço_livro[índice_livro]
+FIM PARA
 ```
 
-### 5. Testez mentalement votre algorithme
-
-Suivez l'algorithme étape par étape avec des valeurs d'exemple pour vérifier qu'il fonctionne.
-
-**Exemple : Vérifier si un nombre est premier**
-```
-Entrée : n = 7
-
-i = 2 : 7 mod 2 = 1 (différent de 0, continuer)
-i = 3 : 7 mod 3 = 1 (différent de 0, continuer)
-i = 4 : 7 mod 4 = 3 (différent de 0, continuer)
-i = 5 : 7 mod 5 = 2 (différent de 0, continuer)
-i = 6 : 7 mod 6 = 1 (différent de 0, continuer)
-
-Aucun diviseur trouvé → 7 est premier ✓
-```
-
-### 6. Gérez les cas limites
-
-N'oubliez pas les cas particuliers :
-- Tableau vide
-- Valeur nulle
-- Nombre négatif
-- Division par zéro
+### 4. Comente seu algoritmo
 
 ```
-ALGORITHME RechercheMinimum
+// Calcular a média apenas das avaliações positivas
+soma ← 0
+contador ← 0
 
-SI tableau est vide ALORS
-    AFFICHER "Erreur : tableau vide"
-    RETOURNER
-FIN SI
+PARA cada avaliação FAÇA
+SE avaliação > 0 ENTÃO
+soma ← soma + avaliação
+contador ← contador + 1
+FIM SE
+FIM PARA
 
-minimum ← tableau[0]
-POUR i DE 1 À longueur-1 FAIRE
-    SI tableau[i] < minimum ALORS
-        minimum ← tableau[i]
-    FIN SI
-FIN POUR
+SE contador > 0 ENTÃO
+média ← soma / contador
+FIM SE
 ```
 
-## Erreurs courantes à éviter
+### 5. Teste seu algoritmo mentalmente
 
-### 1. Boucles infinies
+Siga o algoritmo passo a passo com valores de exemplo para verificar se ele funciona.
+
+**Exemplo: Verificando se um número é primo**
+```
+Entrada: n = 7
+
+i = 2 : 7 mod 2 = 1 (diferente de 0, continuar)
+i = 3 : 7 mod 3 = 1 (diferente de 0, continuar)
+i = 4 : 7 mod 4 = 3 (diferente de 0, continuar)
+i = 5 : 7 mod 5 = 2 (diferente de 0, continuar)
+i = 6 : 7 mod 6 = 1 (diferente de 0, continuar)
+
+Nenhum divisor encontrado → 7 é primo ✓
+```
+
+### 6. Lidar com casos extremos
+
+Não se esqueça dos casos especiais:
+- Matriz vazia
+- Valor nulo
+- Número negativo
+- Divisão por zero
+```
+ALGORITMO DE MÍNIMA BUSCA
+
+SE a matriz estiver vazia, ENTÃO
+IMPRIMA "Erro: matriz vazia"
+RETORNAR
+FIM SE
+
+mínimo ← array[0]
+PARA i DE 1 A comprimento-1 FAÇA
+SE array[i] < mínimo ENTÃO
+mínimo ← array[i]
+FIM SE
+FIM PARA
+```
+
+## Erros comuns a evitar
+
+### 1. Laços infinitos
 
 ```
-// ERREUR : la condition ne devient jamais fausse
+// ERRO: Condição nunca se torna falsa
 i ← 1
-TANT QUE i > 0 FAIRE
-    AFFICHER i
-    i ← i + 1  // i augmente, ne diminue jamais !
-FIN TANT QUE
+ENQUANTO i > 0 FAÇA
+IMPRIMA i
+i ← i + 1 // i aumenta, nunca diminui!
+FIM ENQUANTO
 ```
 
-### 2. Indices de tableau incorrects
+### 2. Subscritos de array inválidos
 
 ```
-// ERREUR : dépassement de tableau
-tableau de taille 10 (indices 0 à 9)
-POUR i DE 0 À 10 FAIRE  // i = 10 est hors limites !
-    AFFICHER tableau[i]
-FIN POUR
+// ERRO: Estouro de array
+Array de tamanho 10 (subscritos de 0 a 9)
+PARA i DE 0 A 10 FAÇA // i = 10 está fora dos limites!
+DISPLAY array[i]
+FIM PARA
 ```
 
-### 3. Variables non initialisées
+### 3. Variáveis ​​Não Inicializadas
 
 ```
-// ERREUR : somme n'est pas initialisée
-POUR i DE 1 À 10 FAIRE
-    somme ← somme + i  // Que vaut somme au début ?
-FIN POUR
+// ERRO: soma não foi inicializada
+PARA i DE 1 A 10 FAÇA
+soma ← soma + i // O que é soma no início?
+FIM PARA
 
-// CORRECT
-somme ← 0  // Initialisation
-POUR i DE 1 À 10 FAIRE
-    somme ← somme + i
-FIN POUR
+// CORRETO
+soma ← 0 // Inicialização
+PARA i DE 1 A 10 FAÇA
+soma ← soma + i
+FIM PARA
 ```
 
-### 4. Confusion entre affectation et comparaison
+### 4. Confusão entre Atribuição e Comparação
 
 ```
-// ERREUR : utilisation de = au lieu de ←
-SI x = 5 ALORS  // Comparaison (correct)
-    x = 10      // ERREUR ! Devrait être x ← 10
-FIN SI
+// ERRO: Usando = em vez de ←
+SE x = 5 ENTÃO // Comparação (correto)
+x = 10 // ERRO! Deveria ser x ← 10
+FIM SE
 ```
 
-## Conclusion
+## Conclusão
 
-Le pseudo-code et les algorithmes sont des outils essentiels pour tout programmeur. Ils vous permettent de :
-- Réfléchir à la logique avant de coder
-- Communiquer vos idées clairement
-- Détecter les erreurs tôt dans le processus
-- Créer des solutions efficaces
+Pseudocódigo e algoritmos são ferramentas essenciais para qualquer programador. Eles permitem que você:
+- Pense na lógica antes de codificar
+- Comunique suas ideias com clareza
+- Detecte erros logo no início do processo
+- Crie soluções eficientes
 
-**Points clés à retenir :**
-- Un algorithme est une suite d'instructions pour résoudre un problème
-- Le pseudo-code est une description informelle d'un algorithme
-- Utilisez des structures de base : séquence, sélection, répétition
-- Décomposez les problèmes complexes en sous-problèmes
-- Testez mentalement vos algorithmes avant de les coder
-- L'efficacité compte : certains algorithmes sont meilleurs que d'autres
-- La clarté est importante : écrivez pour être compris
+**Principais conclusões:**
+- Um algoritmo é uma sequência de instruções para resolver um problema
+- Pseudocódigo é uma descrição informal de um algoritmo
+- Use estruturas básicas: sequência, seleção, repetição
+- Divida problemas complexos em subproblemas
+- Teste mentalmente seus algoritmos antes de codificá-los
+- Eficiência importa: alguns algoritmos são melhores que outros
+- Clareza é importante: escreva para ser compreendido
 
-**Prochaines étapes :**
-Dans la section suivante, nous apprendrons à représenter visuellement ces algorithmes avec les organigrammes, un autre outil précieux pour la conception de programmes.
+**Próximos passos:**
+Na próxima seção, aprenderemos como representar visualmente esses algoritmos com fluxogramas, outra ferramenta valiosa para o design de programas.
 
-**Conseil pratique :**
-Prenez l'habitude d'écrire vos algorithmes en pseudo-code avant de programmer. Cela vous fera gagner beaucoup de temps et évitera de nombreuses erreurs !
+**Dica prática:**
+Adquira o hábito de escrever seus algoritmos em pseudocódigo antes de programar. Isso economizará muito tempo e evitará muitos erros!
 
-⏭️ [Organigrammes et structuration de la pensée](/01-prerequis-bases-programmation/06-organigrammes-structuration-pensee.md)
+⏭️ [Organogramas e estruturação do pensamento](/01-prerequis-bases-programmation/06-organigrammes-structuration-pensee.md)
